@@ -6,6 +6,8 @@
 
 ### → [View the live leaderboard](https://carolinacherry.github.io/mcp-rising-index/)
 
+[![Rising MCP Contributors leaderboard](docs/preview.png)](https://carolinacherry.github.io/mcp-rising-index/)
+
 A swarm of `kimi-k3` evaluators that scores 1,000 rising contributors in the
 MCP (Model Context Protocol) ecosystem, using only public GitHub signals.
 Every selection criterion, exclusion, and score is reproducible from the
