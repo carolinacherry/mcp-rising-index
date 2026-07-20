@@ -1,0 +1,814 @@
+{
+  "harvested_at": "2026-07-17T15:29:20.911495+00:00",
+  "criteria": {
+    "org": "modelcontextprotocol (non-fork, non-archived)",
+    "topics": [
+      "mcp",
+      "model-context-protocol"
+    ],
+    "min_stars_topical": 50,
+    "cap": 200
+  },
+  "repos": [
+    {
+      "full_name": "affaan-m/ECC",
+      "stars": 230570
+    },
+    {
+      "full_name": "n8n-io/n8n",
+      "stars": 196817
+    },
+    {
+      "full_name": "Snailclimb/JavaGuide",
+      "stars": 157097
+    },
+    {
+      "full_name": "langgenius/dify",
+      "stars": 149155
+    },
+    {
+      "full_name": "open-webui/open-webui",
+      "stars": 145753
+    },
+    {
+      "full_name": "farion1231/cc-switch",
+      "stars": 118282
+    },
+    {
+      "full_name": "punkpeye/awesome-mcp-servers",
+      "stars": 90878
+    },
+    {
+      "full_name": "modelcontextprotocol/servers",
+      "stars": 88580
+    },
+    {
+      "full_name": "lobehub/lobehub",
+      "stars": 80410
+    },
+    {
+      "full_name": "netdata/netdata",
+      "stars": 79674
+    },
+    {
+      "full_name": "D4Vinci/Scrapling",
+      "stars": 69862
+    },
+    {
+      "full_name": "ComposioHQ/awesome-claude-skills",
+      "stars": 67956
+    },
+    {
+      "full_name": "koala73/worldmonitor",
+      "stars": 61956
+    },
+    {
+      "full_name": "sansan0/TrendRadar",
+      "stars": 60634
+    },
+    {
+      "full_name": "headroomlabs-ai/headroom",
+      "stars": 59630
+    },
+    {
+      "full_name": "upstash/context7",
+      "stars": 59262
+    },
+    {
+      "full_name": "Panniantong/Agent-Reach",
+      "stars": 57423
+    },
+    {
+      "full_name": "MemPalace/mempalace",
+      "stars": 57418
+    },
+    {
+      "full_name": "aaif-goose/goose",
+      "stars": 51227
+    },
+    {
+      "full_name": "mudler/LocalAI",
+      "stars": 47590
+    },
+    {
+      "full_name": "jeecgboot/JeecgBoot",
+      "stars": 47112
+    },
+    {
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "stars": 47086
+    },
+    {
+      "full_name": "zhayujie/CowAgent",
+      "stars": 46024
+    },
+    {
+      "full_name": "siyuan-note/siyuan",
+      "stars": 45195
+    },
+    {
+      "full_name": "Kong/kong",
+      "stars": 43802
+    },
+    {
+      "full_name": "sickn33/agentic-awesome-skills",
+      "stars": 43478
+    },
+    {
+      "full_name": "danny-avila/LibreChat",
+      "stars": 40858
+    },
+    {
+      "full_name": "mindsdb/mindshub",
+      "stars": 39444
+    },
+    {
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "stars": 38719
+    },
+    {
+      "full_name": "bytedance/UI-TARS-desktop",
+      "stars": 38069
+    },
+    {
+      "full_name": "wshobson/agents",
+      "stars": 37981
+    },
+    {
+      "full_name": "patchy631/ai-engineering-hub",
+      "stars": 36553
+    },
+    {
+      "full_name": "AstrBotDevs/AstrBot",
+      "stars": 36476
+    },
+    {
+      "full_name": "heygen-com/hyperframes",
+      "stars": 35880
+    },
+    {
+      "full_name": "PDFMathTranslate/PDFMathTranslate",
+      "stars": 35629
+    },
+    {
+      "full_name": "microsoft/playwright-mcp",
+      "stars": 35198
+    },
+    {
+      "full_name": "alibaba/nacos",
+      "stars": 33172
+    },
+    {
+      "full_name": "DeusData/codebase-memory-mcp",
+      "stars": 32328
+    },
+    {
+      "full_name": "anthropics/claude-plugins-official",
+      "stars": 32245
+    },
+    {
+      "full_name": "github/github-mcp-server",
+      "stars": 31513
+    },
+    {
+      "full_name": "ComposioHQ/composio",
+      "stars": 29268
+    },
+    {
+      "full_name": "labring/FastGPT",
+      "stars": 29013
+    },
+    {
+      "full_name": "assafelovic/gpt-researcher",
+      "stars": 28359
+    },
+    {
+      "full_name": "78/xiaozhi-esp32",
+      "stars": 28171
+    },
+    {
+      "full_name": "agentscope-ai/agentscope",
+      "stars": 27976
+    },
+    {
+      "full_name": "yamadashy/repomix",
+      "stars": 27188
+    },
+    {
+      "full_name": "alibaba/page-agent",
+      "stars": 26882
+    },
+    {
+      "full_name": "mastra-ai/mastra",
+      "stars": 26291
+    },
+    {
+      "full_name": "PrefectHQ/fastmcp",
+      "stars": 26243
+    },
+    {
+      "full_name": "go-kratos/kratos",
+      "stars": 25794
+    },
+    {
+      "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "stars": 25685
+    },
+    {
+      "full_name": "flipped-aurora/gin-vue-admin",
+      "stars": 24858
+    },
+    {
+      "full_name": "HKUDS/Vibe-Trading",
+      "stars": 24541
+    },
+    {
+      "full_name": "modelcontextprotocol/python-sdk",
+      "stars": 23642
+    },
+    {
+      "full_name": "activepieces/activepieces",
+      "stars": 23306
+    },
+    {
+      "full_name": "NirDiamant/GenAI_Agents",
+      "stars": 23293
+    },
+    {
+      "full_name": "micro/go-micro",
+      "stars": 22965
+    },
+    {
+      "full_name": "czlonkowski/n8n-mcp",
+      "stars": 22312
+    },
+    {
+      "full_name": "NirDiamant/agents-towards-production",
+      "stars": 21083
+    },
+    {
+      "full_name": "qax-os/excelize",
+      "stars": 20792
+    },
+    {
+      "full_name": "screenpipe/screenpipe",
+      "stars": 20229
+    },
+    {
+      "full_name": "tirth8205/code-review-graph",
+      "stars": 19649
+    },
+    {
+      "full_name": "mksglu/context-mode",
+      "stars": 19040
+    },
+    {
+      "full_name": "datawhalechina/easy-vibe",
+      "stars": 18279
+    },
+    {
+      "full_name": "diegosouzapw/OmniRoute",
+      "stars": 18272
+    },
+    {
+      "full_name": "can1357/oh-my-pi",
+      "stars": 18197
+    },
+    {
+      "full_name": "nukeop/nuclear",
+      "stars": 18049
+    },
+    {
+      "full_name": "RightNow-AI/openfang",
+      "stars": 18025
+    },
+    {
+      "full_name": "liyupi/ai-guide",
+      "stars": 17373
+    },
+    {
+      "full_name": "microsoft/mcp-for-beginners",
+      "stars": 16772
+    },
+    {
+      "full_name": "udecode/plate",
+      "stars": 16422
+    },
+    {
+      "full_name": "googleapis/mcp-toolbox",
+      "stars": 15970
+    },
+    {
+      "full_name": "triggerdotdev/trigger.dev",
+      "stars": 15677
+    },
+    {
+      "full_name": "GLips/Figma-Context-MCP",
+      "stars": 15424
+    },
+    {
+      "full_name": "xpzouying/xiaohongshu-mcp",
+      "stars": 14717
+    },
+    {
+      "full_name": "electerm/electerm",
+      "stars": 14510
+    },
+    {
+      "full_name": "open-metadata/OpenMetadata",
+      "stars": 14499
+    },
+    {
+      "full_name": "yusufkaraaslan/Skill_Seekers",
+      "stars": 14484
+    },
+    {
+      "full_name": "NevaMind-AI/memU",
+      "stars": 14036
+    },
+    {
+      "full_name": "casdoor/casdoor",
+      "stars": 13966
+    },
+    {
+      "full_name": "wanshuiyin/Auto-claude-code-research-in-sleep",
+      "stars": 13523
+    },
+    {
+      "full_name": "xbtlin/ai-berkshire",
+      "stars": 13280
+    },
+    {
+      "full_name": "Arindam200/awesome-ai-apps",
+      "stars": 13183
+    },
+    {
+      "full_name": "modelcontextprotocol/typescript-sdk",
+      "stars": 12872
+    },
+    {
+      "full_name": "CoplayDev/unity-mcp",
+      "stars": 12593
+    },
+    {
+      "full_name": "superset-sh/superset",
+      "stars": 12472
+    },
+    {
+      "full_name": "Portkey-AI/gateway",
+      "stars": 12458
+    },
+    {
+      "full_name": "codexu/note-gen",
+      "stars": 12300
+    },
+    {
+      "full_name": "zilliztech/claude-context",
+      "stars": 12147
+    },
+    {
+      "full_name": "kubeshark/kubeshark",
+      "stars": 12004
+    },
+    {
+      "full_name": "tadata-org/fastapi_mcp",
+      "stars": 11947
+    },
+    {
+      "full_name": "0xJacky/nginx-ui",
+      "stars": 11313
+    },
+    {
+      "full_name": "EverMind-AI/EverOS",
+      "stars": 11183
+    },
+    {
+      "full_name": "ValueCell-ai/valuecell",
+      "stars": 10936
+    },
+    {
+      "full_name": "palmier-io/palmier-pro",
+      "stars": 10735
+    },
+    {
+      "full_name": "modelcontextprotocol/inspector",
+      "stars": 10395
+    },
+    {
+      "full_name": "0x4m4/hexstrike-ai",
+      "stars": 10358
+    },
+    {
+      "full_name": "mrexodia/ida-pro-mcp",
+      "stars": 10354
+    },
+    {
+      "full_name": "mcp-use/mcp-use",
+      "stars": 10325
+    },
+    {
+      "full_name": "astrid-runtime/astrid",
+      "stars": 10320
+    },
+    {
+      "full_name": "MemTensor/MemOS",
+      "stars": 10251
+    },
+    {
+      "full_name": "VoltAgent/voltagent",
+      "stars": 10075
+    },
+    {
+      "full_name": "awslabs/mcp",
+      "stars": 9460
+    },
+    {
+      "full_name": "EvoMap/evolver",
+      "stars": 8902
+    },
+    {
+      "full_name": "iflytek/astron-agent",
+      "stars": 8623
+    },
+    {
+      "full_name": "modelcontextprotocol/modelcontextprotocol",
+      "stars": 8621
+    },
+    {
+      "full_name": "google/adk-go",
+      "stars": 8479
+    },
+    {
+      "full_name": "wonderwhy-er/DesktopCommanderMCP",
+      "stars": 8436
+    },
+    {
+      "full_name": "lastmile-ai/mcp-agent",
+      "stars": 8430
+    },
+    {
+      "full_name": "1jehuang/jcode",
+      "stars": 8368
+    },
+    {
+      "full_name": "idosal/git-mcp",
+      "stars": 8261
+    },
+    {
+      "full_name": "Thysrael/Horizon",
+      "stars": 8251
+    },
+    {
+      "full_name": "cobusgreyling/loop-engineering",
+      "stars": 8246
+    },
+    {
+      "full_name": "webiny/webiny-js",
+      "stars": 8014
+    },
+    {
+      "full_name": "Upsonic/Upsonic",
+      "stars": 7910
+    },
+    {
+      "full_name": "firerpa/lamda",
+      "stars": 7896
+    },
+    {
+      "full_name": "yzfly/Awesome-MCP-ZH",
+      "stars": 7445
+    },
+    {
+      "full_name": "AgentDeskAI/browser-tools-mcp",
+      "stars": 7271
+    },
+    {
+      "full_name": "cporter202/API-mega-list",
+      "stars": 7251
+    },
+    {
+      "full_name": "osaurus-ai/osaurus",
+      "stars": 7206
+    },
+    {
+      "full_name": "modelcontextprotocol/registry",
+      "stars": 7035
+    },
+    {
+      "full_name": "jnMetaCode/superpowers-zh",
+      "stars": 6988
+    },
+    {
+      "full_name": "firecrawl/firecrawl-mcp-server",
+      "stars": 6980
+    },
+    {
+      "full_name": "grab/cursor-talk-to-figma-mcp",
+      "stars": 6909
+    },
+    {
+      "full_name": "BrowserMCP/mcp",
+      "stars": 6840
+    },
+    {
+      "full_name": "strands-agents/harness-sdk",
+      "stars": 6620
+    },
+    {
+      "full_name": "open-multi-agent/open-multi-agent",
+      "stars": 6612
+    },
+    {
+      "full_name": "punkpeye/awesome-mcp-clients",
+      "stars": 6518
+    },
+    {
+      "full_name": "CursorTouch/Windows-MCP",
+      "stars": 6445
+    },
+    {
+      "full_name": "apache/camel",
+      "stars": 6263
+    },
+    {
+      "full_name": "Sylinko/Everywhere",
+      "stars": 6169
+    },
+    {
+      "full_name": "opensquilla/opensquilla",
+      "stars": 6151
+    },
+    {
+      "full_name": "rikkahub/rikkahub",
+      "stars": 6120
+    },
+    {
+      "full_name": "ThinkInAIXYZ/deepchat",
+      "stars": 6110
+    },
+    {
+      "full_name": "getsentry/XcodeBuildMCP",
+      "stars": 6081
+    },
+    {
+      "full_name": "heilcheng/awesome-agent-skills",
+      "stars": 5988
+    },
+    {
+      "full_name": "lharries/whatsapp-mcp",
+      "stars": 5910
+    },
+    {
+      "full_name": "kucherenko/jscpd",
+      "stars": 5887
+    },
+    {
+      "full_name": "ashishps1/learn-ai-engineering",
+      "stars": 5833
+    },
+    {
+      "full_name": "Klavis-AI/klavis",
+      "stars": 5770
+    },
+    {
+      "full_name": "ModelEngine-Group/nexent",
+      "stars": 5692
+    },
+    {
+      "full_name": "appcypher/awesome-mcp-servers",
+      "stars": 5689
+    },
+    {
+      "full_name": "OpenBMB/UltraRAG",
+      "stars": 5649
+    },
+    {
+      "full_name": "MinishLab/semble",
+      "stars": 5635
+    },
+    {
+      "full_name": "netease-youdao/LobsterAI",
+      "stars": 5594
+    },
+    {
+      "full_name": "joeseesun/qiaomu-anything-to-notebooklm",
+      "stars": 5583
+    },
+    {
+      "full_name": "sooperset/mcp-atlassian",
+      "stars": 5580
+    },
+    {
+      "full_name": "ageerle/ruoyi-ai",
+      "stars": 5525
+    },
+    {
+      "full_name": "holaboss-ai/holaOS",
+      "stars": 5502
+    },
+    {
+      "full_name": "mobile-next/mobile-mcp",
+      "stars": 5476
+    },
+    {
+      "full_name": "agent-infra/sandbox",
+      "stars": 5425
+    },
+    {
+      "full_name": "the-open-agent/openagent",
+      "stars": 5412
+    },
+    {
+      "full_name": "nanbingxyz/5ire",
+      "stars": 5279
+    },
+    {
+      "full_name": "CreditTone/hooker",
+      "stars": 5242
+    },
+    {
+      "full_name": "rocketride-org/rocketride-server",
+      "stars": 5216
+    },
+    {
+      "full_name": "iflytek/astron-rpa",
+      "stars": 5215
+    },
+    {
+      "full_name": "Ed1s0nZ/CyberStrikeAI",
+      "stars": 5183
+    },
+    {
+      "full_name": "zhkl0228/unidbg",
+      "stars": 5078
+    },
+    {
+      "full_name": "beclab/Olares",
+      "stars": 5057
+    },
+    {
+      "full_name": "MCP-UI-Org/mcp-ui",
+      "stars": 5018
+    },
+    {
+      "full_name": "GaiaNet-AI/gaianet-node",
+      "stars": 5017
+    },
+    {
+      "full_name": "vllm-project/semantic-router",
+      "stars": 4987
+    },
+    {
+      "full_name": "Kiln-AI/Kiln",
+      "stars": 4966
+    },
+    {
+      "full_name": "SolaceLabs/solace-agent-mesh",
+      "stars": 4966
+    },
+    {
+      "full_name": "lemonade-sdk/lemonade",
+      "stars": 4959
+    },
+    {
+      "full_name": "53AI/53AIHub",
+      "stars": 4943
+    },
+    {
+      "full_name": "dtyq/magic",
+      "stars": 4930
+    },
+    {
+      "full_name": "clidey/whodb",
+      "stars": 4929
+    },
+    {
+      "full_name": "campfirein/byterover-cli",
+      "stars": 4920
+    },
+    {
+      "full_name": "modelcontextprotocol/go-sdk",
+      "stars": 4812
+    },
+    {
+      "full_name": "modelcontextprotocol/csharp-sdk",
+      "stars": 4396
+    },
+    {
+      "full_name": "modelcontextprotocol/rust-sdk",
+      "stars": 3638
+    },
+    {
+      "full_name": "modelcontextprotocol/java-sdk",
+      "stars": 3572
+    },
+    {
+      "full_name": "modelcontextprotocol/ext-apps",
+      "stars": 2586
+    },
+    {
+      "full_name": "modelcontextprotocol/mcpb",
+      "stars": 2035
+    },
+    {
+      "full_name": "modelcontextprotocol/php-sdk",
+      "stars": 1560
+    },
+    {
+      "full_name": "modelcontextprotocol/swift-sdk",
+      "stars": 1443
+    },
+    {
+      "full_name": "modelcontextprotocol/kotlin-sdk",
+      "stars": 1413
+    },
+    {
+      "full_name": "modelcontextprotocol/quickstart-resources",
+      "stars": 1133
+    },
+    {
+      "full_name": "modelcontextprotocol/ruby-sdk",
+      "stars": 863
+    },
+    {
+      "full_name": "modelcontextprotocol/experimental-ext-skills",
+      "stars": 162
+    },
+    {
+      "full_name": "modelcontextprotocol/ext-auth",
+      "stars": 142
+    },
+    {
+      "full_name": "modelcontextprotocol/.github",
+      "stars": 80
+    },
+    {
+      "full_name": "modelcontextprotocol/conformance",
+      "stars": 79
+    },
+    {
+      "full_name": "modelcontextprotocol/example-remote-server",
+      "stars": 77
+    },
+    {
+      "full_name": "modelcontextprotocol/financial-services-interest-group",
+      "stars": 54
+    },
+    {
+      "full_name": "modelcontextprotocol/access",
+      "stars": 40
+    },
+    {
+      "full_name": "modelcontextprotocol/example-remote-client",
+      "stars": 27
+    },
+    {
+      "full_name": "modelcontextprotocol/experimental-ext-interceptors",
+      "stars": 19
+    },
+    {
+      "full_name": "modelcontextprotocol/transports-wg",
+      "stars": 15
+    },
+    {
+      "full_name": "modelcontextprotocol/ext-tasks",
+      "stars": 14
+    },
+    {
+      "full_name": "modelcontextprotocol/experimental-ext-triggers-events",
+      "stars": 11
+    },
+    {
+      "full_name": "modelcontextprotocol/dns",
+      "stars": 10
+    },
+    {
+      "full_name": "modelcontextprotocol/static",
+      "stars": 9
+    },
+    {
+      "full_name": "modelcontextprotocol/experimental-ext-variants",
+      "stars": 8
+    },
+    {
+      "full_name": "modelcontextprotocol/experimental-ext-grouping",
+      "stars": 8
+    },
+    {
+      "full_name": "modelcontextprotocol/agents-wg",
+      "stars": 7
+    },
+    {
+      "full_name": "modelcontextprotocol/actions",
+      "stars": 4
+    },
+    {
+      "full_name": "modelcontextprotocol/experimental-ext-server-card",
+      "stars": 4
+    },
+    {
+      "full_name": "modelcontextprotocol/experimental-ext-tool-annotations",
+      "stars": 2
+    }
+  ]
+}

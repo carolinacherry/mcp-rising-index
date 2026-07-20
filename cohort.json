@@ -1,0 +1,8090 @@
+{
+  "built_at": "2026-07-19T12:56:37.553566+00:00",
+  "criteria": {
+    "min_ecosystem_commits": 3,
+    "max_followers": 2000,
+    "min_account_age_days": 180,
+    "per_repo_commit_cap": 300,
+    "rank": "capped ecosystem commits desc, followers asc tie-break",
+    "excluded_seeds": {
+      "affaan-m/ECC": "star-inflation signature: 230k stars on a 6-month-old repo, stargazers endpoint returns 404 (star data unverifiable, consistent with a flag for suspicious starring), single-author commit history (owner has 1,486 of ~1,700 commits), 271 contributors total",
+      "Snailclimb/JavaGuide": "off-topic: Java interview-prep guide; the mcp topic tag is unrelated to the repo's content or contributor base"
+    }
+  },
+  "funnel": {
+    "candidates_with_min_commits": 4641,
+    "user_lookups": 1071,
+    "rejected": {
+      "too_famous": 33,
+      "too_new": 10,
+      "not_user_type": 0,
+      "lookup_error": 0
+    },
+    "excluded_automation": [
+      {
+        "login": "actions-user",
+        "ecosystem_commits": 396,
+        "reason": "known automation account"
+      },
+      {
+        "login": "semantic-release-bot",
+        "ecosystem_commits": 379,
+        "reason": "automation name pattern"
+      },
+      {
+        "login": "automated-commits-ap",
+        "ecosystem_commits": 300,
+        "reason": "known automation account"
+      },
+      {
+        "login": "lobehubbot",
+        "ecosystem_commits": 300,
+        "reason": "known automation account"
+      },
+      {
+        "login": "localai-bot",
+        "ecosystem_commits": 300,
+        "reason": "automation name pattern"
+      },
+      {
+        "login": "netdatabot",
+        "ecosystem_commits": 300,
+        "reason": "known automation account"
+      },
+      {
+        "login": "renovate-bot",
+        "ecosystem_commits": 300,
+        "reason": "automation name pattern"
+      },
+      {
+        "login": "voltagent-bot",
+        "ecosystem_commits": 284,
+        "reason": "automation name pattern"
+      },
+      {
+        "login": "ci-robbot",
+        "ecosystem_commits": 118,
+        "reason": "automation name pattern"
+      },
+      {
+        "login": "snyk-bot",
+        "ecosystem_commits": 100,
+        "reason": "automation name pattern"
+      },
+      {
+        "login": "browser-automation-bot",
+        "ecosystem_commits": 60,
+        "reason": "automation name pattern"
+      },
+      {
+        "login": "weblate",
+        "ecosystem_commits": 43,
+        "reason": "known automation account"
+      }
+    ],
+    "qualified": 1010,
+    "cohort": 1000
+  },
+  "cohort": [
+    {
+      "login": "olaservo",
+      "ecosystem_commits": 906,
+      "raw_commits": 1256,
+      "seed_repos_contributed": 10,
+      "followers": 369,
+      "account_age_days": 3854
+    },
+    {
+      "login": "dsp-ant",
+      "ecosystem_commits": 872,
+      "raw_commits": 1045,
+      "seed_repos_contributed": 12,
+      "followers": 511,
+      "account_age_days": 823
+    },
+    {
+      "login": "cliffhall",
+      "ecosystem_commits": 605,
+      "raw_commits": 710,
+      "seed_repos_contributed": 6,
+      "followers": 298,
+      "account_age_days": 5504
+    },
+    {
+      "login": "hsluoyz",
+      "ecosystem_commits": 600,
+      "raw_commits": 3196,
+      "seed_repos_contributed": 2,
+      "followers": 1159,
+      "account_age_days": 4882
+    },
+    {
+      "login": "jonathanhefner",
+      "ecosystem_commits": 471,
+      "raw_commits": 471,
+      "seed_repos_contributed": 11,
+      "followers": 365,
+      "account_age_days": 5553
+    },
+    {
+      "login": "ihrpr",
+      "ecosystem_commits": 449,
+      "raw_commits": 449,
+      "seed_repos_contributed": 5,
+      "followers": 73,
+      "account_age_days": 3619
+    },
+    {
+      "login": "localden",
+      "ecosystem_commits": 438,
+      "raw_commits": 1017,
+      "seed_repos_contributed": 20,
+      "followers": 1363,
+      "account_age_days": 2553
+    },
+    {
+      "login": "punkpeye",
+      "ecosystem_commits": 431,
+      "raw_commits": 3910,
+      "seed_repos_contributed": 7,
+      "followers": 1958,
+      "account_age_days": 1482
+    },
+    {
+      "login": "idosal",
+      "ecosystem_commits": 409,
+      "raw_commits": 409,
+      "seed_repos_contributed": 6,
+      "followers": 923,
+      "account_age_days": 3763
+    },
+    {
+      "login": "ochafik",
+      "ecosystem_commits": 403,
+      "raw_commits": 403,
+      "seed_repos_contributed": 6,
+      "followers": 421,
+      "account_age_days": 5912
+    },
+    {
+      "login": "koic",
+      "ecosystem_commits": 372,
+      "raw_commits": 628,
+      "seed_repos_contributed": 8,
+      "followers": 524,
+      "account_age_days": 6613
+    },
+    {
+      "login": "evalstate",
+      "ecosystem_commits": 367,
+      "raw_commits": 367,
+      "seed_repos_contributed": 8,
+      "followers": 750,
+      "account_age_days": 5124
+    },
+    {
+      "login": "tadasant",
+      "ecosystem_commits": 356,
+      "raw_commits": 356,
+      "seed_repos_contributed": 6,
+      "followers": 349,
+      "account_age_days": 4870
+    },
+    {
+      "login": "jerome3o-anthropic",
+      "ecosystem_commits": 330,
+      "raw_commits": 330,
+      "seed_repos_contributed": 9,
+      "followers": 133,
+      "account_age_days": 921
+    },
+    {
+      "login": "tzolov",
+      "ecosystem_commits": 324,
+      "raw_commits": 324,
+      "seed_repos_contributed": 3,
+      "followers": 756,
+      "account_age_days": 5295
+    },
+    {
+      "login": "farion1231",
+      "ecosystem_commits": 318,
+      "raw_commits": 1761,
+      "seed_repos_contributed": 3,
+      "followers": 1986,
+      "account_age_days": 2807
+    },
+    {
+      "login": "felixweinberger",
+      "ecosystem_commits": 315,
+      "raw_commits": 315,
+      "seed_repos_contributed": 6,
+      "followers": 114,
+      "account_age_days": 4878
+    },
+    {
+      "login": "saqadri",
+      "ecosystem_commits": 311,
+      "raw_commits": 353,
+      "seed_repos_contributed": 3,
+      "followers": 88,
+      "account_age_days": 3447
+    },
+    {
+      "login": "alexhancock",
+      "ecosystem_commits": 311,
+      "raw_commits": 311,
+      "seed_repos_contributed": 4,
+      "followers": 128,
+      "account_age_days": 5766
+    },
+    {
+      "login": "nicktrn",
+      "ecosystem_commits": 306,
+      "raw_commits": 443,
+      "seed_repos_contributed": 2,
+      "followers": 0,
+      "account_age_days": 2487
+    },
+    {
+      "login": "zihaolin96",
+      "ecosystem_commits": 306,
+      "raw_commits": 708,
+      "seed_repos_contributed": 2,
+      "followers": 36,
+      "account_age_days": 1598
+    },
+    {
+      "login": "WillemJiang",
+      "ecosystem_commits": 306,
+      "raw_commits": 4156,
+      "seed_repos_contributed": 2,
+      "followers": 914,
+      "account_age_days": 5975
+    },
+    {
+      "login": "dacongda",
+      "ecosystem_commits": 304,
+      "raw_commits": 315,
+      "seed_repos_contributed": 2,
+      "followers": 16,
+      "account_age_days": 2722
+    },
+    {
+      "login": "pietrozullo",
+      "ecosystem_commits": 304,
+      "raw_commits": 416,
+      "seed_repos_contributed": 2,
+      "followers": 196,
+      "account_age_days": 2300
+    },
+    {
+      "login": "warren618",
+      "ecosystem_commits": 304,
+      "raw_commits": 412,
+      "seed_repos_contributed": 2,
+      "followers": 284,
+      "account_age_days": 1229
+    },
+    {
+      "login": "Kitenite",
+      "ecosystem_commits": 304,
+      "raw_commits": 1767,
+      "seed_repos_contributed": 2,
+      "followers": 563,
+      "account_age_days": 3232
+    },
+    {
+      "login": "onyedikachi-david",
+      "ecosystem_commits": 303,
+      "raw_commits": 618,
+      "seed_repos_contributed": 2,
+      "followers": 81,
+      "account_age_days": 2587
+    },
+    {
+      "login": "Yuan325",
+      "ecosystem_commits": 303,
+      "raw_commits": 361,
+      "seed_repos_contributed": 2,
+      "followers": 102,
+      "account_age_days": 2769
+    },
+    {
+      "login": "ulivz",
+      "ecosystem_commits": 302,
+      "raw_commits": 679,
+      "seed_repos_contributed": 2,
+      "followers": 1957,
+      "account_age_days": 3550
+    },
+    {
+      "login": "zerob13",
+      "ecosystem_commits": 301,
+      "raw_commits": 1901,
+      "seed_repos_contributed": 2,
+      "followers": 297,
+      "account_age_days": 5842
+    },
+    {
+      "login": "sooperset",
+      "ecosystem_commits": 301,
+      "raw_commits": 442,
+      "seed_repos_contributed": 2,
+      "followers": 345,
+      "account_age_days": 3226
+    },
+    {
+      "login": "abhiaiyer91",
+      "ecosystem_commits": 301,
+      "raw_commits": 1688,
+      "seed_repos_contributed": 2,
+      "followers": 502,
+      "account_age_days": 5053
+    },
+    {
+      "login": "danny-avila",
+      "ecosystem_commits": 301,
+      "raw_commits": 2967,
+      "seed_repos_contributed": 2,
+      "followers": 1218,
+      "account_age_days": 1447
+    },
+    {
+      "login": "Andrei199991",
+      "ecosystem_commits": 300,
+      "raw_commits": 331,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 3839
+    },
+    {
+      "login": "karanh37",
+      "ecosystem_commits": 300,
+      "raw_commits": 341,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 3191
+    },
+    {
+      "login": "ljy65535",
+      "ecosystem_commits": 300,
+      "raw_commits": 525,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 3121
+    },
+    {
+      "login": "paulfantom",
+      "ecosystem_commits": 300,
+      "raw_commits": 561,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 4906
+    },
+    {
+      "login": "tmichaeldb",
+      "ecosystem_commits": 300,
+      "raw_commits": 340,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 1258
+    },
+    {
+      "login": "Jasonxia007",
+      "ecosystem_commits": 300,
+      "raw_commits": 326,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 3327
+    },
+    {
+      "login": "fly777777",
+      "ecosystem_commits": 300,
+      "raw_commits": 403,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 1712
+    },
+    {
+      "login": "Bavichi",
+      "ecosystem_commits": 300,
+      "raw_commits": 307,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 2864
+    },
+    {
+      "login": "RounakDhillon",
+      "ecosystem_commits": 300,
+      "raw_commits": 453,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 867
+    },
+    {
+      "login": "chiang-daniel",
+      "ecosystem_commits": 300,
+      "raw_commits": 554,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 3843
+    },
+    {
+      "login": "lyj715824",
+      "ecosystem_commits": 300,
+      "raw_commits": 823,
+      "seed_repos_contributed": 1,
+      "followers": 3,
+      "account_age_days": 1264
+    },
+    {
+      "login": "sfierro",
+      "ecosystem_commits": 300,
+      "raw_commits": 1170,
+      "seed_repos_contributed": 1,
+      "followers": 5,
+      "account_age_days": 4034
+    },
+    {
+      "login": "WMC001",
+      "ecosystem_commits": 300,
+      "raw_commits": 882,
+      "seed_repos_contributed": 1,
+      "followers": 6,
+      "account_age_days": 2760
+    },
+    {
+      "login": "daneatmastra",
+      "ecosystem_commits": 300,
+      "raw_commits": 392,
+      "seed_repos_contributed": 1,
+      "followers": 6,
+      "account_age_days": 516
+    },
+    {
+      "login": "sanket-a11y",
+      "ecosystem_commits": 300,
+      "raw_commits": 454,
+      "seed_repos_contributed": 1,
+      "followers": 6,
+      "account_age_days": 319
+    },
+    {
+      "login": "liuzhq1986",
+      "ecosystem_commits": 300,
+      "raw_commits": 1107,
+      "seed_repos_contributed": 1,
+      "followers": 7,
+      "account_age_days": 1757
+    },
+    {
+      "login": "aniketkatkar97",
+      "ecosystem_commits": 300,
+      "raw_commits": 512,
+      "seed_repos_contributed": 1,
+      "followers": 8,
+      "account_age_days": 2593
+    },
+    {
+      "login": "Croway",
+      "ecosystem_commits": 300,
+      "raw_commits": 413,
+      "seed_repos_contributed": 1,
+      "followers": 9,
+      "account_age_days": 3138
+    },
+    {
+      "login": "OnkarVO7",
+      "ecosystem_commits": 300,
+      "raw_commits": 351,
+      "seed_repos_contributed": 1,
+      "followers": 9,
+      "account_age_days": 3341
+    },
+    {
+      "login": "bao-byterover",
+      "ecosystem_commits": 300,
+      "raw_commits": 904,
+      "seed_repos_contributed": 1,
+      "followers": 9,
+      "account_age_days": 244
+    },
+    {
+      "login": "Ashu96",
+      "ecosystem_commits": 300,
+      "raw_commits": 1867,
+      "seed_repos_contributed": 1,
+      "followers": 10,
+      "account_age_days": 4003
+    },
+    {
+      "login": "IceS2",
+      "ecosystem_commits": 300,
+      "raw_commits": 346,
+      "seed_repos_contributed": 1,
+      "followers": 10,
+      "account_age_days": 4765
+    },
+    {
+      "login": "hysyeah",
+      "ecosystem_commits": 300,
+      "raw_commits": 370,
+      "seed_repos_contributed": 1,
+      "followers": 11,
+      "account_age_days": 3301
+    },
+    {
+      "login": "islamaf",
+      "ecosystem_commits": 300,
+      "raw_commits": 366,
+      "seed_repos_contributed": 1,
+      "followers": 11,
+      "account_age_days": 2806
+    },
+    {
+      "login": "mindsdbadmin",
+      "ecosystem_commits": 300,
+      "raw_commits": 720,
+      "seed_repos_contributed": 1,
+      "followers": 11,
+      "account_age_days": 3260
+    },
+    {
+      "login": "Phinease",
+      "ecosystem_commits": 300,
+      "raw_commits": 1157,
+      "seed_repos_contributed": 1,
+      "followers": 13,
+      "account_age_days": 3058
+    },
+    {
+      "login": "squakez",
+      "ecosystem_commits": 300,
+      "raw_commits": 401,
+      "seed_repos_contributed": 1,
+      "followers": 13,
+      "account_age_days": 3547
+    },
+    {
+      "login": "MrChaker",
+      "ecosystem_commits": 300,
+      "raw_commits": 369,
+      "seed_repos_contributed": 1,
+      "followers": 14,
+      "account_age_days": 2066
+    },
+    {
+      "login": "dusvyat",
+      "ecosystem_commits": 300,
+      "raw_commits": 339,
+      "seed_repos_contributed": 1,
+      "followers": 14,
+      "account_age_days": 4000
+    },
+    {
+      "login": "leehpham",
+      "ecosystem_commits": 300,
+      "raw_commits": 744,
+      "seed_repos_contributed": 1,
+      "followers": 14,
+      "account_age_days": 3853
+    },
+    {
+      "login": "aldettinger",
+      "ecosystem_commits": 300,
+      "raw_commits": 331,
+      "seed_repos_contributed": 1,
+      "followers": 15,
+      "account_age_days": 3596
+    },
+    {
+      "login": "jeffreyliimerch",
+      "ecosystem_commits": 300,
+      "raw_commits": 424,
+      "seed_repos_contributed": 1,
+      "followers": 15,
+      "account_age_days": 681
+    },
+    {
+      "login": "mohityadav766",
+      "ecosystem_commits": 300,
+      "raw_commits": 764,
+      "seed_repos_contributed": 1,
+      "followers": 15,
+      "account_age_days": 1531
+    },
+    {
+      "login": "eball",
+      "ecosystem_commits": 300,
+      "raw_commits": 544,
+      "seed_repos_contributed": 1,
+      "followers": 18,
+      "account_age_days": 4468
+    },
+    {
+      "login": "stelfrag",
+      "ecosystem_commits": 300,
+      "raw_commits": 973,
+      "seed_repos_contributed": 1,
+      "followers": 21,
+      "account_age_days": 2559
+    },
+    {
+      "login": "NikAiyer",
+      "ecosystem_commits": 300,
+      "raw_commits": 619,
+      "seed_repos_contributed": 1,
+      "followers": 23,
+      "account_age_days": 4484
+    },
+    {
+      "login": "dkeven",
+      "ecosystem_commits": 300,
+      "raw_commits": 400,
+      "seed_repos_contributed": 1,
+      "followers": 23,
+      "account_age_days": 1924
+    },
+    {
+      "login": "thiagoftsm",
+      "ecosystem_commits": 300,
+      "raw_commits": 521,
+      "seed_repos_contributed": 1,
+      "followers": 23,
+      "account_age_days": 2665
+    },
+    {
+      "login": "brunozoric",
+      "ecosystem_commits": 300,
+      "raw_commits": 1269,
+      "seed_repos_contributed": 1,
+      "followers": 24,
+      "account_age_days": 4213
+    },
+    {
+      "login": "Sushmithamallesh",
+      "ecosystem_commits": 300,
+      "raw_commits": 1481,
+      "seed_repos_contributed": 1,
+      "followers": 25,
+      "account_age_days": 3694
+    },
+    {
+      "login": "cakrit",
+      "ecosystem_commits": 300,
+      "raw_commits": 384,
+      "seed_repos_contributed": 1,
+      "followers": 25,
+      "account_age_days": 2864
+    },
+    {
+      "login": "hkdeman",
+      "ecosystem_commits": 300,
+      "raw_commits": 697,
+      "seed_repos_contributed": 1,
+      "followers": 25,
+      "account_age_days": 3473
+    },
+    {
+      "login": "dsarno",
+      "ecosystem_commits": 300,
+      "raw_commits": 318,
+      "seed_repos_contributed": 1,
+      "followers": 26,
+      "account_age_days": 5043
+    },
+    {
+      "login": "lihq1403",
+      "ecosystem_commits": 300,
+      "raw_commits": 627,
+      "seed_repos_contributed": 1,
+      "followers": 26,
+      "account_age_days": 3438
+    },
+    {
+      "login": "martyna-mindsdb",
+      "ecosystem_commits": 300,
+      "raw_commits": 1057,
+      "seed_repos_contributed": 1,
+      "followers": 26,
+      "account_age_days": 1461
+    },
+    {
+      "login": "shortstacked",
+      "ecosystem_commits": 300,
+      "raw_commits": 457,
+      "seed_repos_contributed": 1,
+      "followers": 27,
+      "account_age_days": 4420
+    },
+    {
+      "login": "Ancairon",
+      "ecosystem_commits": 300,
+      "raw_commits": 385,
+      "seed_repos_contributed": 1,
+      "followers": 28,
+      "account_age_days": 2154
+    },
+    {
+      "login": "essobedo",
+      "ecosystem_commits": 300,
+      "raw_commits": 331,
+      "seed_repos_contributed": 1,
+      "followers": 28,
+      "account_age_days": 5217
+    },
+    {
+      "login": "felixfeng33",
+      "ecosystem_commits": 300,
+      "raw_commits": 1850,
+      "seed_repos_contributed": 1,
+      "followers": 28,
+      "account_age_days": 849
+    },
+    {
+      "login": "Louai-Zokerburg",
+      "ecosystem_commits": 300,
+      "raw_commits": 499,
+      "seed_repos_contributed": 1,
+      "followers": 30,
+      "account_age_days": 1741
+    },
+    {
+      "login": "leonardmq",
+      "ecosystem_commits": 300,
+      "raw_commits": 1651,
+      "seed_repos_contributed": 1,
+      "followers": 31,
+      "account_age_days": 3328
+    },
+    {
+      "login": "CharlieKolb",
+      "ecosystem_commits": 300,
+      "raw_commits": 312,
+      "seed_repos_contributed": 1,
+      "followers": 32,
+      "account_age_days": 3990
+    },
+    {
+      "login": "awslabs-mcp",
+      "ecosystem_commits": 300,
+      "raw_commits": 328,
+      "seed_repos_contributed": 1,
+      "followers": 33,
+      "account_age_days": 487
+    },
+    {
+      "login": "DanielSLew",
+      "ecosystem_commits": 300,
+      "raw_commits": 331,
+      "seed_repos_contributed": 1,
+      "followers": 35,
+      "account_age_days": 2588
+    },
+    {
+      "login": "khaledmashaly",
+      "ecosystem_commits": 300,
+      "raw_commits": 1789,
+      "seed_repos_contributed": 1,
+      "followers": 35,
+      "account_age_days": 2328
+    },
+    {
+      "login": "fisherdaddy",
+      "ecosystem_commits": 300,
+      "raw_commits": 499,
+      "seed_repos_contributed": 1,
+      "followers": 36,
+      "account_age_days": 4796
+    },
+    {
+      "login": "janstey",
+      "ecosystem_commits": 300,
+      "raw_commits": 573,
+      "seed_repos_contributed": 1,
+      "followers": 37,
+      "account_age_days": 5750
+    },
+    {
+      "login": "TeddyCr",
+      "ecosystem_commits": 300,
+      "raw_commits": 643,
+      "seed_repos_contributed": 1,
+      "followers": 38,
+      "account_age_days": 4002
+    },
+    {
+      "login": "ulixius9",
+      "ecosystem_commits": 300,
+      "raw_commits": 856,
+      "seed_repos_contributed": 1,
+      "followers": 38,
+      "account_age_days": 2979
+    },
+    {
+      "login": "Pavel910",
+      "ecosystem_commits": 300,
+      "raw_commits": 4180,
+      "seed_repos_contributed": 1,
+      "followers": 39,
+      "account_age_days": 4868
+    },
+    {
+      "login": "SvenAlHamad",
+      "ecosystem_commits": 300,
+      "raw_commits": 411,
+      "seed_repos_contributed": 1,
+      "followers": 40,
+      "account_age_days": 4881
+    },
+    {
+      "login": "ayush-shah",
+      "ecosystem_commits": 300,
+      "raw_commits": 614,
+      "seed_repos_contributed": 1,
+      "followers": 41,
+      "account_age_days": 2958
+    },
+    {
+      "login": "OlegIvaniv",
+      "ecosystem_commits": 300,
+      "raw_commits": 461,
+      "seed_repos_contributed": 1,
+      "followers": 44,
+      "account_age_days": 4069
+    },
+    {
+      "login": "Scriptwonder",
+      "ecosystem_commits": 300,
+      "raw_commits": 461,
+      "seed_repos_contributed": 1,
+      "followers": 44,
+      "account_age_days": 2604
+    },
+    {
+      "login": "ShaileshParmar11",
+      "ecosystem_commits": 300,
+      "raw_commits": 965,
+      "seed_repos_contributed": 1,
+      "followers": 44,
+      "account_age_days": 2125
+    },
+    {
+      "login": "modelorona",
+      "ecosystem_commits": 300,
+      "raw_commits": 2483,
+      "seed_repos_contributed": 1,
+      "followers": 44,
+      "account_age_days": 3555
+    },
+    {
+      "login": "Cadiac",
+      "ecosystem_commits": 300,
+      "raw_commits": 359,
+      "seed_repos_contributed": 1,
+      "followers": 45,
+      "account_age_days": 4564
+    },
+    {
+      "login": "chirag-madlani",
+      "ecosystem_commits": 300,
+      "raw_commits": 739,
+      "seed_repos_contributed": 1,
+      "followers": 45,
+      "account_age_days": 4048
+    },
+    {
+      "login": "hzbarcea",
+      "ecosystem_commits": 300,
+      "raw_commits": 757,
+      "seed_repos_contributed": 1,
+      "followers": 45,
+      "account_age_days": 5970
+    },
+    {
+      "login": "ngduyanhece",
+      "ecosystem_commits": 300,
+      "raw_commits": 333,
+      "seed_repos_contributed": 1,
+      "followers": 48,
+      "account_age_days": 4206
+    },
+    {
+      "login": "vlvkobal",
+      "ecosystem_commits": 300,
+      "raw_commits": 375,
+      "seed_repos_contributed": 1,
+      "followers": 49,
+      "account_age_days": 3603
+    },
+    {
+      "login": "PascalSchumacher",
+      "ecosystem_commits": 300,
+      "raw_commits": 455,
+      "seed_repos_contributed": 1,
+      "followers": 50,
+      "account_age_days": 5006
+    },
+    {
+      "login": "sureshms",
+      "ecosystem_commits": 300,
+      "raw_commits": 529,
+      "seed_repos_contributed": 1,
+      "followers": 50,
+      "account_age_days": 5275
+    },
+    {
+      "login": "adrians5j",
+      "ecosystem_commits": 300,
+      "raw_commits": 10205,
+      "seed_repos_contributed": 1,
+      "followers": 51,
+      "account_age_days": 4737
+    },
+    {
+      "login": "zastrowm",
+      "ecosystem_commits": 300,
+      "raw_commits": 348,
+      "seed_repos_contributed": 1,
+      "followers": 51,
+      "account_age_days": 4940
+    },
+    {
+      "login": "bvahdat",
+      "ecosystem_commits": 300,
+      "raw_commits": 909,
+      "seed_repos_contributed": 1,
+      "followers": 52,
+      "account_age_days": 4953
+    },
+    {
+      "login": "jeremyfowers",
+      "ecosystem_commits": 300,
+      "raw_commits": 485,
+      "seed_repos_contributed": 1,
+      "followers": 52,
+      "account_age_days": 1951
+    },
+    {
+      "login": "narengogi",
+      "ecosystem_commits": 300,
+      "raw_commits": 536,
+      "seed_repos_contributed": 1,
+      "followers": 53,
+      "account_age_days": 2721
+    },
+    {
+      "login": "jamesnetherton",
+      "ecosystem_commits": 300,
+      "raw_commits": 505,
+      "seed_repos_contributed": 1,
+      "followers": 54,
+      "account_age_days": 4779
+    },
+    {
+      "login": "lyzno1",
+      "ecosystem_commits": 300,
+      "raw_commits": 561,
+      "seed_repos_contributed": 1,
+      "followers": 54,
+      "account_age_days": 1746
+    },
+    {
+      "login": "smthomas",
+      "ecosystem_commits": 300,
+      "raw_commits": 414,
+      "seed_repos_contributed": 1,
+      "followers": 55,
+      "account_age_days": 5283
+    },
+    {
+      "login": "apupier",
+      "ecosystem_commits": 300,
+      "raw_commits": 528,
+      "seed_repos_contributed": 1,
+      "followers": 56,
+      "account_age_days": 5400
+    },
+    {
+      "login": "gzurowski",
+      "ecosystem_commits": 300,
+      "raw_commits": 410,
+      "seed_repos_contributed": 1,
+      "followers": 56,
+      "account_age_days": 4603
+    },
+    {
+      "login": "vanceingalls",
+      "ecosystem_commits": 300,
+      "raw_commits": 667,
+      "seed_repos_contributed": 1,
+      "followers": 56,
+      "account_age_days": 5843
+    },
+    {
+      "login": "D-K-P",
+      "ecosystem_commits": 300,
+      "raw_commits": 315,
+      "seed_repos_contributed": 1,
+      "followers": 58,
+      "account_age_days": 4373
+    },
+    {
+      "login": "samejr",
+      "ecosystem_commits": 300,
+      "raw_commits": 1160,
+      "seed_repos_contributed": 1,
+      "followers": 58,
+      "account_age_days": 4451
+    },
+    {
+      "login": "mutdmour",
+      "ecosystem_commits": 300,
+      "raw_commits": 433,
+      "seed_repos_contributed": 1,
+      "followers": 60,
+      "account_age_days": 4780
+    },
+    {
+      "login": "ea-rus",
+      "ecosystem_commits": 300,
+      "raw_commits": 1742,
+      "seed_repos_contributed": 1,
+      "followers": 61,
+      "account_age_days": 4351
+    },
+    {
+      "login": "MinuraPunchihewa",
+      "ecosystem_commits": 300,
+      "raw_commits": 1497,
+      "seed_repos_contributed": 1,
+      "followers": 71,
+      "account_age_days": 2659
+    },
+    {
+      "login": "VisargD",
+      "ecosystem_commits": 300,
+      "raw_commits": 1640,
+      "seed_repos_contributed": 1,
+      "followers": 71,
+      "account_age_days": 2683
+    },
+    {
+      "login": "cstuncsik",
+      "ecosystem_commits": 300,
+      "raw_commits": 465,
+      "seed_repos_contributed": 1,
+      "followers": 71,
+      "account_age_days": 4697
+    },
+    {
+      "login": "kishanprmr",
+      "ecosystem_commits": 300,
+      "raw_commits": 2444,
+      "seed_repos_contributed": 1,
+      "followers": 71,
+      "account_age_days": 1139
+    },
+    {
+      "login": "Ferroin",
+      "ecosystem_commits": 300,
+      "raw_commits": 1177,
+      "seed_repos_contributed": 1,
+      "followers": 72,
+      "account_age_days": 5488
+    },
+    {
+      "login": "MiloradFilipovic",
+      "ecosystem_commits": 300,
+      "raw_commits": 410,
+      "seed_repos_contributed": 1,
+      "followers": 75,
+      "account_age_days": 5021
+    },
+    {
+      "login": "htin1",
+      "ecosystem_commits": 300,
+      "raw_commits": 825,
+      "seed_repos_contributed": 1,
+      "followers": 75,
+      "account_age_days": 752
+    },
+    {
+      "login": "AviPeltz",
+      "ecosystem_commits": 300,
+      "raw_commits": 327,
+      "seed_repos_contributed": 1,
+      "followers": 76,
+      "account_age_days": 4120
+    },
+    {
+      "login": "pixelmaxQm",
+      "ecosystem_commits": 300,
+      "raw_commits": 382,
+      "seed_repos_contributed": 1,
+      "followers": 78,
+      "account_age_days": 844
+    },
+    {
+      "login": "sck000",
+      "ecosystem_commits": 300,
+      "raw_commits": 465,
+      "seed_repos_contributed": 1,
+      "followers": 79,
+      "account_age_days": 607
+    },
+    {
+      "login": "tomi",
+      "ecosystem_commits": 300,
+      "raw_commits": 539,
+      "seed_repos_contributed": 1,
+      "followers": 86,
+      "account_age_days": 4221
+    },
+    {
+      "login": "apepkuss",
+      "ecosystem_commits": 300,
+      "raw_commits": 502,
+      "seed_repos_contributed": 1,
+      "followers": 89,
+      "account_age_days": 4779
+    },
+    {
+      "login": "adeniyii",
+      "ecosystem_commits": 300,
+      "raw_commits": 864,
+      "seed_repos_contributed": 1,
+      "followers": 91,
+      "account_age_days": 2571
+    },
+    {
+      "login": "gszr",
+      "ecosystem_commits": 300,
+      "raw_commits": 318,
+      "seed_repos_contributed": 1,
+      "followers": 91,
+      "account_age_days": 5076
+    },
+    {
+      "login": "saddlepaddle",
+      "ecosystem_commits": 300,
+      "raw_commits": 829,
+      "seed_repos_contributed": 1,
+      "followers": 93,
+      "account_age_days": 3944
+    },
+    {
+      "login": "ElishaKay",
+      "ecosystem_commits": 300,
+      "raw_commits": 566,
+      "seed_repos_contributed": 1,
+      "followers": 94,
+      "account_age_days": 3839
+    },
+    {
+      "login": "DoganK01",
+      "ecosystem_commits": 300,
+      "raw_commits": 357,
+      "seed_repos_contributed": 1,
+      "followers": 97,
+      "account_age_days": 1629
+    },
+    {
+      "login": "orpiske",
+      "ecosystem_commits": 300,
+      "raw_commits": 4677,
+      "seed_repos_contributed": 1,
+      "followers": 99,
+      "account_age_days": 5147
+    },
+    {
+      "login": "zregvart",
+      "ecosystem_commits": 300,
+      "raw_commits": 467,
+      "seed_repos_contributed": 1,
+      "followers": 99,
+      "account_age_days": 5309
+    },
+    {
+      "login": "TCOTC",
+      "ecosystem_commits": 300,
+      "raw_commits": 530,
+      "seed_repos_contributed": 1,
+      "followers": 101,
+      "account_age_days": 1992
+    },
+    {
+      "login": "taofeeq-deru",
+      "ecosystem_commits": 300,
+      "raw_commits": 807,
+      "seed_repos_contributed": 1,
+      "followers": 103,
+      "account_age_days": 2525
+    },
+    {
+      "login": "pmbrull",
+      "ecosystem_commits": 300,
+      "raw_commits": 1169,
+      "seed_repos_contributed": 1,
+      "followers": 106,
+      "account_age_days": 3094
+    },
+    {
+      "login": "AbdulTheActivePiecer",
+      "ecosystem_commits": 300,
+      "raw_commits": 20931,
+      "seed_repos_contributed": 1,
+      "followers": 109,
+      "account_age_days": 1510
+    },
+    {
+      "login": "tpae",
+      "ecosystem_commits": 300,
+      "raw_commits": 2000,
+      "seed_repos_contributed": 1,
+      "followers": 110,
+      "account_age_days": 6018
+    },
+    {
+      "login": "miguel-heygen",
+      "ecosystem_commits": 300,
+      "raw_commits": 1308,
+      "seed_repos_contributed": 1,
+      "followers": 116,
+      "account_age_days": 322
+    },
+    {
+      "login": "calcsam",
+      "ecosystem_commits": 300,
+      "raw_commits": 455,
+      "seed_repos_contributed": 1,
+      "followers": 117,
+      "account_age_days": 4818
+    },
+    {
+      "login": "ONLY-yours",
+      "ecosystem_commits": 300,
+      "raw_commits": 359,
+      "seed_repos_contributed": 1,
+      "followers": 120,
+      "account_age_days": 2567
+    },
+    {
+      "login": "paxcema",
+      "ecosystem_commits": 300,
+      "raw_commits": 660,
+      "seed_repos_contributed": 1,
+      "followers": 126,
+      "account_age_days": 4077
+    },
+    {
+      "login": "nicolaferraro",
+      "ecosystem_commits": 300,
+      "raw_commits": 301,
+      "seed_repos_contributed": 1,
+      "followers": 132,
+      "account_age_days": 4844
+    },
+    {
+      "login": "michael-radency",
+      "ecosystem_commits": 300,
+      "raw_commits": 653,
+      "seed_repos_contributed": 1,
+      "followers": 133,
+      "account_age_days": 1800
+    },
+    {
+      "login": "matt-aitken",
+      "ecosystem_commits": 300,
+      "raw_commits": 2479,
+      "seed_repos_contributed": 1,
+      "followers": 135,
+      "account_age_days": 4196
+    },
+    {
+      "login": "scosman",
+      "ecosystem_commits": 300,
+      "raw_commits": 3355,
+      "seed_repos_contributed": 1,
+      "followers": 143,
+      "account_age_days": 5514
+    },
+    {
+      "login": "RicardoE105",
+      "ecosystem_commits": 300,
+      "raw_commits": 1077,
+      "seed_repos_contributed": 1,
+      "followers": 144,
+      "account_age_days": 3853
+    },
+    {
+      "login": "elsmr",
+      "ecosystem_commits": 300,
+      "raw_commits": 375,
+      "seed_repos_contributed": 1,
+      "followers": 147,
+      "account_age_days": 4319
+    },
+    {
+      "login": "gaomeng1900",
+      "ecosystem_commits": 300,
+      "raw_commits": 992,
+      "seed_repos_contributed": 1,
+      "followers": 147,
+      "account_age_days": 4239
+    },
+    {
+      "login": "ilyam8",
+      "ecosystem_commits": 300,
+      "raw_commits": 2804,
+      "seed_repos_contributed": 1,
+      "followers": 150,
+      "account_age_days": 3591
+    },
+    {
+      "login": "JerrettDavis",
+      "ecosystem_commits": 300,
+      "raw_commits": 328,
+      "seed_repos_contributed": 1,
+      "followers": 151,
+      "account_age_days": 5019
+    },
+    {
+      "login": "joshuajbouw",
+      "ecosystem_commits": 300,
+      "raw_commits": 463,
+      "seed_repos_contributed": 1,
+      "followers": 153,
+      "account_age_days": 4251
+    },
+    {
+      "login": "JohnJyong",
+      "ecosystem_commits": 300,
+      "raw_commits": 370,
+      "seed_repos_contributed": 1,
+      "followers": 156,
+      "account_age_days": 2030
+    },
+    {
+      "login": "hjlarry",
+      "ecosystem_commits": 300,
+      "raw_commits": 373,
+      "seed_repos_contributed": 1,
+      "followers": 164,
+      "account_age_days": 3439
+    },
+    {
+      "login": "xbtlin",
+      "ecosystem_commits": 300,
+      "raw_commits": 666,
+      "seed_repos_contributed": 1,
+      "followers": 168,
+      "account_age_days": 4505
+    },
+    {
+      "login": "lburgazzoli",
+      "ecosystem_commits": 300,
+      "raw_commits": 866,
+      "seed_repos_contributed": 1,
+      "followers": 169,
+      "account_age_days": 5142
+    },
+    {
+      "login": "adeleke5140",
+      "ecosystem_commits": 300,
+      "raw_commits": 1373,
+      "seed_repos_contributed": 1,
+      "followers": 170,
+      "account_age_days": 3227
+    },
+    {
+      "login": "Sachin-chaurasiya",
+      "ecosystem_commits": 300,
+      "raw_commits": 893,
+      "seed_repos_contributed": 1,
+      "followers": 178,
+      "account_age_days": 2403
+    },
+    {
+      "login": "alexgrozav",
+      "ecosystem_commits": 300,
+      "raw_commits": 692,
+      "seed_repos_contributed": 1,
+      "followers": 179,
+      "account_age_days": 4600
+    },
+    {
+      "login": "torrmal",
+      "ecosystem_commits": 300,
+      "raw_commits": 549,
+      "seed_repos_contributed": 1,
+      "followers": 179,
+      "account_age_days": 4634
+    },
+    {
+      "login": "enesgules",
+      "ecosystem_commits": 300,
+      "raw_commits": 385,
+      "seed_repos_contributed": 1,
+      "followers": 182,
+      "account_age_days": 1596
+    },
+    {
+      "login": "harshach",
+      "ecosystem_commits": 300,
+      "raw_commits": 1107,
+      "seed_repos_contributed": 1,
+      "followers": 182,
+      "account_age_days": 6434
+    },
+    {
+      "login": "jrusso1020",
+      "ecosystem_commits": 300,
+      "raw_commits": 676,
+      "seed_repos_contributed": 1,
+      "followers": 183,
+      "account_age_days": 4441
+    },
+    {
+      "login": "Joshuafolorunsho",
+      "ecosystem_commits": 300,
+      "raw_commits": 650,
+      "seed_repos_contributed": 1,
+      "followers": 184,
+      "account_age_days": 2489
+    },
+    {
+      "login": "DearVa",
+      "ecosystem_commits": 300,
+      "raw_commits": 1411,
+      "seed_repos_contributed": 1,
+      "followers": 191,
+      "account_age_days": 2486
+    },
+    {
+      "login": "StpMax",
+      "ecosystem_commits": 300,
+      "raw_commits": 3937,
+      "seed_repos_contributed": 1,
+      "followers": 191,
+      "account_age_days": 4853
+    },
+    {
+      "login": "c121914yu",
+      "ecosystem_commits": 300,
+      "raw_commits": 2012,
+      "seed_repos_contributed": 1,
+      "followers": 199,
+      "account_age_days": 2628
+    },
+    {
+      "login": "ageerle",
+      "ecosystem_commits": 300,
+      "raw_commits": 409,
+      "seed_repos_contributed": 1,
+      "followers": 223,
+      "account_age_days": 3219
+    },
+    {
+      "login": "kucherenko",
+      "ecosystem_commits": 300,
+      "raw_commits": 1030,
+      "seed_repos_contributed": 1,
+      "followers": 228,
+      "account_age_days": 6076
+    },
+    {
+      "login": "chuntaojun",
+      "ecosystem_commits": 300,
+      "raw_commits": 336,
+      "seed_repos_contributed": 1,
+      "followers": 240,
+      "account_age_days": 3534
+    },
+    {
+      "login": "yusufkaraaslan",
+      "ecosystem_commits": 300,
+      "raw_commits": 687,
+      "seed_repos_contributed": 1,
+      "followers": 241,
+      "account_age_days": 4137
+    },
+    {
+      "login": "nkorange",
+      "ecosystem_commits": 300,
+      "raw_commits": 671,
+      "seed_repos_contributed": 1,
+      "followers": 250,
+      "account_age_days": 4794
+    },
+    {
+      "login": "m13v",
+      "ecosystem_commits": 300,
+      "raw_commits": 419,
+      "seed_repos_contributed": 1,
+      "followers": 251,
+      "account_age_days": 1540
+    },
+    {
+      "login": "0xJacky",
+      "ecosystem_commits": 300,
+      "raw_commits": 1879,
+      "seed_repos_contributed": 1,
+      "followers": 255,
+      "account_age_days": 4038
+    },
+    {
+      "login": "Jeomon",
+      "ecosystem_commits": 300,
+      "raw_commits": 448,
+      "seed_repos_contributed": 1,
+      "followers": 257,
+      "account_age_days": 1225
+    },
+    {
+      "login": "Tieske",
+      "ecosystem_commits": 300,
+      "raw_commits": 469,
+      "seed_repos_contributed": 1,
+      "followers": 260,
+      "account_age_days": 5411
+    },
+    {
+      "login": "wanshuiyin",
+      "ecosystem_commits": 300,
+      "raw_commits": 473,
+      "seed_repos_contributed": 1,
+      "followers": 267,
+      "account_age_days": 2021
+    },
+    {
+      "login": "codexu",
+      "ecosystem_commits": 300,
+      "raw_commits": 1500,
+      "seed_repos_contributed": 1,
+      "followers": 273,
+      "account_age_days": 3896
+    },
+    {
+      "login": "mertyildiran",
+      "ecosystem_commits": 300,
+      "raw_commits": 590,
+      "seed_repos_contributed": 1,
+      "followers": 275,
+      "account_age_days": 5033
+    },
+    {
+      "login": "amrdb",
+      "ecosystem_commits": 300,
+      "raw_commits": 642,
+      "seed_repos_contributed": 1,
+      "followers": 277,
+      "account_age_days": 2263
+    },
+    {
+      "login": "mfrachet",
+      "ecosystem_commits": 300,
+      "raw_commits": 408,
+      "seed_repos_contributed": 1,
+      "followers": 280,
+      "account_age_days": 4873
+    },
+    {
+      "login": "Classic298",
+      "ecosystem_commits": 300,
+      "raw_commits": 554,
+      "seed_repos_contributed": 1,
+      "followers": 283,
+      "account_age_days": 3389
+    },
+    {
+      "login": "TylerBarnes",
+      "ecosystem_commits": 300,
+      "raw_commits": 579,
+      "seed_repos_contributed": 1,
+      "followers": 283,
+      "account_age_days": 3966
+    },
+    {
+      "login": "gnodet",
+      "ecosystem_commits": 300,
+      "raw_commits": 1571,
+      "seed_repos_contributed": 1,
+      "followers": 286,
+      "account_age_days": 6276
+    },
+    {
+      "login": "zxdong262",
+      "ecosystem_commits": 300,
+      "raw_commits": 3393,
+      "seed_repos_contributed": 1,
+      "followers": 295,
+      "account_age_days": 5209
+    },
+    {
+      "login": "1jehuang",
+      "ecosystem_commits": 300,
+      "raw_commits": 5549,
+      "seed_repos_contributed": 1,
+      "followers": 305,
+      "account_age_days": 1708
+    },
+    {
+      "login": "igorls",
+      "ecosystem_commits": 300,
+      "raw_commits": 727,
+      "seed_repos_contributed": 1,
+      "followers": 315,
+      "account_age_days": 4776
+    },
+    {
+      "login": "jkomyno",
+      "ecosystem_commits": 300,
+      "raw_commits": 632,
+      "seed_repos_contributed": 1,
+      "followers": 318,
+      "account_age_days": 4087
+    },
+    {
+      "login": "Joffcom",
+      "ecosystem_commits": 300,
+      "raw_commits": 420,
+      "seed_repos_contributed": 1,
+      "followers": 325,
+      "account_age_days": 4784
+    },
+    {
+      "login": "oscerd",
+      "ecosystem_commits": 300,
+      "raw_commits": 18640,
+      "seed_repos_contributed": 1,
+      "followers": 332,
+      "account_age_days": 4739
+    },
+    {
+      "login": "KomachiSion",
+      "ecosystem_commits": 300,
+      "raw_commits": 1059,
+      "seed_repos_contributed": 1,
+      "followers": 336,
+      "account_age_days": 3055
+    },
+    {
+      "login": "DeusData",
+      "ecosystem_commits": 300,
+      "raw_commits": 1331,
+      "seed_repos_contributed": 1,
+      "followers": 341,
+      "account_age_days": 1934
+    },
+    {
+      "login": "cameroncooke",
+      "ecosystem_commits": 300,
+      "raw_commits": 1045,
+      "seed_repos_contributed": 1,
+      "followers": 347,
+      "account_age_days": 5626
+    },
+    {
+      "login": "zbeyens",
+      "ecosystem_commits": 300,
+      "raw_commits": 4838,
+      "seed_repos_contributed": 1,
+      "followers": 357,
+      "account_age_days": 3699
+    },
+    {
+      "login": "haxzie",
+      "ecosystem_commits": 300,
+      "raw_commits": 702,
+      "seed_repos_contributed": 1,
+      "followers": 359,
+      "account_age_days": 2543
+    },
+    {
+      "login": "hazemadelkhalel",
+      "ecosystem_commits": 300,
+      "raw_commits": 1708,
+      "seed_repos_contributed": 1,
+      "followers": 373,
+      "account_age_days": 2070
+    },
+    {
+      "login": "ericallam",
+      "ecosystem_commits": 300,
+      "raw_commits": 2279,
+      "seed_repos_contributed": 1,
+      "followers": 375,
+      "account_age_days": 6723
+    },
+    {
+      "login": "wardpeet",
+      "ecosystem_commits": 300,
+      "raw_commits": 912,
+      "seed_repos_contributed": 1,
+      "followers": 384,
+      "account_age_days": 5394
+    },
+    {
+      "login": "laipz8200",
+      "ecosystem_commits": 300,
+      "raw_commits": 708,
+      "seed_repos_contributed": 1,
+      "followers": 390,
+      "account_age_days": 3854
+    },
+    {
+      "login": "wonderwhy-er",
+      "ecosystem_commits": 300,
+      "raw_commits": 370,
+      "seed_repos_contributed": 1,
+      "followers": 397,
+      "account_age_days": 5381
+    },
+    {
+      "login": "skytin1004",
+      "ecosystem_commits": 300,
+      "raw_commits": 717,
+      "seed_repos_contributed": 1,
+      "followers": 407,
+      "account_age_days": 1625
+    },
+    {
+      "login": "diegosouzapw",
+      "ecosystem_commits": 300,
+      "raw_commits": 3386,
+      "seed_repos_contributed": 1,
+      "followers": 426,
+      "account_age_days": 4403
+    },
+    {
+      "login": "milosgajdos",
+      "ecosystem_commits": 300,
+      "raw_commits": 301,
+      "seed_repos_contributed": 1,
+      "followers": 428,
+      "account_age_days": 5283
+    },
+    {
+      "login": "jaberjaber23",
+      "ecosystem_commits": 300,
+      "raw_commits": 331,
+      "seed_repos_contributed": 1,
+      "followers": 431,
+      "account_age_days": 1556
+    },
+    {
+      "login": "subnetmarco",
+      "ecosystem_commits": 300,
+      "raw_commits": 1234,
+      "seed_repos_contributed": 1,
+      "followers": 433,
+      "account_age_days": 5459
+    },
+    {
+      "login": "George3d6",
+      "ecosystem_commits": 300,
+      "raw_commits": 2017,
+      "seed_repos_contributed": 1,
+      "followers": 437,
+      "account_age_days": 3528
+    },
+    {
+      "login": "onuratakan",
+      "ecosystem_commits": 300,
+      "raw_commits": 1220,
+      "seed_repos_contributed": 1,
+      "followers": 469,
+      "account_age_days": 2913
+    },
+    {
+      "login": "yamadashy",
+      "ecosystem_commits": 300,
+      "raw_commits": 3363,
+      "seed_repos_contributed": 1,
+      "followers": 481,
+      "account_age_days": 4751
+    },
+    {
+      "login": "tirth8205",
+      "ecosystem_commits": 300,
+      "raw_commits": 382,
+      "seed_repos_contributed": 1,
+      "followers": 495,
+      "account_age_days": 2188
+    },
+    {
+      "login": "louis030195",
+      "ecosystem_commits": 300,
+      "raw_commits": 8476,
+      "seed_repos_contributed": 1,
+      "followers": 498,
+      "account_age_days": 3478
+    },
+    {
+      "login": "abuaboud",
+      "ecosystem_commits": 300,
+      "raw_commits": 12279,
+      "seed_repos_contributed": 1,
+      "followers": 500,
+      "account_age_days": 5158
+    },
+    {
+      "login": "fffonion",
+      "ecosystem_commits": 300,
+      "raw_commits": 502,
+      "seed_repos_contributed": 1,
+      "followers": 504,
+      "account_age_days": 5089
+    },
+    {
+      "login": "netroy",
+      "ecosystem_commits": 300,
+      "raw_commits": 1317,
+      "seed_repos_contributed": 1,
+      "followers": 513,
+      "account_age_days": 6009
+    },
+    {
+      "login": "Byaidu",
+      "ecosystem_commits": 300,
+      "raw_commits": 436,
+      "seed_repos_contributed": 1,
+      "followers": 523,
+      "account_age_days": 3616
+    },
+    {
+      "login": "mksglu",
+      "ecosystem_commits": 300,
+      "raw_commits": 1372,
+      "seed_repos_contributed": 1,
+      "followers": 524,
+      "account_age_days": 4614
+    },
+    {
+      "login": "bungle",
+      "ecosystem_commits": 300,
+      "raw_commits": 1174,
+      "seed_repos_contributed": 1,
+      "followers": 526,
+      "account_age_days": 5451
+    },
+    {
+      "login": "Ed1s0nZ",
+      "ecosystem_commits": 300,
+      "raw_commits": 1971,
+      "seed_repos_contributed": 1,
+      "followers": 566,
+      "account_age_days": 1899
+    },
+    {
+      "login": "takatost",
+      "ecosystem_commits": 300,
+      "raw_commits": 539,
+      "seed_repos_contributed": 1,
+      "followers": 566,
+      "account_age_days": 4687
+    },
+    {
+      "login": "crazywoola",
+      "ecosystem_commits": 300,
+      "raw_commits": 362,
+      "seed_repos_contributed": 1,
+      "followers": 569,
+      "account_age_days": 1598
+    },
+    {
+      "login": "re-ovo",
+      "ecosystem_commits": 300,
+      "raw_commits": 2530,
+      "seed_repos_contributed": 1,
+      "followers": 572,
+      "account_age_days": 3619
+    },
+    {
+      "login": "asukaminato0721",
+      "ecosystem_commits": 300,
+      "raw_commits": 309,
+      "seed_repos_contributed": 1,
+      "followers": 579,
+      "account_age_days": 3296
+    },
+    {
+      "login": "ZoranPandovski",
+      "ecosystem_commits": 300,
+      "raw_commits": 2444,
+      "seed_repos_contributed": 1,
+      "followers": 590,
+      "account_age_days": 4487
+    },
+    {
+      "login": "zhkl0228",
+      "ecosystem_commits": 300,
+      "raw_commits": 1373,
+      "seed_repos_contributed": 1,
+      "followers": 601,
+      "account_age_days": 5286
+    },
+    {
+      "login": "iamjoel",
+      "ecosystem_commits": 300,
+      "raw_commits": 507,
+      "seed_repos_contributed": 1,
+      "followers": 610,
+      "account_age_days": 5092
+    },
+    {
+      "login": "ivov",
+      "ecosystem_commits": 300,
+      "raw_commits": 1703,
+      "seed_repos_contributed": 1,
+      "followers": 610,
+      "account_age_days": 2819
+    },
+    {
+      "login": "tjx666",
+      "ecosystem_commits": 300,
+      "raw_commits": 740,
+      "seed_repos_contributed": 1,
+      "followers": 636,
+      "account_age_days": 2914
+    },
+    {
+      "login": "thibaultcha",
+      "ecosystem_commits": 300,
+      "raw_commits": 2135,
+      "seed_repos_contributed": 1,
+      "followers": 637,
+      "account_age_days": 5393
+    },
+    {
+      "login": "davsclaus",
+      "ecosystem_commits": 300,
+      "raw_commits": 27251,
+      "seed_repos_contributed": 1,
+      "followers": 662,
+      "account_age_days": 5729
+    },
+    {
+      "login": "ktsaou",
+      "ecosystem_commits": 300,
+      "raw_commits": 6719,
+      "seed_repos_contributed": 1,
+      "followers": 690,
+      "account_age_days": 5013
+    },
+    {
+      "login": "sickn33",
+      "ecosystem_commits": 300,
+      "raw_commits": 600,
+      "seed_repos_contributed": 1,
+      "followers": 704,
+      "account_age_days": 650
+    },
+    {
+      "login": "twose",
+      "ecosystem_commits": 300,
+      "raw_commits": 308,
+      "seed_repos_contributed": 1,
+      "followers": 747,
+      "account_age_days": 3433
+    },
+    {
+      "login": "xuri",
+      "ecosystem_commits": 300,
+      "raw_commits": 966,
+      "seed_repos_contributed": 1,
+      "followers": 824,
+      "account_age_days": 4993
+    },
+    {
+      "login": "jstrachan",
+      "ecosystem_commits": 300,
+      "raw_commits": 1385,
+      "seed_repos_contributed": 1,
+      "followers": 883,
+      "account_age_days": 6480
+    },
+    {
+      "login": "canisminor1990",
+      "ecosystem_commits": 300,
+      "raw_commits": 555,
+      "seed_repos_contributed": 1,
+      "followers": 890,
+      "account_age_days": 3777
+    },
+    {
+      "login": "OrKoN",
+      "ecosystem_commits": 300,
+      "raw_commits": 333,
+      "seed_repos_contributed": 1,
+      "followers": 891,
+      "account_age_days": 5786
+    },
+    {
+      "login": "chopratejas",
+      "ecosystem_commits": 300,
+      "raw_commits": 1042,
+      "seed_repos_contributed": 1,
+      "followers": 930,
+      "account_age_days": 4901
+    },
+    {
+      "login": "nukeop",
+      "ecosystem_commits": 300,
+      "raw_commits": 1546,
+      "seed_repos_contributed": 1,
+      "followers": 972,
+      "account_age_days": 4063
+    },
+    {
+      "login": "sanbuphy",
+      "ecosystem_commits": 300,
+      "raw_commits": 483,
+      "seed_repos_contributed": 1,
+      "followers": 998,
+      "account_age_days": 1677
+    },
+    {
+      "login": "kikito",
+      "ecosystem_commits": 300,
+      "raw_commits": 427,
+      "seed_repos_contributed": 1,
+      "followers": 1004,
+      "account_age_days": 6336
+    },
+    {
+      "login": "janober",
+      "ecosystem_commits": 300,
+      "raw_commits": 4631,
+      "seed_repos_contributed": 1,
+      "followers": 1036,
+      "account_age_days": 4590
+    },
+    {
+      "login": "chronolaw",
+      "ecosystem_commits": 300,
+      "raw_commits": 485,
+      "seed_repos_contributed": 1,
+      "followers": 1062,
+      "account_age_days": 4890
+    },
+    {
+      "login": "omeraplak",
+      "ecosystem_commits": 300,
+      "raw_commits": 861,
+      "seed_repos_contributed": 1,
+      "followers": 1077,
+      "account_age_days": 5398
+    },
+    {
+      "login": "Soulter",
+      "ecosystem_commits": 300,
+      "raw_commits": 3331,
+      "seed_repos_contributed": 1,
+      "followers": 1088,
+      "account_age_days": 3035
+    },
+    {
+      "login": "assafelovic",
+      "ecosystem_commits": 300,
+      "raw_commits": 1513,
+      "seed_repos_contributed": 1,
+      "followers": 1131,
+      "account_age_days": 4008
+    },
+    {
+      "login": "necatiozmen",
+      "ecosystem_commits": 300,
+      "raw_commits": 404,
+      "seed_repos_contributed": 1,
+      "followers": 1149,
+      "account_age_days": 3732
+    },
+    {
+      "login": "czlonkowski",
+      "ecosystem_commits": 300,
+      "raw_commits": 1049,
+      "seed_repos_contributed": 1,
+      "followers": 1170,
+      "account_age_days": 2460
+    },
+    {
+      "login": "Xunzhuo",
+      "ecosystem_commits": 300,
+      "raw_commits": 394,
+      "seed_repos_contributed": 1,
+      "followers": 1340,
+      "account_age_days": 2677
+    },
+    {
+      "login": "hishamhm",
+      "ecosystem_commits": 300,
+      "raw_commits": 673,
+      "seed_repos_contributed": 1,
+      "followers": 1358,
+      "account_age_days": 5937
+    },
+    {
+      "login": "zhayujie",
+      "ecosystem_commits": 300,
+      "raw_commits": 1170,
+      "seed_repos_contributed": 1,
+      "followers": 1541,
+      "account_age_days": 3425
+    },
+    {
+      "login": "tjbck",
+      "ecosystem_commits": 300,
+      "raw_commits": 12076,
+      "seed_repos_contributed": 1,
+      "followers": 1710,
+      "account_age_days": 3455
+    },
+    {
+      "login": "leestott",
+      "ecosystem_commits": 300,
+      "raw_commits": 1200,
+      "seed_repos_contributed": 1,
+      "followers": 1781,
+      "account_age_days": 5032
+    },
+    {
+      "login": "leopuleo",
+      "ecosystem_commits": 298,
+      "raw_commits": 298,
+      "seed_repos_contributed": 1,
+      "followers": 14,
+      "account_age_days": 4986
+    },
+    {
+      "login": "lanvent",
+      "ecosystem_commits": 298,
+      "raw_commits": 298,
+      "seed_repos_contributed": 1,
+      "followers": 70,
+      "account_age_days": 3409
+    },
+    {
+      "login": "12joan",
+      "ecosystem_commits": 297,
+      "raw_commits": 297,
+      "seed_repos_contributed": 1,
+      "followers": 28,
+      "account_age_days": 4831
+    },
+    {
+      "login": "parthiv11",
+      "ecosystem_commits": 297,
+      "raw_commits": 297,
+      "seed_repos_contributed": 1,
+      "followers": 32,
+      "account_age_days": 2049
+    },
+    {
+      "login": "silentoplayz",
+      "ecosystem_commits": 297,
+      "raw_commits": 297,
+      "seed_repos_contributed": 1,
+      "followers": 66,
+      "account_age_days": 2630
+    },
+    {
+      "login": "RaajeevChandran",
+      "ecosystem_commits": 295,
+      "raw_commits": 295,
+      "seed_repos_contributed": 1,
+      "followers": 20,
+      "account_age_days": 2328
+    },
+    {
+      "login": "bowenliang123",
+      "ecosystem_commits": 295,
+      "raw_commits": 295,
+      "seed_repos_contributed": 1,
+      "followers": 164,
+      "account_age_days": 5125
+    },
+    {
+      "login": "strawgate",
+      "ecosystem_commits": 294,
+      "raw_commits": 294,
+      "seed_repos_contributed": 2,
+      "followers": 175,
+      "account_age_days": 4570
+    },
+    {
+      "login": "nomeguy",
+      "ecosystem_commits": 293,
+      "raw_commits": 293,
+      "seed_repos_contributed": 2,
+      "followers": 14,
+      "account_age_days": 1868
+    },
+    {
+      "login": "zxhlyh",
+      "ecosystem_commits": 293,
+      "raw_commits": 293,
+      "seed_repos_contributed": 1,
+      "followers": 92,
+      "account_age_days": 3877
+    },
+    {
+      "login": "guillaumejacquart",
+      "ecosystem_commits": 291,
+      "raw_commits": 291,
+      "seed_repos_contributed": 1,
+      "followers": 46,
+      "account_age_days": 4716
+    },
+    {
+      "login": "roaminro",
+      "ecosystem_commits": 289,
+      "raw_commits": 289,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 1644
+    },
+    {
+      "login": "dkulp",
+      "ecosystem_commits": 285,
+      "raw_commits": 285,
+      "seed_repos_contributed": 1,
+      "followers": 153,
+      "account_age_days": 6254
+    },
+    {
+      "login": "gmegidish",
+      "ecosystem_commits": 283,
+      "raw_commits": 283,
+      "seed_repos_contributed": 1,
+      "followers": 125,
+      "account_age_days": 5039
+    },
+    {
+      "login": "xuyaqist",
+      "ecosystem_commits": 281,
+      "raw_commits": 281,
+      "seed_repos_contributed": 1,
+      "followers": 3,
+      "account_age_days": 3470
+    },
+    {
+      "login": "DOsinga",
+      "ecosystem_commits": 276,
+      "raw_commits": 276,
+      "seed_repos_contributed": 1,
+      "followers": 192,
+      "account_age_days": 5465
+    },
+    {
+      "login": "dylans",
+      "ecosystem_commits": 274,
+      "raw_commits": 274,
+      "seed_repos_contributed": 1,
+      "followers": 223,
+      "account_age_days": 6238
+    },
+    {
+      "login": "khawa-angx",
+      "ecosystem_commits": 273,
+      "raw_commits": 273,
+      "seed_repos_contributed": 1,
+      "followers": 6,
+      "account_age_days": 2995
+    },
+    {
+      "login": "vkalintiris",
+      "ecosystem_commits": 273,
+      "raw_commits": 273,
+      "seed_repos_contributed": 1,
+      "followers": 6,
+      "account_age_days": 3455
+    },
+    {
+      "login": "Arindam200",
+      "ecosystem_commits": 269,
+      "raw_commits": 269,
+      "seed_repos_contributed": 2,
+      "followers": 890,
+      "account_age_days": 1467
+    },
+    {
+      "login": "Panniantong",
+      "ecosystem_commits": 268,
+      "raw_commits": 268,
+      "seed_repos_contributed": 2,
+      "followers": 748,
+      "account_age_days": 2083
+    },
+    {
+      "login": "ycjcl868",
+      "ecosystem_commits": 266,
+      "raw_commits": 266,
+      "seed_repos_contributed": 4,
+      "followers": 1450,
+      "account_age_days": 4005
+    },
+    {
+      "login": "darth-coder00",
+      "ecosystem_commits": 265,
+      "raw_commits": 265,
+      "seed_repos_contributed": 1,
+      "followers": 6,
+      "account_age_days": 1844
+    },
+    {
+      "login": "pcarleton",
+      "ecosystem_commits": 264,
+      "raw_commits": 264,
+      "seed_repos_contributed": 10,
+      "followers": 63,
+      "account_age_days": 5587
+    },
+    {
+      "login": "JackChen-me",
+      "ecosystem_commits": 261,
+      "raw_commits": 261,
+      "seed_repos_contributed": 1,
+      "followers": 232,
+      "account_age_days": 3416
+    },
+    {
+      "login": "Rohit0301",
+      "ecosystem_commits": 260,
+      "raw_commits": 260,
+      "seed_repos_contributed": 1,
+      "followers": 26,
+      "account_age_days": 2368
+    },
+    {
+      "login": "sonika-shah",
+      "ecosystem_commits": 258,
+      "raw_commits": 258,
+      "seed_repos_contributed": 1,
+      "followers": 3,
+      "account_age_days": 2412
+    },
+    {
+      "login": "hamishfagg",
+      "ecosystem_commits": 258,
+      "raw_commits": 258,
+      "seed_repos_contributed": 1,
+      "followers": 19,
+      "account_age_days": 5492
+    },
+    {
+      "login": "sxjeru",
+      "ecosystem_commits": 258,
+      "raw_commits": 258,
+      "seed_repos_contributed": 1,
+      "followers": 47,
+      "account_age_days": 3653
+    },
+    {
+      "login": "Matsuuu",
+      "ecosystem_commits": 257,
+      "raw_commits": 257,
+      "seed_repos_contributed": 1,
+      "followers": 132,
+      "account_age_days": 3885
+    },
+    {
+      "login": "hyoban",
+      "ecosystem_commits": 256,
+      "raw_commits": 256,
+      "seed_repos_contributed": 1,
+      "followers": 533,
+      "account_age_days": 3014
+    },
+    {
+      "login": "zanesq",
+      "ecosystem_commits": 255,
+      "raw_commits": 255,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 2048
+    },
+    {
+      "login": "harsh-vador",
+      "ecosystem_commits": 253,
+      "raw_commits": 253,
+      "seed_repos_contributed": 1,
+      "followers": 6,
+      "account_age_days": 2418
+    },
+    {
+      "login": "xiangkaiz",
+      "ecosystem_commits": 251,
+      "raw_commits": 251,
+      "seed_repos_contributed": 3,
+      "followers": 31,
+      "account_age_days": 3830
+    },
+    {
+      "login": "jamadeo",
+      "ecosystem_commits": 251,
+      "raw_commits": 251,
+      "seed_repos_contributed": 2,
+      "followers": 40,
+      "account_age_days": 4710
+    },
+    {
+      "login": "LucaButBoring",
+      "ecosystem_commits": 250,
+      "raw_commits": 250,
+      "seed_repos_contributed": 8,
+      "followers": 22,
+      "account_age_days": 1185
+    },
+    {
+      "login": "alongir",
+      "ecosystem_commits": 249,
+      "raw_commits": 249,
+      "seed_repos_contributed": 1,
+      "followers": 13,
+      "account_age_days": 5115
+    },
+    {
+      "login": "ffang",
+      "ecosystem_commits": 249,
+      "raw_commits": 249,
+      "seed_repos_contributed": 1,
+      "followers": 38,
+      "account_age_days": 5609
+    },
+    {
+      "login": "johnpoth",
+      "ecosystem_commits": 247,
+      "raw_commits": 247,
+      "seed_repos_contributed": 1,
+      "followers": 34,
+      "account_age_days": 4497
+    },
+    {
+      "login": "Zhi-a",
+      "ecosystem_commits": 246,
+      "raw_commits": 246,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 2120
+    },
+    {
+      "login": "ben-toogood",
+      "ecosystem_commits": 246,
+      "raw_commits": 246,
+      "seed_repos_contributed": 1,
+      "followers": 39,
+      "account_age_days": 3943
+    },
+    {
+      "login": "berry-13",
+      "ecosystem_commits": 246,
+      "raw_commits": 246,
+      "seed_repos_contributed": 1,
+      "followers": 82,
+      "account_age_days": 1933
+    },
+    {
+      "login": "awwaawwa",
+      "ecosystem_commits": 246,
+      "raw_commits": 246,
+      "seed_repos_contributed": 1,
+      "followers": 92,
+      "account_age_days": 4351
+    },
+    {
+      "login": "autologie",
+      "ecosystem_commits": 245,
+      "raw_commits": 245,
+      "seed_repos_contributed": 1,
+      "followers": 34,
+      "account_age_days": 4473
+    },
+    {
+      "login": "metaphorics",
+      "ecosystem_commits": 243,
+      "raw_commits": 243,
+      "seed_repos_contributed": 1,
+      "followers": 46,
+      "account_age_days": 958
+    },
+    {
+      "login": "hekonsek",
+      "ecosystem_commits": 243,
+      "raw_commits": 243,
+      "seed_repos_contributed": 1,
+      "followers": 64,
+      "account_age_days": 5527
+    },
+    {
+      "login": "yyhhyyyyyy",
+      "ecosystem_commits": 243,
+      "raw_commits": 243,
+      "seed_repos_contributed": 1,
+      "followers": 125,
+      "account_age_days": 1696
+    },
+    {
+      "login": "sansan0",
+      "ecosystem_commits": 243,
+      "raw_commits": 243,
+      "seed_repos_contributed": 1,
+      "followers": 1687,
+      "account_age_days": 2017
+    },
+    {
+      "login": "SamMorrowDrums",
+      "ecosystem_commits": 242,
+      "raw_commits": 242,
+      "seed_repos_contributed": 6,
+      "followers": 387,
+      "account_age_days": 4772
+    },
+    {
+      "login": "pavelfeldman",
+      "ecosystem_commits": 242,
+      "raw_commits": 242,
+      "seed_repos_contributed": 1,
+      "followers": 1243,
+      "account_age_days": 5498
+    },
+    {
+      "login": "efunneko",
+      "ecosystem_commits": 240,
+      "raw_commits": 240,
+      "seed_repos_contributed": 1,
+      "followers": 14,
+      "account_age_days": 4866
+    },
+    {
+      "login": "intojhanurag",
+      "ecosystem_commits": 239,
+      "raw_commits": 239,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 884
+    },
+    {
+      "login": "aby913",
+      "ecosystem_commits": 239,
+      "raw_commits": 239,
+      "seed_repos_contributed": 1,
+      "followers": 7,
+      "account_age_days": 4518
+    },
+    {
+      "login": "michaelneale",
+      "ecosystem_commits": 239,
+      "raw_commits": 239,
+      "seed_repos_contributed": 2,
+      "followers": 562,
+      "account_age_days": 6598
+    },
+    {
+      "login": "coheigea",
+      "ecosystem_commits": 237,
+      "raw_commits": 237,
+      "seed_repos_contributed": 1,
+      "followers": 74,
+      "account_age_days": 5732
+    },
+    {
+      "login": "pgrayy",
+      "ecosystem_commits": 235,
+      "raw_commits": 235,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 480
+    },
+    {
+      "login": "tangg555",
+      "ecosystem_commits": 232,
+      "raw_commits": 232,
+      "seed_repos_contributed": 1,
+      "followers": 19,
+      "account_age_days": 3585
+    },
+    {
+      "login": "r00gm",
+      "ecosystem_commits": 231,
+      "raw_commits": 231,
+      "seed_repos_contributed": 1,
+      "followers": 20,
+      "account_age_days": 3601
+    },
+    {
+      "login": "tino097",
+      "ecosystem_commits": 231,
+      "raw_commits": 231,
+      "seed_repos_contributed": 1,
+      "followers": 135,
+      "account_age_days": 5006
+    },
+    {
+      "login": "hangboss1761",
+      "ecosystem_commits": 230,
+      "raw_commits": 230,
+      "seed_repos_contributed": 1,
+      "followers": 12,
+      "account_age_days": 3283
+    },
+    {
+      "login": "underhood",
+      "ecosystem_commits": 229,
+      "raw_commits": 229,
+      "seed_repos_contributed": 1,
+      "followers": 7,
+      "account_age_days": 4538
+    },
+    {
+      "login": "krynble",
+      "ecosystem_commits": 229,
+      "raw_commits": 229,
+      "seed_repos_contributed": 1,
+      "followers": 66,
+      "account_age_days": 5975
+    },
+    {
+      "login": "YujohnNattrass",
+      "ecosystem_commits": 228,
+      "raw_commits": 228,
+      "seed_repos_contributed": 1,
+      "followers": 11,
+      "account_age_days": 2742
+    },
+    {
+      "login": "aalises",
+      "ecosystem_commits": 227,
+      "raw_commits": 227,
+      "seed_repos_contributed": 1,
+      "followers": 60,
+      "account_age_days": 4171
+    },
+    {
+      "login": "fatelei",
+      "ecosystem_commits": 227,
+      "raw_commits": 227,
+      "seed_repos_contributed": 2,
+      "followers": 212,
+      "account_age_days": 5462
+    },
+    {
+      "login": "tonybase",
+      "ecosystem_commits": 227,
+      "raw_commits": 227,
+      "seed_repos_contributed": 1,
+      "followers": 813,
+      "account_age_days": 4874
+    },
+    {
+      "login": "CaralHsi",
+      "ecosystem_commits": 226,
+      "raw_commits": 226,
+      "seed_repos_contributed": 1,
+      "followers": 28,
+      "account_age_days": 3389
+    },
+    {
+      "login": "afitzek",
+      "ecosystem_commits": 226,
+      "raw_commits": 226,
+      "seed_repos_contributed": 1,
+      "followers": 34,
+      "account_age_days": 4919
+    },
+    {
+      "login": "AuroraZiling",
+      "ecosystem_commits": 226,
+      "raw_commits": 226,
+      "seed_repos_contributed": 1,
+      "followers": 48,
+      "account_age_days": 2160
+    },
+    {
+      "login": "sushi30",
+      "ecosystem_commits": 225,
+      "raw_commits": 225,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 3416
+    },
+    {
+      "login": "lifeizhou-ap",
+      "ecosystem_commits": 225,
+      "raw_commits": 225,
+      "seed_repos_contributed": 1,
+      "followers": 10,
+      "account_age_days": 1728
+    },
+    {
+      "login": "bhosmer-ant",
+      "ecosystem_commits": 225,
+      "raw_commits": 225,
+      "seed_repos_contributed": 7,
+      "followers": 37,
+      "account_age_days": 711
+    },
+    {
+      "login": "chirino",
+      "ecosystem_commits": 223,
+      "raw_commits": 223,
+      "seed_repos_contributed": 1,
+      "followers": 244,
+      "account_age_days": 6219
+    },
+    {
+      "login": "omarsmak",
+      "ecosystem_commits": 221,
+      "raw_commits": 221,
+      "seed_repos_contributed": 1,
+      "followers": 41,
+      "account_age_days": 5362
+    },
+    {
+      "login": "xpzouying",
+      "ecosystem_commits": 220,
+      "raw_commits": 220,
+      "seed_repos_contributed": 1,
+      "followers": 506,
+      "account_age_days": 4866
+    },
+    {
+      "login": "Yeuoly",
+      "ecosystem_commits": 220,
+      "raw_commits": 220,
+      "seed_repos_contributed": 1,
+      "followers": 1519,
+      "account_age_days": 2780
+    },
+    {
+      "login": "Meow33",
+      "ecosystem_commits": 218,
+      "raw_commits": 218,
+      "seed_repos_contributed": 1,
+      "followers": 5,
+      "account_age_days": 2653
+    },
+    {
+      "login": "akash-jain-10",
+      "ecosystem_commits": 218,
+      "raw_commits": 218,
+      "seed_repos_contributed": 1,
+      "followers": 26,
+      "account_age_days": 3890
+    },
+    {
+      "login": "CryogenicPlanet",
+      "ecosystem_commits": 217,
+      "raw_commits": 217,
+      "seed_repos_contributed": 1,
+      "followers": 178,
+      "account_age_days": 4218
+    },
+    {
+      "login": "bryan-anthropic",
+      "ecosystem_commits": 217,
+      "raw_commits": 217,
+      "seed_repos_contributed": 4,
+      "followers": 220,
+      "account_age_days": 277
+    },
+    {
+      "login": "WebDucerBlog",
+      "ecosystem_commits": 216,
+      "raw_commits": 216,
+      "seed_repos_contributed": 1,
+      "followers": 7,
+      "account_age_days": 5250
+    },
+    {
+      "login": "cheahjs",
+      "ecosystem_commits": 215,
+      "raw_commits": 215,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 5529
+    },
+    {
+      "login": "lgh-solace",
+      "ecosystem_commits": 215,
+      "raw_commits": 215,
+      "seed_repos_contributed": 1,
+      "followers": 6,
+      "account_age_days": 1594
+    },
+    {
+      "login": "hezhijie0327",
+      "ecosystem_commits": 215,
+      "raw_commits": 215,
+      "seed_repos_contributed": 1,
+      "followers": 43,
+      "account_age_days": 2430
+    },
+    {
+      "login": "hijzy",
+      "ecosystem_commits": 214,
+      "raw_commits": 214,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 3165
+    },
+    {
+      "login": "epinzur",
+      "ecosystem_commits": 214,
+      "raw_commits": 214,
+      "seed_repos_contributed": 1,
+      "followers": 15,
+      "account_age_days": 5015
+    },
+    {
+      "login": "tonxxd",
+      "ecosystem_commits": 214,
+      "raw_commits": 214,
+      "seed_repos_contributed": 1,
+      "followers": 53,
+      "account_age_days": 4990
+    },
+    {
+      "login": "kanarelo",
+      "ecosystem_commits": 213,
+      "raw_commits": 213,
+      "seed_repos_contributed": 1,
+      "followers": 34,
+      "account_age_days": 5792
+    },
+    {
+      "login": "Hugo-Pare",
+      "ecosystem_commits": 212,
+      "raw_commits": 212,
+      "seed_repos_contributed": 1,
+      "followers": 18,
+      "account_age_days": 2137
+    },
+    {
+      "login": "MrZammler",
+      "ecosystem_commits": 212,
+      "raw_commits": 212,
+      "seed_repos_contributed": 1,
+      "followers": 25,
+      "account_age_days": 5133
+    },
+    {
+      "login": "burivuhster",
+      "ecosystem_commits": 212,
+      "raw_commits": 212,
+      "seed_repos_contributed": 1,
+      "followers": 37,
+      "account_age_days": 4933
+    },
+    {
+      "login": "danhdoan",
+      "ecosystem_commits": 211,
+      "raw_commits": 211,
+      "seed_repos_contributed": 1,
+      "followers": 65,
+      "account_age_days": 4073
+    },
+    {
+      "login": "SliverHorn",
+      "ecosystem_commits": 211,
+      "raw_commits": 211,
+      "seed_repos_contributed": 1,
+      "followers": 66,
+      "account_age_days": 2789
+    },
+    {
+      "login": "Raven95676",
+      "ecosystem_commits": 211,
+      "raw_commits": 211,
+      "seed_repos_contributed": 1,
+      "followers": 69,
+      "account_age_days": 721
+    },
+    {
+      "login": "nekomeowww",
+      "ecosystem_commits": 211,
+      "raw_commits": 211,
+      "seed_repos_contributed": 2,
+      "followers": 1578,
+      "account_age_days": 4167
+    },
+    {
+      "login": "BillorBear",
+      "ecosystem_commits": 209,
+      "raw_commits": 209,
+      "seed_repos_contributed": 1,
+      "followers": 5,
+      "account_age_days": 1221
+    },
+    {
+      "login": "6vision",
+      "ecosystem_commits": 208,
+      "raw_commits": 208,
+      "seed_repos_contributed": 1,
+      "followers": 36,
+      "account_age_days": 3028
+    },
+    {
+      "login": "scottschreckengaust",
+      "ecosystem_commits": 208,
+      "raw_commits": 208,
+      "seed_repos_contributed": 1,
+      "followers": 86,
+      "account_age_days": 5835
+    },
+    {
+      "login": "Anshgrover23",
+      "ecosystem_commits": 208,
+      "raw_commits": 208,
+      "seed_repos_contributed": 1,
+      "followers": 188,
+      "account_age_days": 808
+    },
+    {
+      "login": "YehongPan",
+      "ecosystem_commits": 207,
+      "raw_commits": 207,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 1761
+    },
+    {
+      "login": "IsAurora6",
+      "ecosystem_commits": 207,
+      "raw_commits": 207,
+      "seed_repos_contributed": 2,
+      "followers": 5,
+      "account_age_days": 1874
+    },
+    {
+      "login": "wzlng",
+      "ecosystem_commits": 206,
+      "raw_commits": 206,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 2065
+    },
+    {
+      "login": "rootfs",
+      "ecosystem_commits": 204,
+      "raw_commits": 204,
+      "seed_repos_contributed": 1,
+      "followers": 270,
+      "account_age_days": 4498
+    },
+    {
+      "login": "CalebBarnes",
+      "ecosystem_commits": 203,
+      "raw_commits": 203,
+      "seed_repos_contributed": 2,
+      "followers": 37,
+      "account_age_days": 3484
+    },
+    {
+      "login": "findleyr",
+      "ecosystem_commits": 203,
+      "raw_commits": 203,
+      "seed_repos_contributed": 2,
+      "followers": 147,
+      "account_age_days": 2454
+    },
+    {
+      "login": "astefanutti",
+      "ecosystem_commits": 202,
+      "raw_commits": 202,
+      "seed_repos_contributed": 1,
+      "followers": 276,
+      "account_age_days": 5815
+    },
+    {
+      "login": "juntao",
+      "ecosystem_commits": 202,
+      "raw_commits": 202,
+      "seed_repos_contributed": 1,
+      "followers": 692,
+      "account_age_days": 6634
+    },
+    {
+      "login": "domdomegg",
+      "ecosystem_commits": 202,
+      "raw_commits": 202,
+      "seed_repos_contributed": 23,
+      "followers": 765,
+      "account_age_days": 4761
+    },
+    {
+      "login": "Power-One-2025",
+      "ecosystem_commits": 200,
+      "raw_commits": 200,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 236
+    },
+    {
+      "login": "nahuelverdugo",
+      "ecosystem_commits": 200,
+      "raw_commits": 200,
+      "seed_repos_contributed": 1,
+      "followers": 15,
+      "account_age_days": 4167
+    },
+    {
+      "login": "cyrus2281",
+      "ecosystem_commits": 198,
+      "raw_commits": 198,
+      "seed_repos_contributed": 1,
+      "followers": 37,
+      "account_age_days": 2180
+    },
+    {
+      "login": "dndx",
+      "ecosystem_commits": 198,
+      "raw_commits": 198,
+      "seed_repos_contributed": 1,
+      "followers": 509,
+      "account_age_days": 5390
+    },
+    {
+      "login": "oyi77",
+      "ecosystem_commits": 197,
+      "raw_commits": 197,
+      "seed_repos_contributed": 1,
+      "followers": 63,
+      "account_age_days": 3944
+    },
+    {
+      "login": "GLips",
+      "ecosystem_commits": 195,
+      "raw_commits": 195,
+      "seed_repos_contributed": 2,
+      "followers": 262,
+      "account_age_days": 5517
+    },
+    {
+      "login": "damien-schneider",
+      "ecosystem_commits": 194,
+      "raw_commits": 194,
+      "seed_repos_contributed": 1,
+      "followers": 122,
+      "account_age_days": 2062
+    },
+    {
+      "login": "divanshu-go",
+      "ecosystem_commits": 192,
+      "raw_commits": 192,
+      "seed_repos_contributed": 1,
+      "followers": 21,
+      "account_age_days": 680
+    },
+    {
+      "login": "qq815776412",
+      "ecosystem_commits": 191,
+      "raw_commits": 191,
+      "seed_repos_contributed": 1,
+      "followers": 4,
+      "account_age_days": 4373
+    },
+    {
+      "login": "Unshure",
+      "ecosystem_commits": 191,
+      "raw_commits": 191,
+      "seed_repos_contributed": 1,
+      "followers": 45,
+      "account_age_days": 4284
+    },
+    {
+      "login": "zhangmo8",
+      "ecosystem_commits": 191,
+      "raw_commits": 191,
+      "seed_repos_contributed": 1,
+      "followers": 119,
+      "account_age_days": 2852
+    },
+    {
+      "login": "roh26it",
+      "ecosystem_commits": 189,
+      "raw_commits": 189,
+      "seed_repos_contributed": 1,
+      "followers": 41,
+      "account_age_days": 5456
+    },
+    {
+      "login": "onderson",
+      "ecosystem_commits": 188,
+      "raw_commits": 188,
+      "seed_repos_contributed": 1,
+      "followers": 26,
+      "account_age_days": 5133
+    },
+    {
+      "login": "EzraEllette",
+      "ecosystem_commits": 187,
+      "raw_commits": 187,
+      "seed_repos_contributed": 1,
+      "followers": 40,
+      "account_age_days": 2632
+    },
+    {
+      "login": "b4s36t4",
+      "ecosystem_commits": 186,
+      "raw_commits": 186,
+      "seed_repos_contributed": 1,
+      "followers": 92,
+      "account_age_days": 2403
+    },
+    {
+      "login": "vsxd",
+      "ecosystem_commits": 185,
+      "raw_commits": 185,
+      "seed_repos_contributed": 1,
+      "followers": 36,
+      "account_age_days": 3348
+    },
+    {
+      "login": "joelhans",
+      "ecosystem_commits": 185,
+      "raw_commits": 185,
+      "seed_repos_contributed": 1,
+      "followers": 58,
+      "account_age_days": 5379
+    },
+    {
+      "login": "blackgirlbytes",
+      "ecosystem_commits": 184,
+      "raw_commits": 184,
+      "seed_repos_contributed": 2,
+      "followers": 956,
+      "account_age_days": 3557
+    },
+    {
+      "login": "dhawal1",
+      "ecosystem_commits": 183,
+      "raw_commits": 183,
+      "seed_repos_contributed": 1,
+      "followers": 4,
+      "account_age_days": 3576
+    },
+    {
+      "login": "hutchic",
+      "ecosystem_commits": 183,
+      "raw_commits": 183,
+      "seed_repos_contributed": 1,
+      "followers": 85,
+      "account_age_days": 5591
+    },
+    {
+      "login": "CaitieM20",
+      "ecosystem_commits": 183,
+      "raw_commits": 183,
+      "seed_repos_contributed": 5,
+      "followers": 529,
+      "account_age_days": 4929
+    },
+    {
+      "login": "maxisbey",
+      "ecosystem_commits": 182,
+      "raw_commits": 182,
+      "seed_repos_contributed": 5,
+      "followers": 29,
+      "account_age_days": 347
+    },
+    {
+      "login": "dhirajsb",
+      "ecosystem_commits": 182,
+      "raw_commits": 182,
+      "seed_repos_contributed": 1,
+      "followers": 34,
+      "account_age_days": 6030
+    },
+    {
+      "login": "valdar",
+      "ecosystem_commits": 182,
+      "raw_commits": 182,
+      "seed_repos_contributed": 1,
+      "followers": 67,
+      "account_age_days": 6663
+    },
+    {
+      "login": "harshsoni2024",
+      "ecosystem_commits": 181,
+      "raw_commits": 181,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 2271
+    },
+    {
+      "login": "duwenxin99",
+      "ecosystem_commits": 181,
+      "raw_commits": 181,
+      "seed_repos_contributed": 1,
+      "followers": 50,
+      "account_age_days": 1354
+    },
+    {
+      "login": "rdmclin2",
+      "ecosystem_commits": 181,
+      "raw_commits": 181,
+      "seed_repos_contributed": 1,
+      "followers": 198,
+      "account_age_days": 4781
+    },
+    {
+      "login": "hllshiro",
+      "ecosystem_commits": 180,
+      "raw_commits": 180,
+      "seed_repos_contributed": 1,
+      "followers": 6,
+      "account_age_days": 2932
+    },
+    {
+      "login": "locao",
+      "ecosystem_commits": 180,
+      "raw_commits": 180,
+      "seed_repos_contributed": 1,
+      "followers": 20,
+      "account_age_days": 4687
+    },
+    {
+      "login": "jba",
+      "ecosystem_commits": 180,
+      "raw_commits": 180,
+      "seed_repos_contributed": 1,
+      "followers": 534,
+      "account_age_days": 3747
+    },
+    {
+      "login": "despairblue",
+      "ecosystem_commits": 179,
+      "raw_commits": 179,
+      "seed_repos_contributed": 1,
+      "followers": 86,
+      "account_age_days": 5478
+    },
+    {
+      "login": "leo220yuyaodog",
+      "ecosystem_commits": 178,
+      "raw_commits": 178,
+      "seed_repos_contributed": 1,
+      "followers": 39,
+      "account_age_days": 2131
+    },
+    {
+      "login": "twishabansal",
+      "ecosystem_commits": 178,
+      "raw_commits": 178,
+      "seed_repos_contributed": 2,
+      "followers": 131,
+      "account_age_days": 2419
+    },
+    {
+      "login": "alt-glitch",
+      "ecosystem_commits": 178,
+      "raw_commits": 178,
+      "seed_repos_contributed": 1,
+      "followers": 359,
+      "account_age_days": 2561
+    },
+    {
+      "login": "parthp2107",
+      "ecosystem_commits": 177,
+      "raw_commits": 177,
+      "seed_repos_contributed": 1,
+      "followers": 6,
+      "account_age_days": 1910
+    },
+    {
+      "login": "dianed-square",
+      "ecosystem_commits": 177,
+      "raw_commits": 177,
+      "seed_repos_contributed": 1,
+      "followers": 53,
+      "account_age_days": 2089
+    },
+    {
+      "login": "SumanMaharana",
+      "ecosystem_commits": 176,
+      "raw_commits": 176,
+      "seed_repos_contributed": 1,
+      "followers": 13,
+      "account_age_days": 2385
+    },
+    {
+      "login": "FinleyGe",
+      "ecosystem_commits": 174,
+      "raw_commits": 174,
+      "seed_repos_contributed": 1,
+      "followers": 51,
+      "account_age_days": 3220
+    },
+    {
+      "login": "anuj-kumary",
+      "ecosystem_commits": 173,
+      "raw_commits": 173,
+      "seed_repos_contributed": 1,
+      "followers": 37,
+      "account_age_days": 2257
+    },
+    {
+      "login": "graysonhicks",
+      "ecosystem_commits": 172,
+      "raw_commits": 172,
+      "seed_repos_contributed": 1,
+      "followers": 71,
+      "account_age_days": 3876
+    },
+    {
+      "login": "cschneider",
+      "ecosystem_commits": 171,
+      "raw_commits": 171,
+      "seed_repos_contributed": 1,
+      "followers": 174,
+      "account_age_days": 5723
+    },
+    {
+      "login": "ncnthien",
+      "ecosystem_commits": 170,
+      "raw_commits": 170,
+      "seed_repos_contributed": 1,
+      "followers": 19,
+      "account_age_days": 2460
+    },
+    {
+      "login": "dariacodes",
+      "ecosystem_commits": 170,
+      "raw_commits": 170,
+      "seed_repos_contributed": 1,
+      "followers": 23,
+      "account_age_days": 4069
+    },
+    {
+      "login": "DigHuang",
+      "ecosystem_commits": 169,
+      "raw_commits": 169,
+      "seed_repos_contributed": 2,
+      "followers": 33,
+      "account_age_days": 1389
+    },
+    {
+      "login": "tadayosi",
+      "ecosystem_commits": 169,
+      "raw_commits": 169,
+      "seed_repos_contributed": 1,
+      "followers": 79,
+      "account_age_days": 6082
+    },
+    {
+      "login": "shah-harshit",
+      "ecosystem_commits": 167,
+      "raw_commits": 167,
+      "seed_repos_contributed": 1,
+      "followers": 8,
+      "account_age_days": 3319
+    },
+    {
+      "login": "PaulieScanlon",
+      "ecosystem_commits": 165,
+      "raw_commits": 165,
+      "seed_repos_contributed": 1,
+      "followers": 374,
+      "account_age_days": 5259
+    },
+    {
+      "login": "liutao12138",
+      "ecosystem_commits": 163,
+      "raw_commits": 163,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 2852
+    },
+    {
+      "login": "cmoulliard",
+      "ecosystem_commits": 163,
+      "raw_commits": 163,
+      "seed_repos_contributed": 1,
+      "followers": 142,
+      "account_age_days": 5738
+    },
+    {
+      "login": "shenqidebaozi",
+      "ecosystem_commits": 163,
+      "raw_commits": 163,
+      "seed_repos_contributed": 1,
+      "followers": 195,
+      "account_age_days": 3109
+    },
+    {
+      "login": "cunningt",
+      "ecosystem_commits": 162,
+      "raw_commits": 162,
+      "seed_repos_contributed": 1,
+      "followers": 29,
+      "account_age_days": 5792
+    },
+    {
+      "login": "fridayL",
+      "ecosystem_commits": 162,
+      "raw_commits": 162,
+      "seed_repos_contributed": 1,
+      "followers": 30,
+      "account_age_days": 1994
+    },
+    {
+      "login": "sairin1202",
+      "ecosystem_commits": 162,
+      "raw_commits": 162,
+      "seed_repos_contributed": 1,
+      "followers": 72,
+      "account_age_days": 4665
+    },
+    {
+      "login": "Thysrael",
+      "ecosystem_commits": 161,
+      "raw_commits": 161,
+      "seed_repos_contributed": 1,
+      "followers": 197,
+      "account_age_days": 2108
+    },
+    {
+      "login": "wtlyu",
+      "ecosystem_commits": 159,
+      "raw_commits": 159,
+      "seed_repos_contributed": 1,
+      "followers": 188,
+      "account_age_days": 4377
+    },
+    {
+      "login": "Ricram2",
+      "ecosystem_commits": 158,
+      "raw_commits": 158,
+      "seed_repos_contributed": 1,
+      "followers": 47,
+      "account_age_days": 3482
+    },
+    {
+      "login": "BGZStephen",
+      "ecosystem_commits": 157,
+      "raw_commits": 157,
+      "seed_repos_contributed": 1,
+      "followers": 20,
+      "account_age_days": 3461
+    },
+    {
+      "login": "reycn",
+      "ecosystem_commits": 157,
+      "raw_commits": 157,
+      "seed_repos_contributed": 1,
+      "followers": 246,
+      "account_age_days": 4160
+    },
+    {
+      "login": "maximlopin",
+      "ecosystem_commits": 156,
+      "raw_commits": 156,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 3064
+    },
+    {
+      "login": "jeremyross",
+      "ecosystem_commits": 156,
+      "raw_commits": 156,
+      "seed_repos_contributed": 1,
+      "followers": 12,
+      "account_age_days": 6046
+    },
+    {
+      "login": "mukul975",
+      "ecosystem_commits": 156,
+      "raw_commits": 156,
+      "seed_repos_contributed": 1,
+      "followers": 905,
+      "account_age_days": 2879
+    },
+    {
+      "login": "ashwin-ant",
+      "ecosystem_commits": 156,
+      "raw_commits": 156,
+      "seed_repos_contributed": 5,
+      "followers": 1015,
+      "account_age_days": 697
+    },
+    {
+      "login": "IgorGov",
+      "ecosystem_commits": 155,
+      "raw_commits": 155,
+      "seed_repos_contributed": 1,
+      "followers": 16,
+      "account_age_days": 4285
+    },
+    {
+      "login": "yury-s",
+      "ecosystem_commits": 155,
+      "raw_commits": 155,
+      "seed_repos_contributed": 1,
+      "followers": 273,
+      "account_age_days": 4262
+    },
+    {
+      "login": "mingsuiyongheng",
+      "ecosystem_commits": 154,
+      "raw_commits": 154,
+      "seed_repos_contributed": 1,
+      "followers": 4,
+      "account_age_days": 2723
+    },
+    {
+      "login": "vivekratnavel",
+      "ecosystem_commits": 154,
+      "raw_commits": 154,
+      "seed_repos_contributed": 1,
+      "followers": 30,
+      "account_age_days": 5421
+    },
+    {
+      "login": "loadchange",
+      "ecosystem_commits": 152,
+      "raw_commits": 152,
+      "seed_repos_contributed": 1,
+      "followers": 282,
+      "account_age_days": 4183
+    },
+    {
+      "login": "rivertwilight",
+      "ecosystem_commits": 151,
+      "raw_commits": 151,
+      "seed_repos_contributed": 1,
+      "followers": 146,
+      "account_age_days": 2562
+    },
+    {
+      "login": "songzhibin97",
+      "ecosystem_commits": 151,
+      "raw_commits": 151,
+      "seed_repos_contributed": 2,
+      "followers": 155,
+      "account_age_days": 2668
+    },
+    {
+      "login": "oldschoola",
+      "ecosystem_commits": 150,
+      "raw_commits": 150,
+      "seed_repos_contributed": 1,
+      "followers": 21,
+      "account_age_days": 2992
+    },
+    {
+      "login": "Merlin218",
+      "ecosystem_commits": 150,
+      "raw_commits": 150,
+      "seed_repos_contributed": 1,
+      "followers": 31,
+      "account_age_days": 2347
+    },
+    {
+      "login": "ShirasawaSama",
+      "ecosystem_commits": 149,
+      "raw_commits": 149,
+      "seed_repos_contributed": 1,
+      "followers": 293,
+      "account_age_days": 3816
+    },
+    {
+      "login": "fnalways",
+      "ecosystem_commits": 148,
+      "raw_commits": 148,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 1441
+    },
+    {
+      "login": "sammiller06",
+      "ecosystem_commits": 148,
+      "raw_commits": 148,
+      "seed_repos_contributed": 1,
+      "followers": 5,
+      "account_age_days": 3303
+    },
+    {
+      "login": "JiriOndrusek",
+      "ecosystem_commits": 147,
+      "raw_commits": 147,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 3393
+    },
+    {
+      "login": "amir-ghasemi",
+      "ecosystem_commits": 147,
+      "raw_commits": 147,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 3720
+    },
+    {
+      "login": "RoyIsland",
+      "ecosystem_commits": 147,
+      "raw_commits": 147,
+      "seed_repos_contributed": 1,
+      "followers": 11,
+      "account_age_days": 1820
+    },
+    {
+      "login": "JzoNgKVO",
+      "ecosystem_commits": 147,
+      "raw_commits": 147,
+      "seed_repos_contributed": 1,
+      "followers": 27,
+      "account_age_days": 3389
+    },
+    {
+      "login": "RyanNg1403",
+      "ecosystem_commits": 147,
+      "raw_commits": 147,
+      "seed_repos_contributed": 1,
+      "followers": 50,
+      "account_age_days": 1060
+    },
+    {
+      "login": "icebergtsn",
+      "ecosystem_commits": 146,
+      "raw_commits": 146,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 3139
+    },
+    {
+      "login": "greglobinski",
+      "ecosystem_commits": 146,
+      "raw_commits": 146,
+      "seed_repos_contributed": 1,
+      "followers": 282,
+      "account_age_days": 3211
+    },
+    {
+      "login": "jnMetaCode",
+      "ecosystem_commits": 146,
+      "raw_commits": 146,
+      "seed_repos_contributed": 1,
+      "followers": 660,
+      "account_age_days": 4104
+    },
+    {
+      "login": "Alex-Smith-1234",
+      "ecosystem_commits": 145,
+      "raw_commits": 145,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 1381
+    },
+    {
+      "login": "AmAzing129",
+      "ecosystem_commits": 145,
+      "raw_commits": 145,
+      "seed_repos_contributed": 2,
+      "followers": 40,
+      "account_age_days": 1375
+    },
+    {
+      "login": "shahar4499",
+      "ecosystem_commits": 145,
+      "raw_commits": 145,
+      "seed_repos_contributed": 1,
+      "followers": 45,
+      "account_age_days": 4291
+    },
+    {
+      "login": "yan-3005",
+      "ecosystem_commits": 144,
+      "raw_commits": 144,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 1942
+    },
+    {
+      "login": "scdekov",
+      "ecosystem_commits": 144,
+      "raw_commits": 144,
+      "seed_repos_contributed": 1,
+      "followers": 45,
+      "account_age_days": 4524
+    },
+    {
+      "login": "devcrocod",
+      "ecosystem_commits": 144,
+      "raw_commits": 144,
+      "seed_repos_contributed": 2,
+      "followers": 54,
+      "account_age_days": 3702
+    },
+    {
+      "login": "WTW0313",
+      "ecosystem_commits": 144,
+      "raw_commits": 144,
+      "seed_repos_contributed": 1,
+      "followers": 75,
+      "account_age_days": 3287
+    },
+    {
+      "login": "rase-",
+      "ecosystem_commits": 144,
+      "raw_commits": 144,
+      "seed_repos_contributed": 1,
+      "followers": 264,
+      "account_age_days": 5349
+    },
+    {
+      "login": "anasbarg",
+      "ecosystem_commits": 143,
+      "raw_commits": 143,
+      "seed_repos_contributed": 1,
+      "followers": 13,
+      "account_age_days": 3536
+    },
+    {
+      "login": "StarlightIbuki",
+      "ecosystem_commits": 142,
+      "raw_commits": 142,
+      "seed_repos_contributed": 1,
+      "followers": 15,
+      "account_age_days": 1601
+    },
+    {
+      "login": "yehorkardash",
+      "ecosystem_commits": 142,
+      "raw_commits": 142,
+      "seed_repos_contributed": 1,
+      "followers": 21,
+      "account_age_days": 331
+    },
+    {
+      "login": "rdimitrov",
+      "ecosystem_commits": 142,
+      "raw_commits": 142,
+      "seed_repos_contributed": 3,
+      "followers": 130,
+      "account_age_days": 3848
+    },
+    {
+      "login": "longXboy",
+      "ecosystem_commits": 142,
+      "raw_commits": 142,
+      "seed_repos_contributed": 1,
+      "followers": 191,
+      "account_age_days": 4127
+    },
+    {
+      "login": "jjang-ai",
+      "ecosystem_commits": 142,
+      "raw_commits": 142,
+      "seed_repos_contributed": 1,
+      "followers": 215,
+      "account_age_days": 1111
+    },
+    {
+      "login": "RomanDavydchuk",
+      "ecosystem_commits": 141,
+      "raw_commits": 141,
+      "seed_repos_contributed": 1,
+      "followers": 25,
+      "account_age_days": 705
+    },
+    {
+      "login": "pengpeng",
+      "ecosystem_commits": 141,
+      "raw_commits": 141,
+      "seed_repos_contributed": 1,
+      "followers": 52,
+      "account_age_days": 5480
+    },
+    {
+      "login": "grgrzybek",
+      "ecosystem_commits": 141,
+      "raw_commits": 141,
+      "seed_repos_contributed": 1,
+      "followers": 66,
+      "account_age_days": 5877
+    },
+    {
+      "login": "zzstoatzz",
+      "ecosystem_commits": 141,
+      "raw_commits": 141,
+      "seed_repos_contributed": 3,
+      "followers": 233,
+      "account_age_days": 3260
+    },
+    {
+      "login": "cal-weng",
+      "ecosystem_commits": 138,
+      "raw_commits": 138,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 793
+    },
+    {
+      "login": "abettke",
+      "ecosystem_commits": 138,
+      "raw_commits": 138,
+      "seed_repos_contributed": 1,
+      "followers": 7,
+      "account_age_days": 3974
+    },
+    {
+      "login": "AdamSelene",
+      "ecosystem_commits": 137,
+      "raw_commits": 137,
+      "seed_repos_contributed": 1,
+      "followers": 12,
+      "account_age_days": 6289
+    },
+    {
+      "login": "hygao1024",
+      "ecosystem_commits": 136,
+      "raw_commits": 136,
+      "seed_repos_contributed": 1,
+      "followers": 4,
+      "account_age_days": 3082
+    },
+    {
+      "login": "shiyiyue1102",
+      "ecosystem_commits": 135,
+      "raw_commits": 135,
+      "seed_repos_contributed": 1,
+      "followers": 31,
+      "account_age_days": 3657
+    },
+    {
+      "login": "zc277584121",
+      "ecosystem_commits": 135,
+      "raw_commits": 135,
+      "seed_repos_contributed": 2,
+      "followers": 137,
+      "account_age_days": 3820
+    },
+    {
+      "login": "vtolstov",
+      "ecosystem_commits": 135,
+      "raw_commits": 135,
+      "seed_repos_contributed": 1,
+      "followers": 182,
+      "account_age_days": 5725
+    },
+    {
+      "login": "liady",
+      "ecosystem_commits": 134,
+      "raw_commits": 134,
+      "seed_repos_contributed": 5,
+      "followers": 289,
+      "account_age_days": 4504
+    },
+    {
+      "login": "CodingOnStar",
+      "ecosystem_commits": 131,
+      "raw_commits": 131,
+      "seed_repos_contributed": 1,
+      "followers": 5,
+      "account_age_days": 3469
+    },
+    {
+      "login": "schrothbn",
+      "ecosystem_commits": 131,
+      "raw_commits": 131,
+      "seed_repos_contributed": 1,
+      "followers": 22,
+      "account_age_days": 2195
+    },
+    {
+      "login": "jotyy",
+      "ecosystem_commits": 131,
+      "raw_commits": 131,
+      "seed_repos_contributed": 1,
+      "followers": 57,
+      "account_age_days": 3296
+    },
+    {
+      "login": "Gamal72",
+      "ecosystem_commits": 131,
+      "raw_commits": 131,
+      "seed_repos_contributed": 1,
+      "followers": 85,
+      "account_age_days": 1761
+    },
+    {
+      "login": "ppalaga",
+      "ecosystem_commits": 130,
+      "raw_commits": 130,
+      "seed_repos_contributed": 1,
+      "followers": 64,
+      "account_age_days": 5155
+    },
+    {
+      "login": "richiejp",
+      "ecosystem_commits": 130,
+      "raw_commits": 130,
+      "seed_repos_contributed": 1,
+      "followers": 98,
+      "account_age_days": 5449
+    },
+    {
+      "login": "NeatGuyCoding",
+      "ecosystem_commits": 130,
+      "raw_commits": 130,
+      "seed_repos_contributed": 1,
+      "followers": 317,
+      "account_age_days": 3911
+    },
+    {
+      "login": "sharphu",
+      "ecosystem_commits": 129,
+      "raw_commits": 129,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 2978
+    },
+    {
+      "login": "cuongdo-byterover",
+      "ecosystem_commits": 129,
+      "raw_commits": 129,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 267
+    },
+    {
+      "login": "vcfgv",
+      "ecosystem_commits": 128,
+      "raw_commits": 128,
+      "seed_repos_contributed": 1,
+      "followers": 53,
+      "account_age_days": 3491
+    },
+    {
+      "login": "fahreddinozcan",
+      "ecosystem_commits": 128,
+      "raw_commits": 128,
+      "seed_repos_contributed": 1,
+      "followers": 56,
+      "account_age_days": 1816
+    },
+    {
+      "login": "Hintay",
+      "ecosystem_commits": 128,
+      "raw_commits": 128,
+      "seed_repos_contributed": 1,
+      "followers": 70,
+      "account_age_days": 5382
+    },
+    {
+      "login": "jannikstdl",
+      "ecosystem_commits": 128,
+      "raw_commits": 128,
+      "seed_repos_contributed": 1,
+      "followers": 76,
+      "account_age_days": 2163
+    },
+    {
+      "login": "yanlinly",
+      "ecosystem_commits": 128,
+      "raw_commits": 128,
+      "seed_repos_contributed": 1,
+      "followers": 135,
+      "account_age_days": 3786
+    },
+    {
+      "login": "DavdGao",
+      "ecosystem_commits": 128,
+      "raw_commits": 128,
+      "seed_repos_contributed": 1,
+      "followers": 206,
+      "account_age_days": 1578
+    },
+    {
+      "login": "hbagdi",
+      "ecosystem_commits": 128,
+      "raw_commits": 128,
+      "seed_repos_contributed": 1,
+      "followers": 372,
+      "account_age_days": 4783
+    },
+    {
+      "login": "dmvolod",
+      "ecosystem_commits": 127,
+      "raw_commits": 127,
+      "seed_repos_contributed": 1,
+      "followers": 27,
+      "account_age_days": 3518
+    },
+    {
+      "login": "rev1si0n",
+      "ecosystem_commits": 127,
+      "raw_commits": 127,
+      "seed_repos_contributed": 1,
+      "followers": 357,
+      "account_age_days": 4005
+    },
+    {
+      "login": "qbc2016",
+      "ecosystem_commits": 126,
+      "raw_commits": 126,
+      "seed_repos_contributed": 1,
+      "followers": 47,
+      "account_age_days": 3557
+    },
+    {
+      "login": "superm1",
+      "ecosystem_commits": 126,
+      "raw_commits": 126,
+      "seed_repos_contributed": 1,
+      "followers": 136,
+      "account_age_days": 5716
+    },
+    {
+      "login": "abir-taheer",
+      "ecosystem_commits": 126,
+      "raw_commits": 126,
+      "seed_repos_contributed": 1,
+      "followers": 180,
+      "account_age_days": 2960
+    },
+    {
+      "login": "huanghantao",
+      "ecosystem_commits": 125,
+      "raw_commits": 125,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 3565
+    },
+    {
+      "login": "joan-anthropic",
+      "ecosystem_commits": 125,
+      "raw_commits": 125,
+      "seed_repos_contributed": 4,
+      "followers": 23,
+      "account_age_days": 361
+    },
+    {
+      "login": "mayocream",
+      "ecosystem_commits": 125,
+      "raw_commits": 125,
+      "seed_repos_contributed": 1,
+      "followers": 627,
+      "account_age_days": 3108
+    },
+    {
+      "login": "softchris",
+      "ecosystem_commits": 125,
+      "raw_commits": 125,
+      "seed_repos_contributed": 1,
+      "followers": 1001,
+      "account_age_days": 4794
+    },
+    {
+      "login": "JYC0413",
+      "ecosystem_commits": 124,
+      "raw_commits": 124,
+      "seed_repos_contributed": 1,
+      "followers": 10,
+      "account_age_days": 2136
+    },
+    {
+      "login": "dustinhealy",
+      "ecosystem_commits": 124,
+      "raw_commits": 124,
+      "seed_repos_contributed": 1,
+      "followers": 29,
+      "account_age_days": 2531
+    },
+    {
+      "login": "ukimsanov",
+      "ecosystem_commits": 124,
+      "raw_commits": 124,
+      "seed_repos_contributed": 1,
+      "followers": 47,
+      "account_age_days": 840
+    },
+    {
+      "login": "dhruvjsx",
+      "ecosystem_commits": 123,
+      "raw_commits": 123,
+      "seed_repos_contributed": 1,
+      "followers": 7,
+      "account_age_days": 1912
+    },
+    {
+      "login": "paulkatsoulakis",
+      "ecosystem_commits": 123,
+      "raw_commits": 123,
+      "seed_repos_contributed": 1,
+      "followers": 12,
+      "account_age_days": 3144
+    },
+    {
+      "login": "samugi",
+      "ecosystem_commits": 123,
+      "raw_commits": 123,
+      "seed_repos_contributed": 1,
+      "followers": 22,
+      "account_age_days": 4900
+    },
+    {
+      "login": "ZeroZ-lab",
+      "ecosystem_commits": 123,
+      "raw_commits": 123,
+      "seed_repos_contributed": 1,
+      "followers": 68,
+      "account_age_days": 4106
+    },
+    {
+      "login": "nickscamara",
+      "ecosystem_commits": 123,
+      "raw_commits": 123,
+      "seed_repos_contributed": 1,
+      "followers": 955,
+      "account_age_days": 3665
+    },
+    {
+      "login": "javierguerragiraldez",
+      "ecosystem_commits": 122,
+      "raw_commits": 122,
+      "seed_repos_contributed": 1,
+      "followers": 64,
+      "account_age_days": 6103
+    },
+    {
+      "login": "james-callahan",
+      "ecosystem_commits": 121,
+      "raw_commits": 121,
+      "seed_repos_contributed": 1,
+      "followers": 21,
+      "account_age_days": 3097
+    },
+    {
+      "login": "Prajwal214",
+      "ecosystem_commits": 120,
+      "raw_commits": 120,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 821
+    },
+    {
+      "login": "flrgh",
+      "ecosystem_commits": 120,
+      "raw_commits": 120,
+      "seed_repos_contributed": 1,
+      "followers": 25,
+      "account_age_days": 4932
+    },
+    {
+      "login": "msanatan",
+      "ecosystem_commits": 120,
+      "raw_commits": 120,
+      "seed_repos_contributed": 1,
+      "followers": 96,
+      "account_age_days": 5092
+    },
+    {
+      "login": "yun-zhi-ztl",
+      "ecosystem_commits": 119,
+      "raw_commits": 119,
+      "seed_repos_contributed": 1,
+      "followers": 7,
+      "account_age_days": 2232
+    },
+    {
+      "login": "zckly",
+      "ecosystem_commits": 119,
+      "raw_commits": 119,
+      "seed_repos_contributed": 2,
+      "followers": 239,
+      "account_age_days": 4153
+    },
+    {
+      "login": "anshugarg15",
+      "ecosystem_commits": 118,
+      "raw_commits": 118,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 832
+    },
+    {
+      "login": "myftija",
+      "ecosystem_commits": 118,
+      "raw_commits": 118,
+      "seed_repos_contributed": 1,
+      "followers": 17,
+      "account_age_days": 3700
+    },
+    {
+      "login": "mssssss123",
+      "ecosystem_commits": 118,
+      "raw_commits": 118,
+      "seed_repos_contributed": 1,
+      "followers": 36,
+      "account_age_days": 2474
+    },
+    {
+      "login": "chandrevdw31",
+      "ecosystem_commits": 118,
+      "raw_commits": 118,
+      "seed_repos_contributed": 1,
+      "followers": 49,
+      "account_age_days": 3196
+    },
+    {
+      "login": "gadotroee",
+      "ecosystem_commits": 117,
+      "raw_commits": 117,
+      "seed_repos_contributed": 1,
+      "followers": 17,
+      "account_age_days": 2499
+    },
+    {
+      "login": "fuegovic",
+      "ecosystem_commits": 116,
+      "raw_commits": 116,
+      "seed_repos_contributed": 1,
+      "followers": 54,
+      "account_age_days": 3198
+    },
+    {
+      "login": "kurtisvg",
+      "ecosystem_commits": 116,
+      "raw_commits": 116,
+      "seed_repos_contributed": 4,
+      "followers": 87,
+      "account_age_days": 3243
+    },
+    {
+      "login": "justinpbarnett",
+      "ecosystem_commits": 116,
+      "raw_commits": 116,
+      "seed_repos_contributed": 1,
+      "followers": 133,
+      "account_age_days": 2893
+    },
+    {
+      "login": "aiyakitori",
+      "ecosystem_commits": 115,
+      "raw_commits": 115,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 354
+    },
+    {
+      "login": "ccremer",
+      "ecosystem_commits": 115,
+      "raw_commits": 115,
+      "seed_repos_contributed": 1,
+      "followers": 21,
+      "account_age_days": 4099
+    },
+    {
+      "login": "mvalentsev",
+      "ecosystem_commits": 115,
+      "raw_commits": 115,
+      "seed_repos_contributed": 1,
+      "followers": 24,
+      "account_age_days": 5062
+    },
+    {
+      "login": "vrushankportkey",
+      "ecosystem_commits": 115,
+      "raw_commits": 115,
+      "seed_repos_contributed": 1,
+      "followers": 55,
+      "account_age_days": 1147
+    },
+    {
+      "login": "xuechaos",
+      "ecosystem_commits": 115,
+      "raw_commits": 115,
+      "seed_repos_contributed": 1,
+      "followers": 268,
+      "account_age_days": 4862
+    },
+    {
+      "login": "bensig",
+      "ecosystem_commits": 115,
+      "raw_commits": 115,
+      "seed_repos_contributed": 1,
+      "followers": 1041,
+      "account_age_days": 5142
+    },
+    {
+      "login": "ammachado",
+      "ecosystem_commits": 114,
+      "raw_commits": 114,
+      "seed_repos_contributed": 1,
+      "followers": 95,
+      "account_age_days": 6345
+    },
+    {
+      "login": "shrushti2000",
+      "ecosystem_commits": 114,
+      "raw_commits": 114,
+      "seed_repos_contributed": 1,
+      "followers": 117,
+      "account_age_days": 2324
+    },
+    {
+      "login": "slqcode",
+      "ecosystem_commits": 113,
+      "raw_commits": 113,
+      "seed_repos_contributed": 1,
+      "followers": 11,
+      "account_age_days": 4469
+    },
+    {
+      "login": "p0pr0ck5",
+      "ecosystem_commits": 113,
+      "raw_commits": 113,
+      "seed_repos_contributed": 1,
+      "followers": 174,
+      "account_age_days": 4791
+    },
+    {
+      "login": "prologic",
+      "ecosystem_commits": 113,
+      "raw_commits": 113,
+      "seed_repos_contributed": 1,
+      "followers": 653,
+      "account_age_days": 5317
+    },
+    {
+      "login": "mike12345567",
+      "ecosystem_commits": 112,
+      "raw_commits": 112,
+      "seed_repos_contributed": 1,
+      "followers": 115,
+      "account_age_days": 4816
+    },
+    {
+      "login": "obenazouz-wedof",
+      "ecosystem_commits": 111,
+      "raw_commits": 111,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 1042
+    },
+    {
+      "login": "lovehunter9",
+      "ecosystem_commits": 111,
+      "raw_commits": 111,
+      "seed_repos_contributed": 1,
+      "followers": 9,
+      "account_age_days": 2966
+    },
+    {
+      "login": "gertv",
+      "ecosystem_commits": 111,
+      "raw_commits": 111,
+      "seed_repos_contributed": 1,
+      "followers": 29,
+      "account_age_days": 6046
+    },
+    {
+      "login": "jameslcj",
+      "ecosystem_commits": 111,
+      "raw_commits": 111,
+      "seed_repos_contributed": 1,
+      "followers": 60,
+      "account_age_days": 4143
+    },
+    {
+      "login": "hellofinch",
+      "ecosystem_commits": 110,
+      "raw_commits": 110,
+      "seed_repos_contributed": 1,
+      "followers": 17,
+      "account_age_days": 2904
+    },
+    {
+      "login": "Better-Boy",
+      "ecosystem_commits": 110,
+      "raw_commits": 110,
+      "seed_repos_contributed": 2,
+      "followers": 51,
+      "account_age_days": 3707
+    },
+    {
+      "login": "Lightning00Blade",
+      "ecosystem_commits": 110,
+      "raw_commits": 110,
+      "seed_repos_contributed": 1,
+      "followers": 126,
+      "account_age_days": 3148
+    },
+    {
+      "login": "li-xiao-shuang",
+      "ecosystem_commits": 110,
+      "raw_commits": 110,
+      "seed_repos_contributed": 1,
+      "followers": 157,
+      "account_age_days": 3125
+    },
+    {
+      "login": "michaelpoluektov",
+      "ecosystem_commits": 109,
+      "raw_commits": 109,
+      "seed_repos_contributed": 1,
+      "followers": 47,
+      "account_age_days": 1992
+    },
+    {
+      "login": "Zuoqiu-Yingyi",
+      "ecosystem_commits": 109,
+      "raw_commits": 109,
+      "seed_repos_contributed": 1,
+      "followers": 122,
+      "account_age_days": 2651
+    },
+    {
+      "login": "andrewm4894",
+      "ecosystem_commits": 109,
+      "raw_commits": 109,
+      "seed_repos_contributed": 1,
+      "followers": 130,
+      "account_age_days": 5082
+    },
+    {
+      "login": "rdself",
+      "ecosystem_commits": 108,
+      "raw_commits": 108,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 2507
+    },
+    {
+      "login": "keshavmohta09",
+      "ecosystem_commits": 108,
+      "raw_commits": 108,
+      "seed_repos_contributed": 1,
+      "followers": 3,
+      "account_age_days": 2202
+    },
+    {
+      "login": "pja-ant",
+      "ecosystem_commits": 107,
+      "raw_commits": 107,
+      "seed_repos_contributed": 7,
+      "followers": 21,
+      "account_age_days": 333
+    },
+    {
+      "login": "flipswitchingmonkey",
+      "ecosystem_commits": 107,
+      "raw_commits": 107,
+      "seed_repos_contributed": 1,
+      "followers": 91,
+      "account_age_days": 4511
+    },
+    {
+      "login": "cy948",
+      "ecosystem_commits": 106,
+      "raw_commits": 106,
+      "seed_repos_contributed": 1,
+      "followers": 17,
+      "account_age_days": 2215
+    },
+    {
+      "login": "igarashitm",
+      "ecosystem_commits": 105,
+      "raw_commits": 105,
+      "seed_repos_contributed": 1,
+      "followers": 43,
+      "account_age_days": 5919
+    },
+    {
+      "login": "EmilK15",
+      "ecosystem_commits": 104,
+      "raw_commits": 104,
+      "seed_repos_contributed": 1,
+      "followers": 5,
+      "account_age_days": 4275
+    },
+    {
+      "login": "lilydelalande",
+      "ecosystem_commits": 104,
+      "raw_commits": 104,
+      "seed_repos_contributed": 1,
+      "followers": 11,
+      "account_age_days": 1320
+    },
+    {
+      "login": "rphansen91",
+      "ecosystem_commits": 104,
+      "raw_commits": 104,
+      "seed_repos_contributed": 1,
+      "followers": 21,
+      "account_age_days": 4581
+    },
+    {
+      "login": "sitammeur",
+      "ecosystem_commits": 104,
+      "raw_commits": 104,
+      "seed_repos_contributed": 1,
+      "followers": 173,
+      "account_age_days": 1562
+    },
+    {
+      "login": "darrenjennings",
+      "ecosystem_commits": 104,
+      "raw_commits": 104,
+      "seed_repos_contributed": 1,
+      "followers": 175,
+      "account_age_days": 4650
+    },
+    {
+      "login": "yzfly",
+      "ecosystem_commits": 104,
+      "raw_commits": 104,
+      "seed_repos_contributed": 1,
+      "followers": 1059,
+      "account_age_days": 2745
+    },
+    {
+      "login": "neatbyte-vnobis",
+      "ecosystem_commits": 103,
+      "raw_commits": 103,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 2016
+    },
+    {
+      "login": "DaleSeo",
+      "ecosystem_commits": 103,
+      "raw_commits": 103,
+      "seed_repos_contributed": 4,
+      "followers": 538,
+      "account_age_days": 4689
+    },
+    {
+      "login": "ogrodev",
+      "ecosystem_commits": 102,
+      "raw_commits": 102,
+      "seed_repos_contributed": 1,
+      "followers": 47,
+      "account_age_days": 4715
+    },
+    {
+      "login": "EbonyLouis",
+      "ecosystem_commits": 102,
+      "raw_commits": 102,
+      "seed_repos_contributed": 1,
+      "followers": 172,
+      "account_age_days": 2498
+    },
+    {
+      "login": "QuantumGhost",
+      "ecosystem_commits": 102,
+      "raw_commits": 102,
+      "seed_repos_contributed": 1,
+      "followers": 256,
+      "account_age_days": 4977
+    },
+    {
+      "login": "bleachzou3",
+      "ecosystem_commits": 101,
+      "raw_commits": 101,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 3990
+    },
+    {
+      "login": "liugang519",
+      "ecosystem_commits": 101,
+      "raw_commits": 101,
+      "seed_repos_contributed": 1,
+      "followers": 3,
+      "account_age_days": 4857
+    },
+    {
+      "login": "lizradway",
+      "ecosystem_commits": 101,
+      "raw_commits": 101,
+      "seed_repos_contributed": 1,
+      "followers": 8,
+      "account_age_days": 1759
+    },
+    {
+      "login": "douxc",
+      "ecosystem_commits": 101,
+      "raw_commits": 101,
+      "seed_repos_contributed": 1,
+      "followers": 49,
+      "account_age_days": 4451
+    },
+    {
+      "login": "ADD-SP",
+      "ecosystem_commits": 101,
+      "raw_commits": 101,
+      "seed_repos_contributed": 1,
+      "followers": 160,
+      "account_age_days": 2824
+    },
+    {
+      "login": "JoseBra",
+      "ecosystem_commits": 100,
+      "raw_commits": 100,
+      "seed_repos_contributed": 1,
+      "followers": 5,
+      "account_age_days": 4581
+    },
+    {
+      "login": "siddhant1",
+      "ecosystem_commits": 100,
+      "raw_commits": 100,
+      "seed_repos_contributed": 1,
+      "followers": 59,
+      "account_age_days": 3276
+    },
+    {
+      "login": "thisisharsh7",
+      "ecosystem_commits": 100,
+      "raw_commits": 100,
+      "seed_repos_contributed": 2,
+      "followers": 101,
+      "account_age_days": 1682
+    },
+    {
+      "login": "tawnymanticore",
+      "ecosystem_commits": 99,
+      "raw_commits": 99,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 515
+    },
+    {
+      "login": "Wang-Daoji",
+      "ecosystem_commits": 99,
+      "raw_commits": 99,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 2044
+    },
+    {
+      "login": "doctorbruce",
+      "ecosystem_commits": 99,
+      "raw_commits": 99,
+      "seed_repos_contributed": 2,
+      "followers": 3,
+      "account_age_days": 1386
+    },
+    {
+      "login": "elakito",
+      "ecosystem_commits": 99,
+      "raw_commits": 99,
+      "seed_repos_contributed": 1,
+      "followers": 20,
+      "account_age_days": 5233
+    },
+    {
+      "login": "manerow",
+      "ecosystem_commits": 98,
+      "raw_commits": 98,
+      "seed_repos_contributed": 1,
+      "followers": 7,
+      "account_age_days": 3190
+    },
+    {
+      "login": "yingjiehe-xyz",
+      "ecosystem_commits": 98,
+      "raw_commits": 98,
+      "seed_repos_contributed": 1,
+      "followers": 10,
+      "account_age_days": 551
+    },
+    {
+      "login": "mfundul",
+      "ecosystem_commits": 98,
+      "raw_commits": 98,
+      "seed_repos_contributed": 1,
+      "followers": 15,
+      "account_age_days": 2827
+    },
+    {
+      "login": "tkatsoulas",
+      "ecosystem_commits": 98,
+      "raw_commits": 98,
+      "seed_repos_contributed": 1,
+      "followers": 18,
+      "account_age_days": 4071
+    },
+    {
+      "login": "KeRan213539",
+      "ecosystem_commits": 98,
+      "raw_commits": 98,
+      "seed_repos_contributed": 1,
+      "followers": 31,
+      "account_age_days": 5360
+    },
+    {
+      "login": "SecretiveShell",
+      "ecosystem_commits": 98,
+      "raw_commits": 98,
+      "seed_repos_contributed": 2,
+      "followers": 206,
+      "account_age_days": 1878
+    },
+    {
+      "login": "cobusgreyling",
+      "ecosystem_commits": 98,
+      "raw_commits": 98,
+      "seed_repos_contributed": 1,
+      "followers": 333,
+      "account_age_days": 4420
+    },
+    {
+      "login": "Rod-Christensen",
+      "ecosystem_commits": 97,
+      "raw_commits": 97,
+      "seed_repos_contributed": 1,
+      "followers": 3,
+      "account_age_days": 1627
+    },
+    {
+      "login": "DarkPhilosophy",
+      "ecosystem_commits": 97,
+      "raw_commits": 97,
+      "seed_repos_contributed": 1,
+      "followers": 6,
+      "account_age_days": 3720
+    },
+    {
+      "login": "hxy1991",
+      "ecosystem_commits": 97,
+      "raw_commits": 97,
+      "seed_repos_contributed": 1,
+      "followers": 42,
+      "account_age_days": 5031
+    },
+    {
+      "login": "kalvinnchau",
+      "ecosystem_commits": 96,
+      "raw_commits": 96,
+      "seed_repos_contributed": 4,
+      "followers": 7,
+      "account_age_days": 4911
+    },
+    {
+      "login": "ramkrishna2910",
+      "ecosystem_commits": 96,
+      "raw_commits": 96,
+      "seed_repos_contributed": 1,
+      "followers": 37,
+      "account_age_days": 4057
+    },
+    {
+      "login": "Pederzh",
+      "ecosystem_commits": 96,
+      "raw_commits": 96,
+      "seed_repos_contributed": 1,
+      "followers": 60,
+      "account_age_days": 4143
+    },
+    {
+      "login": "dark-Qy",
+      "ecosystem_commits": 95,
+      "raw_commits": 95,
+      "seed_repos_contributed": 1,
+      "followers": 12,
+      "account_age_days": 2025
+    },
+    {
+      "login": "angrybayblade",
+      "ecosystem_commits": 95,
+      "raw_commits": 95,
+      "seed_repos_contributed": 1,
+      "followers": 51,
+      "account_age_days": 3118
+    },
+    {
+      "login": "christophd",
+      "ecosystem_commits": 95,
+      "raw_commits": 95,
+      "seed_repos_contributed": 1,
+      "followers": 142,
+      "account_age_days": 6010
+    },
+    {
+      "login": "joeworkman",
+      "ecosystem_commits": 95,
+      "raw_commits": 95,
+      "seed_repos_contributed": 1,
+      "followers": 149,
+      "account_age_days": 5966
+    },
+    {
+      "login": "MilanBariya",
+      "ecosystem_commits": 94,
+      "raw_commits": 94,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 2578
+    },
+    {
+      "login": "zyssyz123",
+      "ecosystem_commits": 94,
+      "raw_commits": 94,
+      "seed_repos_contributed": 1,
+      "followers": 3,
+      "account_age_days": 3576
+    },
+    {
+      "login": "ilia-tsyplenkov",
+      "ecosystem_commits": 94,
+      "raw_commits": 94,
+      "seed_repos_contributed": 1,
+      "followers": 7,
+      "account_age_days": 3827
+    },
+    {
+      "login": "hyongtao-code",
+      "ecosystem_commits": 94,
+      "raw_commits": 94,
+      "seed_repos_contributed": 1,
+      "followers": 33,
+      "account_age_days": 1616
+    },
+    {
+      "login": "xhd0728",
+      "ecosystem_commits": 94,
+      "raw_commits": 94,
+      "seed_repos_contributed": 1,
+      "followers": 98,
+      "account_age_days": 2014
+    },
+    {
+      "login": "nmgwddj",
+      "ecosystem_commits": 94,
+      "raw_commits": 94,
+      "seed_repos_contributed": 1,
+      "followers": 137,
+      "account_age_days": 3979
+    },
+    {
+      "login": "Kexinist",
+      "ecosystem_commits": 93,
+      "raw_commits": 93,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 1475
+    },
+    {
+      "login": "panos-span",
+      "ecosystem_commits": 93,
+      "raw_commits": 93,
+      "seed_repos_contributed": 1,
+      "followers": 7,
+      "account_age_days": 1730
+    },
+    {
+      "login": "ireneea",
+      "ecosystem_commits": 93,
+      "raw_commits": 93,
+      "seed_repos_contributed": 1,
+      "followers": 8,
+      "account_age_days": 3635
+    },
+    {
+      "login": "nikhilkuria",
+      "ecosystem_commits": 93,
+      "raw_commits": 93,
+      "seed_repos_contributed": 1,
+      "followers": 16,
+      "account_age_days": 4777
+    },
+    {
+      "login": "baxen",
+      "ecosystem_commits": 93,
+      "raw_commits": 93,
+      "seed_repos_contributed": 2,
+      "followers": 46,
+      "account_age_days": 4421
+    },
+    {
+      "login": "halter73",
+      "ecosystem_commits": 93,
+      "raw_commits": 93,
+      "seed_repos_contributed": 3,
+      "followers": 522,
+      "account_age_days": 6364
+    },
+    {
+      "login": "Simon-He95",
+      "ecosystem_commits": 93,
+      "raw_commits": 93,
+      "seed_repos_contributed": 1,
+      "followers": 969,
+      "account_age_days": 2456
+    },
+    {
+      "login": "brotherlu-xcq",
+      "ecosystem_commits": 92,
+      "raw_commits": 92,
+      "seed_repos_contributed": 1,
+      "followers": 35,
+      "account_age_days": 3447
+    },
+    {
+      "login": "dave-gray101",
+      "ecosystem_commits": 92,
+      "raw_commits": 92,
+      "seed_repos_contributed": 1,
+      "followers": 35,
+      "account_age_days": 3897
+    },
+    {
+      "login": "HahaBill",
+      "ecosystem_commits": 92,
+      "raw_commits": 92,
+      "seed_repos_contributed": 1,
+      "followers": 49,
+      "account_age_days": 3208
+    },
+    {
+      "login": "saifmohamedsv",
+      "ecosystem_commits": 92,
+      "raw_commits": 92,
+      "seed_repos_contributed": 1,
+      "followers": 53,
+      "account_age_days": 2325
+    },
+    {
+      "login": "pranita09",
+      "ecosystem_commits": 92,
+      "raw_commits": 92,
+      "seed_repos_contributed": 1,
+      "followers": 57,
+      "account_age_days": 2244
+    },
+    {
+      "login": "seemewalkin",
+      "ecosystem_commits": 91,
+      "raw_commits": 91,
+      "seed_repos_contributed": 1,
+      "followers": 5,
+      "account_age_days": 3009
+    },
+    {
+      "login": "oowl",
+      "ecosystem_commits": 91,
+      "raw_commits": 91,
+      "seed_repos_contributed": 1,
+      "followers": 170,
+      "account_age_days": 2991
+    },
+    {
+      "login": "Mermaid97",
+      "ecosystem_commits": 90,
+      "raw_commits": 90,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 2474
+    },
+    {
+      "login": "kwit75",
+      "ecosystem_commits": 90,
+      "raw_commits": 90,
+      "seed_repos_contributed": 1,
+      "followers": 10,
+      "account_age_days": 3994
+    },
+    {
+      "login": "zhfeng",
+      "ecosystem_commits": 90,
+      "raw_commits": 90,
+      "seed_repos_contributed": 1,
+      "followers": 56,
+      "account_age_days": 5338
+    },
+    {
+      "login": "hanshuebner",
+      "ecosystem_commits": 90,
+      "raw_commits": 90,
+      "seed_repos_contributed": 1,
+      "followers": 464,
+      "account_age_days": 6202
+    },
+    {
+      "login": "Sunrisea",
+      "ecosystem_commits": 89,
+      "raw_commits": 89,
+      "seed_repos_contributed": 2,
+      "followers": 12,
+      "account_age_days": 2653
+    },
+    {
+      "login": "ShireenMissi",
+      "ecosystem_commits": 89,
+      "raw_commits": 89,
+      "seed_repos_contributed": 1,
+      "followers": 39,
+      "account_age_days": 1706
+    },
+    {
+      "login": "Abdallah-Alwarawreh",
+      "ecosystem_commits": 89,
+      "raw_commits": 89,
+      "seed_repos_contributed": 1,
+      "followers": 53,
+      "account_age_days": 2230
+    },
+    {
+      "login": "salman1993",
+      "ecosystem_commits": 89,
+      "raw_commits": 89,
+      "seed_repos_contributed": 3,
+      "followers": 57,
+      "account_age_days": 4489
+    },
+    {
+      "login": "Salem-Alaa",
+      "ecosystem_commits": 88,
+      "raw_commits": 88,
+      "seed_repos_contributed": 1,
+      "followers": 4,
+      "account_age_days": 2134
+    },
+    {
+      "login": "corest",
+      "ecosystem_commits": 88,
+      "raw_commits": 88,
+      "seed_repos_contributed": 1,
+      "followers": 11,
+      "account_age_days": 5413
+    },
+    {
+      "login": "anubhav756",
+      "ecosystem_commits": 88,
+      "raw_commits": 88,
+      "seed_repos_contributed": 2,
+      "followers": 14,
+      "account_age_days": 4107
+    },
+    {
+      "login": "kpavlov",
+      "ecosystem_commits": 88,
+      "raw_commits": 88,
+      "seed_repos_contributed": 1,
+      "followers": 133,
+      "account_age_days": 5245
+    },
+    {
+      "login": "gglucass",
+      "ecosystem_commits": 87,
+      "raw_commits": 87,
+      "seed_repos_contributed": 1,
+      "followers": 84,
+      "account_age_days": 5346
+    },
+    {
+      "login": "horizonzy",
+      "ecosystem_commits": 87,
+      "raw_commits": 87,
+      "seed_repos_contributed": 1,
+      "followers": 140,
+      "account_age_days": 3579
+    },
+    {
+      "login": "codefromthecrypt",
+      "ecosystem_commits": 87,
+      "raw_commits": 87,
+      "seed_repos_contributed": 3,
+      "followers": 902,
+      "account_age_days": 6333
+    },
+    {
+      "login": "07Himank",
+      "ecosystem_commits": 86,
+      "raw_commits": 86,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 1417
+    },
+    {
+      "login": "jimfengnpu",
+      "ecosystem_commits": 86,
+      "raw_commits": 86,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 2055
+    },
+    {
+      "login": "Saboteur7",
+      "ecosystem_commits": 86,
+      "raw_commits": 86,
+      "seed_repos_contributed": 1,
+      "followers": 7,
+      "account_age_days": 1108
+    },
+    {
+      "login": "KKonstantinov",
+      "ecosystem_commits": 86,
+      "raw_commits": 86,
+      "seed_repos_contributed": 5,
+      "followers": 32,
+      "account_age_days": 5612
+    },
+    {
+      "login": "Kvadratni",
+      "ecosystem_commits": 86,
+      "raw_commits": 86,
+      "seed_repos_contributed": 1,
+      "followers": 32,
+      "account_age_days": 4059
+    },
+    {
+      "login": "dpasiukevich",
+      "ecosystem_commits": 86,
+      "raw_commits": 86,
+      "seed_repos_contributed": 1,
+      "followers": 54,
+      "account_age_days": 3660
+    },
+    {
+      "login": "chrisguidry",
+      "ecosystem_commits": 86,
+      "raw_commits": 86,
+      "seed_repos_contributed": 1,
+      "followers": 92,
+      "account_age_days": 6661
+    },
+    {
+      "login": "tobinsouth",
+      "ecosystem_commits": 86,
+      "raw_commits": 86,
+      "seed_repos_contributed": 3,
+      "followers": 609,
+      "account_age_days": 3210
+    },
+    {
+      "login": "dk2k",
+      "ecosystem_commits": 85,
+      "raw_commits": 85,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 3993
+    },
+    {
+      "login": "abhay-codes07",
+      "ecosystem_commits": 85,
+      "raw_commits": 85,
+      "seed_repos_contributed": 3,
+      "followers": 12,
+      "account_age_days": 664
+    },
+    {
+      "login": "dbschmigelski",
+      "ecosystem_commits": 85,
+      "raw_commits": 85,
+      "seed_repos_contributed": 1,
+      "followers": 32,
+      "account_age_days": 443
+    },
+    {
+      "login": "BerniWittmann",
+      "ecosystem_commits": 85,
+      "raw_commits": 85,
+      "seed_repos_contributed": 1,
+      "followers": 34,
+      "account_age_days": 3790
+    },
+    {
+      "login": "hyoshioka0128",
+      "ecosystem_commits": 85,
+      "raw_commits": 85,
+      "seed_repos_contributed": 1,
+      "followers": 94,
+      "account_age_days": 2937
+    },
+    {
+      "login": "RC-CHN",
+      "ecosystem_commits": 85,
+      "raw_commits": 85,
+      "seed_repos_contributed": 1,
+      "followers": 109,
+      "account_age_days": 2222
+    },
+    {
+      "login": "kanelatechnical",
+      "ecosystem_commits": 84,
+      "raw_commits": 84,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 488
+    },
+    {
+      "login": "SebastienMelki",
+      "ecosystem_commits": 84,
+      "raw_commits": 84,
+      "seed_repos_contributed": 1,
+      "followers": 106,
+      "account_age_days": 4647
+    },
+    {
+      "login": "averikitsch",
+      "ecosystem_commits": 84,
+      "raw_commits": 84,
+      "seed_repos_contributed": 1,
+      "followers": 238,
+      "account_age_days": 4555
+    },
+    {
+      "login": "ShilpaVernekar",
+      "ecosystem_commits": 83,
+      "raw_commits": 83,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 1712
+    },
+    {
+      "login": "Nov1c444",
+      "ecosystem_commits": 83,
+      "raw_commits": 83,
+      "seed_repos_contributed": 1,
+      "followers": 12,
+      "account_age_days": 2237
+    },
+    {
+      "login": "kukapay",
+      "ecosystem_commits": 83,
+      "raw_commits": 83,
+      "seed_repos_contributed": 3,
+      "followers": 172,
+      "account_age_days": 506
+    },
+    {
+      "login": "DawidMyslak",
+      "ecosystem_commits": 82,
+      "raw_commits": 82,
+      "seed_repos_contributed": 1,
+      "followers": 29,
+      "account_age_days": 4386
+    },
+    {
+      "login": "udaykakade25",
+      "ecosystem_commits": 82,
+      "raw_commits": 82,
+      "seed_repos_contributed": 2,
+      "followers": 32,
+      "account_age_days": 1081
+    },
+    {
+      "login": "Pringled",
+      "ecosystem_commits": 82,
+      "raw_commits": 82,
+      "seed_repos_contributed": 1,
+      "followers": 181,
+      "account_age_days": 4045
+    },
+    {
+      "login": "enesakar",
+      "ecosystem_commits": 82,
+      "raw_commits": 82,
+      "seed_repos_contributed": 1,
+      "followers": 204,
+      "account_age_days": 5954
+    },
+    {
+      "login": "kaki-admin",
+      "ecosystem_commits": 81,
+      "raw_commits": 81,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 1784
+    },
+    {
+      "login": "Ani-4x",
+      "ecosystem_commits": 81,
+      "raw_commits": 81,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 748
+    },
+    {
+      "login": "nimrod-up9",
+      "ecosystem_commits": 81,
+      "raw_commits": 81,
+      "seed_repos_contributed": 1,
+      "followers": 3,
+      "account_age_days": 2376
+    },
+    {
+      "login": "heymynameisrob",
+      "ecosystem_commits": 81,
+      "raw_commits": 81,
+      "seed_repos_contributed": 1,
+      "followers": 25,
+      "account_age_days": 3916
+    },
+    {
+      "login": "daemon365",
+      "ecosystem_commits": 81,
+      "raw_commits": 81,
+      "seed_repos_contributed": 1,
+      "followers": 51,
+      "account_age_days": 2448
+    },
+    {
+      "login": "jiwangyihao",
+      "ecosystem_commits": 81,
+      "raw_commits": 81,
+      "seed_repos_contributed": 1,
+      "followers": 74,
+      "account_age_days": 2588
+    },
+    {
+      "login": "danielholanda",
+      "ecosystem_commits": 81,
+      "raw_commits": 81,
+      "seed_repos_contributed": 1,
+      "followers": 96,
+      "account_age_days": 4272
+    },
+    {
+      "login": "roryp",
+      "ecosystem_commits": 81,
+      "raw_commits": 81,
+      "seed_repos_contributed": 1,
+      "followers": 242,
+      "account_age_days": 4570
+    },
+    {
+      "login": "mfsiega",
+      "ecosystem_commits": 80,
+      "raw_commits": 80,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 1730
+    },
+    {
+      "login": "mohittilala",
+      "ecosystem_commits": 80,
+      "raw_commits": 80,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 2297
+    },
+    {
+      "login": "danielpoonwj",
+      "ecosystem_commits": 80,
+      "raw_commits": 80,
+      "seed_repos_contributed": 1,
+      "followers": 8,
+      "account_age_days": 3819
+    },
+    {
+      "login": "codingwithabhi",
+      "ecosystem_commits": 80,
+      "raw_commits": 80,
+      "seed_repos_contributed": 1,
+      "followers": 15,
+      "account_age_days": 2292
+    },
+    {
+      "login": "yovinchen",
+      "ecosystem_commits": 80,
+      "raw_commits": 80,
+      "seed_repos_contributed": 1,
+      "followers": 37,
+      "account_age_days": 2027
+    },
+    {
+      "login": "windmgc",
+      "ecosystem_commits": 80,
+      "raw_commits": 80,
+      "seed_repos_contributed": 1,
+      "followers": 141,
+      "account_age_days": 4973
+    },
+    {
+      "login": "garritfra",
+      "ecosystem_commits": 80,
+      "raw_commits": 80,
+      "seed_repos_contributed": 2,
+      "followers": 154,
+      "account_age_days": 3214
+    },
+    {
+      "login": "shivaylamba",
+      "ecosystem_commits": 80,
+      "raw_commits": 80,
+      "seed_repos_contributed": 1,
+      "followers": 1921,
+      "account_age_days": 3709
+    },
+    {
+      "login": "ktyborowski",
+      "ecosystem_commits": 79,
+      "raw_commits": 79,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 4124
+    },
+    {
+      "login": "MiroslavDrbal",
+      "ecosystem_commits": 79,
+      "raw_commits": 79,
+      "seed_repos_contributed": 1,
+      "followers": 7,
+      "account_age_days": 1070
+    },
+    {
+      "login": "bijinfeng",
+      "ecosystem_commits": 79,
+      "raw_commits": 79,
+      "seed_repos_contributed": 1,
+      "followers": 15,
+      "account_age_days": 3298
+    },
+    {
+      "login": "rgaricano",
+      "ecosystem_commits": 79,
+      "raw_commits": 79,
+      "seed_repos_contributed": 1,
+      "followers": 24,
+      "account_age_days": 1185
+    },
+    {
+      "login": "whipser030",
+      "ecosystem_commits": 78,
+      "raw_commits": 78,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 2687
+    },
+    {
+      "login": "NiharDoshi99",
+      "ecosystem_commits": 78,
+      "raw_commits": 78,
+      "seed_repos_contributed": 1,
+      "followers": 7,
+      "account_age_days": 2596
+    },
+    {
+      "login": "serg33v",
+      "ecosystem_commits": 78,
+      "raw_commits": 78,
+      "seed_repos_contributed": 1,
+      "followers": 17,
+      "account_age_days": 5448
+    },
+    {
+      "login": "drstrangelooker",
+      "ecosystem_commits": 78,
+      "raw_commits": 78,
+      "seed_repos_contributed": 1,
+      "followers": 18,
+      "account_age_days": 4188
+    },
+    {
+      "login": "xqvvu",
+      "ecosystem_commits": 78,
+      "raw_commits": 78,
+      "seed_repos_contributed": 1,
+      "followers": 22,
+      "account_age_days": 2034
+    },
+    {
+      "login": "ritwickrajmakhal",
+      "ecosystem_commits": 78,
+      "raw_commits": 78,
+      "seed_repos_contributed": 1,
+      "followers": 31,
+      "account_age_days": 1610
+    },
+    {
+      "login": "su8su",
+      "ecosystem_commits": 78,
+      "raw_commits": 78,
+      "seed_repos_contributed": 1,
+      "followers": 70,
+      "account_age_days": 4384
+    },
+    {
+      "login": "heilcheng",
+      "ecosystem_commits": 78,
+      "raw_commits": 78,
+      "seed_repos_contributed": 1,
+      "followers": 958,
+      "account_age_days": 932
+    },
+    {
+      "login": "bjorger",
+      "ecosystem_commits": 77,
+      "raw_commits": 77,
+      "seed_repos_contributed": 1,
+      "followers": 13,
+      "account_age_days": 2623
+    },
+    {
+      "login": "ZhaoHeh",
+      "ecosystem_commits": 77,
+      "raw_commits": 77,
+      "seed_repos_contributed": 1,
+      "followers": 66,
+      "account_age_days": 3013
+    },
+    {
+      "login": "jh-block",
+      "ecosystem_commits": 76,
+      "raw_commits": 76,
+      "seed_repos_contributed": 2,
+      "followers": 1,
+      "account_age_days": 181
+    },
+    {
+      "login": "agobrech",
+      "ecosystem_commits": 76,
+      "raw_commits": 76,
+      "seed_repos_contributed": 1,
+      "followers": 5,
+      "account_age_days": 2795
+    },
+    {
+      "login": "Daydreamer-ia",
+      "ecosystem_commits": 76,
+      "raw_commits": 76,
+      "seed_repos_contributed": 1,
+      "followers": 17,
+      "account_age_days": 1907
+    },
+    {
+      "login": "MarcL",
+      "ecosystem_commits": 76,
+      "raw_commits": 76,
+      "seed_repos_contributed": 1,
+      "followers": 126,
+      "account_age_days": 5119
+    },
+    {
+      "login": "bookercodes",
+      "ecosystem_commits": 76,
+      "raw_commits": 76,
+      "seed_repos_contributed": 1,
+      "followers": 1299,
+      "account_age_days": 4114
+    },
+    {
+      "login": "horizon220222",
+      "ecosystem_commits": 75,
+      "raw_commits": 75,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 3543
+    },
+    {
+      "login": "wushuangs",
+      "ecosystem_commits": 75,
+      "raw_commits": 75,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 3604
+    },
+    {
+      "login": "yongheng2016",
+      "ecosystem_commits": 75,
+      "raw_commits": 75,
+      "seed_repos_contributed": 1,
+      "followers": 12,
+      "account_age_days": 3508
+    },
+    {
+      "login": "hazeone",
+      "ecosystem_commits": 75,
+      "raw_commits": 75,
+      "seed_repos_contributed": 1,
+      "followers": 53,
+      "account_age_days": 3652
+    },
+    {
+      "login": "krank666",
+      "ecosystem_commits": 75,
+      "raw_commits": 75,
+      "seed_repos_contributed": 1,
+      "followers": 60,
+      "account_age_days": 3363
+    },
+    {
+      "login": "chr-hertel",
+      "ecosystem_commits": 75,
+      "raw_commits": 75,
+      "seed_repos_contributed": 4,
+      "followers": 323,
+      "account_age_days": 4988
+    },
+    {
+      "login": "anoordover",
+      "ecosystem_commits": 74,
+      "raw_commits": 74,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 4713
+    },
+    {
+      "login": "klease",
+      "ecosystem_commits": 74,
+      "raw_commits": 74,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 3009
+    },
+    {
+      "login": "fl0rianr",
+      "ecosystem_commits": 74,
+      "raw_commits": 74,
+      "seed_repos_contributed": 1,
+      "followers": 6,
+      "account_age_days": 339
+    },
+    {
+      "login": "bala-ceg",
+      "ecosystem_commits": 74,
+      "raw_commits": 74,
+      "seed_repos_contributed": 1,
+      "followers": 38,
+      "account_age_days": 2142
+    },
+    {
+      "login": "a-akimov",
+      "ecosystem_commits": 74,
+      "raw_commits": 74,
+      "seed_repos_contributed": 3,
+      "followers": 42,
+      "account_age_days": 3582
+    },
+    {
+      "login": "raulk",
+      "ecosystem_commits": 74,
+      "raw_commits": 74,
+      "seed_repos_contributed": 1,
+      "followers": 736,
+      "account_age_days": 5402
+    },
+    {
+      "login": "wustzdy",
+      "ecosystem_commits": 73,
+      "raw_commits": 73,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 2214
+    },
+    {
+      "login": "ryan-t-christensen",
+      "ecosystem_commits": 73,
+      "raw_commits": 73,
+      "seed_repos_contributed": 1,
+      "followers": 3,
+      "account_age_days": 1023
+    },
+    {
+      "login": "GareArc",
+      "ecosystem_commits": 73,
+      "raw_commits": 73,
+      "seed_repos_contributed": 1,
+      "followers": 9,
+      "account_age_days": 2560
+    },
+    {
+      "login": "JackYPCOnline",
+      "ecosystem_commits": 73,
+      "raw_commits": 73,
+      "seed_repos_contributed": 1,
+      "followers": 9,
+      "account_age_days": 1697
+    },
+    {
+      "login": "granty1",
+      "ecosystem_commits": 73,
+      "raw_commits": 73,
+      "seed_repos_contributed": 1,
+      "followers": 32,
+      "account_age_days": 2534
+    },
+    {
+      "login": "Rutam21",
+      "ecosystem_commits": 73,
+      "raw_commits": 73,
+      "seed_repos_contributed": 2,
+      "followers": 39,
+      "account_age_days": 2704
+    },
+    {
+      "login": "zouyonghe",
+      "ecosystem_commits": 73,
+      "raw_commits": 73,
+      "seed_repos_contributed": 2,
+      "followers": 49,
+      "account_age_days": 2317
+    },
+    {
+      "login": "zbendhiba",
+      "ecosystem_commits": 73,
+      "raw_commits": 73,
+      "seed_repos_contributed": 1,
+      "followers": 79,
+      "account_age_days": 4106
+    },
+    {
+      "login": "antonpk1",
+      "ecosystem_commits": 73,
+      "raw_commits": 73,
+      "seed_repos_contributed": 4,
+      "followers": 139,
+      "account_age_days": 1533
+    },
+    {
+      "login": "felixhao",
+      "ecosystem_commits": 73,
+      "raw_commits": 73,
+      "seed_repos_contributed": 1,
+      "followers": 211,
+      "account_age_days": 4929
+    },
+    {
+      "login": "zyzy0116",
+      "ecosystem_commits": 72,
+      "raw_commits": 72,
+      "seed_repos_contributed": 1,
+      "followers": 4,
+      "account_age_days": 1930
+    },
+    {
+      "login": "LLiuZheng",
+      "ecosystem_commits": 72,
+      "raw_commits": 72,
+      "seed_repos_contributed": 1,
+      "followers": 5,
+      "account_age_days": 3309
+    },
+    {
+      "login": "dlavrenuek",
+      "ecosystem_commits": 72,
+      "raw_commits": 72,
+      "seed_repos_contributed": 1,
+      "followers": 12,
+      "account_age_days": 3677
+    },
+    {
+      "login": "yonib05",
+      "ecosystem_commits": 72,
+      "raw_commits": 72,
+      "seed_repos_contributed": 1,
+      "followers": 15,
+      "account_age_days": 4684
+    },
+    {
+      "login": "rodboev",
+      "ecosystem_commits": 72,
+      "raw_commits": 72,
+      "seed_repos_contributed": 1,
+      "followers": 102,
+      "account_age_days": 6207
+    },
+    {
+      "login": "rotemweiss57",
+      "ecosystem_commits": 72,
+      "raw_commits": 72,
+      "seed_repos_contributed": 1,
+      "followers": 202,
+      "account_age_days": 1758
+    },
+    {
+      "login": "maheshmurag",
+      "ecosystem_commits": 71,
+      "raw_commits": 71,
+      "seed_repos_contributed": 2,
+      "followers": 0,
+      "account_age_days": 4663
+    },
+    {
+      "login": "wulei05",
+      "ecosystem_commits": 71,
+      "raw_commits": 71,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 1097
+    },
+    {
+      "login": "Doskyft",
+      "ecosystem_commits": 71,
+      "raw_commits": 71,
+      "seed_repos_contributed": 1,
+      "followers": 8,
+      "account_age_days": 4393
+    },
+    {
+      "login": "karllee830",
+      "ecosystem_commits": 71,
+      "raw_commits": 71,
+      "seed_repos_contributed": 1,
+      "followers": 38,
+      "account_age_days": 2346
+    },
+    {
+      "login": "dannyl1u",
+      "ecosystem_commits": 71,
+      "raw_commits": 71,
+      "seed_repos_contributed": 1,
+      "followers": 63,
+      "account_age_days": 2798
+    },
+    {
+      "login": "StreetLamb",
+      "ecosystem_commits": 71,
+      "raw_commits": 71,
+      "seed_repos_contributed": 2,
+      "followers": 87,
+      "account_age_days": 3860
+    },
+    {
+      "login": "Water-Melon",
+      "ecosystem_commits": 71,
+      "raw_commits": 71,
+      "seed_repos_contributed": 1,
+      "followers": 92,
+      "account_age_days": 4355
+    },
+    {
+      "login": "lirazyehezkel",
+      "ecosystem_commits": 70,
+      "raw_commits": 70,
+      "seed_repos_contributed": 1,
+      "followers": 3,
+      "account_age_days": 2330
+    },
+    {
+      "login": "valya",
+      "ecosystem_commits": 70,
+      "raw_commits": 70,
+      "seed_repos_contributed": 1,
+      "followers": 4,
+      "account_age_days": 2189
+    },
+    {
+      "login": "poshinchen",
+      "ecosystem_commits": 70,
+      "raw_commits": 70,
+      "seed_repos_contributed": 1,
+      "followers": 5,
+      "account_age_days": 442
+    },
+    {
+      "login": "christopher-s",
+      "ecosystem_commits": 70,
+      "raw_commits": 70,
+      "seed_repos_contributed": 1,
+      "followers": 11,
+      "account_age_days": 4886
+    },
+    {
+      "login": "gregmeldrum",
+      "ecosystem_commits": 70,
+      "raw_commits": 70,
+      "seed_repos_contributed": 1,
+      "followers": 15,
+      "account_age_days": 5428
+    },
+    {
+      "login": "Neptune650",
+      "ecosystem_commits": 70,
+      "raw_commits": 70,
+      "seed_repos_contributed": 1,
+      "followers": 54,
+      "account_age_days": 2305
+    },
+    {
+      "login": "awsarron",
+      "ecosystem_commits": 70,
+      "raw_commits": 70,
+      "seed_repos_contributed": 1,
+      "followers": 63,
+      "account_age_days": 1098
+    },
+    {
+      "login": "konstantintieber",
+      "ecosystem_commits": 69,
+      "raw_commits": 69,
+      "seed_repos_contributed": 1,
+      "followers": 15,
+      "account_age_days": 2754
+    },
+    {
+      "login": "Yanyutin753",
+      "ecosystem_commits": 69,
+      "raw_commits": 69,
+      "seed_repos_contributed": 2,
+      "followers": 204,
+      "account_age_days": 1174
+    },
+    {
+      "login": "winsan-zhang",
+      "ecosystem_commits": 68,
+      "raw_commits": 68,
+      "seed_repos_contributed": 1,
+      "followers": 5,
+      "account_age_days": 3662
+    },
+    {
+      "login": "MuSan-Li",
+      "ecosystem_commits": 68,
+      "raw_commits": 68,
+      "seed_repos_contributed": 1,
+      "followers": 6,
+      "account_age_days": 2398
+    },
+    {
+      "login": "charli117",
+      "ecosystem_commits": 68,
+      "raw_commits": 68,
+      "seed_repos_contributed": 1,
+      "followers": 15,
+      "account_age_days": 3510
+    },
+    {
+      "login": "arnewouters",
+      "ecosystem_commits": 68,
+      "raw_commits": 68,
+      "seed_repos_contributed": 2,
+      "followers": 22,
+      "account_age_days": 3434
+    },
+    {
+      "login": "ewgdg",
+      "ecosystem_commits": 67,
+      "raw_commits": 67,
+      "seed_repos_contributed": 1,
+      "followers": 11,
+      "account_age_days": 3919
+    },
+    {
+      "login": "RamiBerm",
+      "ecosystem_commits": 67,
+      "raw_commits": 67,
+      "seed_repos_contributed": 1,
+      "followers": 16,
+      "account_age_days": 2513
+    },
+    {
+      "login": "claudio4j",
+      "ecosystem_commits": 67,
+      "raw_commits": 67,
+      "seed_repos_contributed": 1,
+      "followers": 18,
+      "account_age_days": 5520
+    },
+    {
+      "login": "samzong",
+      "ecosystem_commits": 67,
+      "raw_commits": 67,
+      "seed_repos_contributed": 1,
+      "followers": 202,
+      "account_age_days": 3992
+    },
+    {
+      "login": "yangchuansheng",
+      "ecosystem_commits": 67,
+      "raw_commits": 67,
+      "seed_repos_contributed": 3,
+      "followers": 1044,
+      "account_age_days": 3920
+    },
+    {
+      "login": "buttonsbond",
+      "ecosystem_commits": 66,
+      "raw_commits": 66,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 3530
+    },
+    {
+      "login": "AbdullahBitar",
+      "ecosystem_commits": 66,
+      "raw_commits": 66,
+      "seed_repos_contributed": 1,
+      "followers": 6,
+      "account_age_days": 1282
+    },
+    {
+      "login": "hwzhuhao",
+      "ecosystem_commits": 66,
+      "raw_commits": 66,
+      "seed_repos_contributed": 1,
+      "followers": 11,
+      "account_age_days": 3059
+    },
+    {
+      "login": "katzdave",
+      "ecosystem_commits": 66,
+      "raw_commits": 66,
+      "seed_repos_contributed": 1,
+      "followers": 20,
+      "account_age_days": 4919
+    },
+    {
+      "login": "leslie2046",
+      "ecosystem_commits": 66,
+      "raw_commits": 66,
+      "seed_repos_contributed": 1,
+      "followers": 22,
+      "account_age_days": 4210
+    },
+    {
+      "login": "chirag127",
+      "ecosystem_commits": 66,
+      "raw_commits": 66,
+      "seed_repos_contributed": 2,
+      "followers": 86,
+      "account_age_days": 2023
+    },
+    {
+      "login": "aji-aju",
+      "ecosystem_commits": 65,
+      "raw_commits": 65,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 3048
+    },
+    {
+      "login": "codingLee5",
+      "ecosystem_commits": 65,
+      "raw_commits": 65,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 1412
+    },
+    {
+      "login": "CarltonXiang",
+      "ecosystem_commits": 65,
+      "raw_commits": 65,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 4141
+    },
+    {
+      "login": "akashverma0786",
+      "ecosystem_commits": 65,
+      "raw_commits": 65,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 1108
+    },
+    {
+      "login": "amrabuaza",
+      "ecosystem_commits": 65,
+      "raw_commits": 65,
+      "seed_repos_contributed": 1,
+      "followers": 4,
+      "account_age_days": 3296
+    },
+    {
+      "login": "woicw",
+      "ecosystem_commits": 65,
+      "raw_commits": 65,
+      "seed_repos_contributed": 1,
+      "followers": 5,
+      "account_age_days": 2903
+    },
+    {
+      "login": "sandra0503",
+      "ecosystem_commits": 65,
+      "raw_commits": 65,
+      "seed_repos_contributed": 1,
+      "followers": 6,
+      "account_age_days": 5023
+    },
+    {
+      "login": "aleixdorca",
+      "ecosystem_commits": 65,
+      "raw_commits": 65,
+      "seed_repos_contributed": 1,
+      "followers": 8,
+      "account_age_days": 3453
+    },
+    {
+      "login": "dana-gill",
+      "ecosystem_commits": 65,
+      "raw_commits": 65,
+      "seed_repos_contributed": 1,
+      "followers": 8,
+      "account_age_days": 961
+    },
+    {
+      "login": "Maijh97",
+      "ecosystem_commits": 65,
+      "raw_commits": 65,
+      "seed_repos_contributed": 1,
+      "followers": 9,
+      "account_age_days": 3051
+    },
+    {
+      "login": "mithmatt",
+      "ecosystem_commits": 65,
+      "raw_commits": 65,
+      "seed_repos_contributed": 1,
+      "followers": 18,
+      "account_age_days": 4633
+    },
+    {
+      "login": "YB0y",
+      "ecosystem_commits": 65,
+      "raw_commits": 65,
+      "seed_repos_contributed": 1,
+      "followers": 25,
+      "account_age_days": 312
+    },
+    {
+      "login": "Nayananga",
+      "ecosystem_commits": 65,
+      "raw_commits": 65,
+      "seed_repos_contributed": 1,
+      "followers": 29,
+      "account_age_days": 3461
+    },
+    {
+      "login": "CreditTone",
+      "ecosystem_commits": 64,
+      "raw_commits": 64,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 4406
+    },
+    {
+      "login": "d-cs",
+      "ecosystem_commits": 64,
+      "raw_commits": 64,
+      "seed_repos_contributed": 1,
+      "followers": 20,
+      "account_age_days": 2793
+    },
+    {
+      "login": "jschmid1",
+      "ecosystem_commits": 64,
+      "raw_commits": 64,
+      "seed_repos_contributed": 1,
+      "followers": 34,
+      "account_age_days": 4520
+    },
+    {
+      "login": "onewe",
+      "ecosystem_commits": 64,
+      "raw_commits": 64,
+      "seed_repos_contributed": 1,
+      "followers": 113,
+      "account_age_days": 3007
+    },
+    {
+      "login": "bibryam",
+      "ecosystem_commits": 64,
+      "raw_commits": 64,
+      "seed_repos_contributed": 1,
+      "followers": 330,
+      "account_age_days": 5702
+    },
+    {
+      "login": "opieter-aws",
+      "ecosystem_commits": 63,
+      "raw_commits": 63,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 480
+    },
+    {
+      "login": "2170chm",
+      "ecosystem_commits": 63,
+      "raw_commits": 63,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 2145
+    },
+    {
+      "login": "jonomorris",
+      "ecosystem_commits": 63,
+      "raw_commits": 63,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 5614
+    },
+    {
+      "login": "bedlaj",
+      "ecosystem_commits": 63,
+      "raw_commits": 63,
+      "seed_repos_contributed": 1,
+      "followers": 4,
+      "account_age_days": 3539
+    },
+    {
+      "login": "fatkobra",
+      "ecosystem_commits": 63,
+      "raw_commits": 63,
+      "seed_repos_contributed": 1,
+      "followers": 4,
+      "account_age_days": 2506
+    },
+    {
+      "login": "Rupenieks",
+      "ecosystem_commits": 63,
+      "raw_commits": 63,
+      "seed_repos_contributed": 1,
+      "followers": 8,
+      "account_age_days": 3196
+    },
+    {
+      "login": "RohanSreelesh",
+      "ecosystem_commits": 63,
+      "raw_commits": 63,
+      "seed_repos_contributed": 1,
+      "followers": 9,
+      "account_age_days": 3246
+    },
+    {
+      "login": "notowen333",
+      "ecosystem_commits": 63,
+      "raw_commits": 63,
+      "seed_repos_contributed": 1,
+      "followers": 12,
+      "account_age_days": 2595
+    },
+    {
+      "login": "cxhello",
+      "ecosystem_commits": 63,
+      "raw_commits": 63,
+      "seed_repos_contributed": 1,
+      "followers": 22,
+      "account_age_days": 2669
+    },
+    {
+      "login": "sweta1308",
+      "ecosystem_commits": 63,
+      "raw_commits": 63,
+      "seed_repos_contributed": 1,
+      "followers": 31,
+      "account_age_days": 1527
+    },
+    {
+      "login": "catbro666",
+      "ecosystem_commits": 63,
+      "raw_commits": 63,
+      "seed_repos_contributed": 1,
+      "followers": 46,
+      "account_age_days": 3029
+    },
+    {
+      "login": "shalk",
+      "ecosystem_commits": 63,
+      "raw_commits": 63,
+      "seed_repos_contributed": 1,
+      "followers": 46,
+      "account_age_days": 5043
+    },
+    {
+      "login": "satvik314",
+      "ecosystem_commits": 63,
+      "raw_commits": 63,
+      "seed_repos_contributed": 1,
+      "followers": 109,
+      "account_age_days": 1403
+    },
+    {
+      "login": "anka-afk",
+      "ecosystem_commits": 63,
+      "raw_commits": 63,
+      "seed_repos_contributed": 1,
+      "followers": 134,
+      "account_age_days": 1454
+    },
+    {
+      "login": "pfernandez98",
+      "ecosystem_commits": 62,
+      "raw_commits": 62,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 2523
+    },
+    {
+      "login": "asclearuc",
+      "ecosystem_commits": 62,
+      "raw_commits": 62,
+      "seed_repos_contributed": 1,
+      "followers": 6,
+      "account_age_days": 3314
+    },
+    {
+      "login": "MajorHe1",
+      "ecosystem_commits": 62,
+      "raw_commits": 62,
+      "seed_repos_contributed": 1,
+      "followers": 8,
+      "account_age_days": 2538
+    },
+    {
+      "login": "SeekArt",
+      "ecosystem_commits": 62,
+      "raw_commits": 62,
+      "seed_repos_contributed": 1,
+      "followers": 8,
+      "account_age_days": 4762
+    },
+    {
+      "login": "tlongwell-block",
+      "ecosystem_commits": 62,
+      "raw_commits": 62,
+      "seed_repos_contributed": 1,
+      "followers": 11,
+      "account_age_days": 1459
+    },
+    {
+      "login": "danorlando",
+      "ecosystem_commits": 62,
+      "raw_commits": 62,
+      "seed_repos_contributed": 1,
+      "followers": 39,
+      "account_age_days": 6194
+    },
+    {
+      "login": "zen0bit",
+      "ecosystem_commits": 62,
+      "raw_commits": 62,
+      "seed_repos_contributed": 1,
+      "followers": 54,
+      "account_age_days": 4570
+    },
+    {
+      "login": "csuermann",
+      "ecosystem_commits": 62,
+      "raw_commits": 62,
+      "seed_repos_contributed": 1,
+      "followers": 75,
+      "account_age_days": 4177
+    },
+    {
+      "login": "jeffhandley",
+      "ecosystem_commits": 62,
+      "raw_commits": 62,
+      "seed_repos_contributed": 4,
+      "followers": 157,
+      "account_age_days": 5429
+    },
+    {
+      "login": "AhmadTash",
+      "ecosystem_commits": 61,
+      "raw_commits": 61,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 1042
+    },
+    {
+      "login": "sambharia",
+      "ecosystem_commits": 61,
+      "raw_commits": 61,
+      "seed_repos_contributed": 1,
+      "followers": 6,
+      "account_age_days": 752
+    },
+    {
+      "login": "TShentu",
+      "ecosystem_commits": 61,
+      "raw_commits": 61,
+      "seed_repos_contributed": 1,
+      "followers": 7,
+      "account_age_days": 1061
+    },
+    {
+      "login": "mbenhamd",
+      "ecosystem_commits": 61,
+      "raw_commits": 61,
+      "seed_repos_contributed": 1,
+      "followers": 7,
+      "account_age_days": 3837
+    },
+    {
+      "login": "mehtarac",
+      "ecosystem_commits": 61,
+      "raw_commits": 61,
+      "seed_repos_contributed": 1,
+      "followers": 8,
+      "account_age_days": 444
+    },
+    {
+      "login": "yuhuishi-convect",
+      "ecosystem_commits": 61,
+      "raw_commits": 61,
+      "seed_repos_contributed": 1,
+      "followers": 9,
+      "account_age_days": 2068
+    },
+    {
+      "login": "rabi",
+      "ecosystem_commits": 61,
+      "raw_commits": 61,
+      "seed_repos_contributed": 1,
+      "followers": 14,
+      "account_age_days": 6394
+    },
+    {
+      "login": "sonicaghi",
+      "ecosystem_commits": 61,
+      "raw_commits": 61,
+      "seed_repos_contributed": 1,
+      "followers": 99,
+      "account_age_days": 5352
+    },
+    {
+      "login": "harshil1712",
+      "ecosystem_commits": 61,
+      "raw_commits": 61,
+      "seed_repos_contributed": 1,
+      "followers": 332,
+      "account_age_days": 3730
+    },
+    {
+      "login": "0x4m4",
+      "ecosystem_commits": 61,
+      "raw_commits": 61,
+      "seed_repos_contributed": 1,
+      "followers": 744,
+      "account_age_days": 1231
+    },
+    {
+      "login": "ChawlaAvi",
+      "ecosystem_commits": 61,
+      "raw_commits": 61,
+      "seed_repos_contributed": 1,
+      "followers": 990,
+      "account_age_days": 3066
+    },
+    {
+      "login": "Paperlz",
+      "ecosystem_commits": 60,
+      "raw_commits": 60,
+      "seed_repos_contributed": 2,
+      "followers": 2,
+      "account_age_days": 598
+    },
+    {
+      "login": "djencks",
+      "ecosystem_commits": 60,
+      "raw_commits": 60,
+      "seed_repos_contributed": 1,
+      "followers": 11,
+      "account_age_days": 5661
+    },
+    {
+      "login": "hujun-w-2",
+      "ecosystem_commits": 60,
+      "raw_commits": 60,
+      "seed_repos_contributed": 1,
+      "followers": 11,
+      "account_age_days": 2967
+    },
+    {
+      "login": "mkmeral",
+      "ecosystem_commits": 60,
+      "raw_commits": 60,
+      "seed_repos_contributed": 1,
+      "followers": 30,
+      "account_age_days": 4351
+    },
+    {
+      "login": "mattdholloway",
+      "ecosystem_commits": 60,
+      "raw_commits": 60,
+      "seed_repos_contributed": 1,
+      "followers": 44,
+      "account_age_days": 5482
+    },
+    {
+      "login": "Windfarer",
+      "ecosystem_commits": 60,
+      "raw_commits": 60,
+      "seed_repos_contributed": 1,
+      "followers": 495,
+      "account_age_days": 4501
+    },
+    {
+      "login": "wadecrack",
+      "ecosystem_commits": 59,
+      "raw_commits": 59,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 1532
+    },
+    {
+      "login": "SimengBian",
+      "ecosystem_commits": 59,
+      "raw_commits": 59,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 3796
+    },
+    {
+      "login": "baptmont",
+      "ecosystem_commits": 59,
+      "raw_commits": 59,
+      "seed_repos_contributed": 1,
+      "followers": 23,
+      "account_age_days": 3693
+    },
+    {
+      "login": "guchenhe",
+      "ecosystem_commits": 59,
+      "raw_commits": 59,
+      "seed_repos_contributed": 1,
+      "followers": 27,
+      "account_age_days": 4029
+    },
+    {
+      "login": "Willianwg",
+      "ecosystem_commits": 59,
+      "raw_commits": 59,
+      "seed_repos_contributed": 1,
+      "followers": 35,
+      "account_age_days": 2596
+    },
+    {
+      "login": "richardkmichael",
+      "ecosystem_commits": 59,
+      "raw_commits": 59,
+      "seed_repos_contributed": 4,
+      "followers": 47,
+      "account_age_days": 5817
+    },
+    {
+      "login": "allenzhou101",
+      "ecosystem_commits": 59,
+      "raw_commits": 59,
+      "seed_repos_contributed": 4,
+      "followers": 106,
+      "account_age_days": 2737
+    },
+    {
+      "login": "ZuzooVn",
+      "ecosystem_commits": 59,
+      "raw_commits": 59,
+      "seed_repos_contributed": 1,
+      "followers": 1494,
+      "account_age_days": 5271
+    },
+    {
+      "login": "byliu",
+      "ecosystem_commits": 58,
+      "raw_commits": 58,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 4351
+    },
+    {
+      "login": "wdeveloper16",
+      "ecosystem_commits": 58,
+      "raw_commits": 58,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 3469
+    },
+    {
+      "login": "artyom-morozov",
+      "ecosystem_commits": 58,
+      "raw_commits": 58,
+      "seed_repos_contributed": 1,
+      "followers": 6,
+      "account_age_days": 2729
+    },
+    {
+      "login": "dimaanj",
+      "ecosystem_commits": 58,
+      "raw_commits": 58,
+      "seed_repos_contributed": 1,
+      "followers": 6,
+      "account_age_days": 2984
+    },
+    {
+      "login": "FenjuFu",
+      "ecosystem_commits": 58,
+      "raw_commits": 58,
+      "seed_repos_contributed": 2,
+      "followers": 14,
+      "account_age_days": 1732
+    },
+    {
+      "login": "looorent",
+      "ecosystem_commits": 58,
+      "raw_commits": 58,
+      "seed_repos_contributed": 1,
+      "followers": 19,
+      "account_age_days": 4379
+    },
+    {
+      "login": "maspio",
+      "ecosystem_commits": 58,
+      "raw_commits": 58,
+      "seed_repos_contributed": 1,
+      "followers": 20,
+      "account_age_days": 2460
+    },
+    {
+      "login": "biubiukam",
+      "ecosystem_commits": 58,
+      "raw_commits": 58,
+      "seed_repos_contributed": 1,
+      "followers": 24,
+      "account_age_days": 3547
+    },
+    {
+      "login": "neoragex2002",
+      "ecosystem_commits": 58,
+      "raw_commits": 58,
+      "seed_repos_contributed": 1,
+      "followers": 30,
+      "account_age_days": 4804
+    },
+    {
+      "login": "MartinRepo",
+      "ecosystem_commits": 58,
+      "raw_commits": 58,
+      "seed_repos_contributed": 1,
+      "followers": 38,
+      "account_age_days": 1769
+    },
+    {
+      "login": "evan-ak",
+      "ecosystem_commits": 58,
+      "raw_commits": 58,
+      "seed_repos_contributed": 1,
+      "followers": 38,
+      "account_age_days": 3191
+    },
+    {
+      "login": "ashrafsamhouri",
+      "ecosystem_commits": 58,
+      "raw_commits": 58,
+      "seed_repos_contributed": 1,
+      "followers": 41,
+      "account_age_days": 1651
+    },
+    {
+      "login": "nikhil-1e9",
+      "ecosystem_commits": 58,
+      "raw_commits": 58,
+      "seed_repos_contributed": 1,
+      "followers": 85,
+      "account_age_days": 1891
+    },
+    {
+      "login": "kurokobo",
+      "ecosystem_commits": 58,
+      "raw_commits": 58,
+      "seed_repos_contributed": 1,
+      "followers": 117,
+      "account_age_days": 4980
+    },
+    {
+      "login": "seriouszyx",
+      "ecosystem_commits": 58,
+      "raw_commits": 58,
+      "seed_repos_contributed": 1,
+      "followers": 178,
+      "account_age_days": 3157
+    },
+    {
+      "login": "chemicL",
+      "ecosystem_commits": 58,
+      "raw_commits": 58,
+      "seed_repos_contributed": 2,
+      "followers": 288,
+      "account_age_days": 5026
+    },
+    {
+      "login": "dend",
+      "ecosystem_commits": 58,
+      "raw_commits": 58,
+      "seed_repos_contributed": 4,
+      "followers": 814,
+      "account_age_days": 5284
+    },
+    {
+      "login": "tysoekong",
+      "ecosystem_commits": 57,
+      "raw_commits": 57,
+      "seed_repos_contributed": 1,
+      "followers": 9,
+      "account_age_days": 1761
+    },
+    {
+      "login": "Cedarflake",
+      "ecosystem_commits": 57,
+      "raw_commits": 57,
+      "seed_repos_contributed": 1,
+      "followers": 10,
+      "account_age_days": 2402
+    },
+    {
+      "login": "Trayshmhirk",
+      "ecosystem_commits": 57,
+      "raw_commits": 57,
+      "seed_repos_contributed": 1,
+      "followers": 20,
+      "account_age_days": 1421
+    },
+    {
+      "login": "edg956",
+      "ecosystem_commits": 57,
+      "raw_commits": 57,
+      "seed_repos_contributed": 1,
+      "followers": 20,
+      "account_age_days": 3087
+    },
+    {
+      "login": "pbting",
+      "ecosystem_commits": 57,
+      "raw_commits": 57,
+      "seed_repos_contributed": 1,
+      "followers": 20,
+      "account_age_days": 4145
+    },
+    {
+      "login": "advent259141",
+      "ecosystem_commits": 57,
+      "raw_commits": 57,
+      "seed_repos_contributed": 1,
+      "followers": 48,
+      "account_age_days": 532
+    },
+    {
+      "login": "amiorin",
+      "ecosystem_commits": 57,
+      "raw_commits": 57,
+      "seed_repos_contributed": 1,
+      "followers": 56,
+      "account_age_days": 6465
+    },
+    {
+      "login": "LIghtJUNction",
+      "ecosystem_commits": 57,
+      "raw_commits": 57,
+      "seed_repos_contributed": 1,
+      "followers": 88,
+      "account_age_days": 1503
+    },
+    {
+      "login": "he-yufeng",
+      "ecosystem_commits": 57,
+      "raw_commits": 57,
+      "seed_repos_contributed": 7,
+      "followers": 449,
+      "account_age_days": 2962
+    },
+    {
+      "login": "fortunamide",
+      "ecosystem_commits": 56,
+      "raw_commits": 56,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 1278
+    },
+    {
+      "login": "hurxxxx",
+      "ecosystem_commits": 56,
+      "raw_commits": 56,
+      "seed_repos_contributed": 2,
+      "followers": 1,
+      "account_age_days": 2054
+    },
+    {
+      "login": "rubentalstra",
+      "ecosystem_commits": 56,
+      "raw_commits": 56,
+      "seed_repos_contributed": 1,
+      "followers": 29,
+      "account_age_days": 3964
+    },
+    {
+      "login": "rholinshead",
+      "ecosystem_commits": 56,
+      "raw_commits": 56,
+      "seed_repos_contributed": 1,
+      "followers": 36,
+      "account_age_days": 4745
+    },
+    {
+      "login": "electroluxcode",
+      "ecosystem_commits": 56,
+      "raw_commits": 56,
+      "seed_repos_contributed": 1,
+      "followers": 42,
+      "account_age_days": 2394
+    },
+    {
+      "login": "sohamganatra",
+      "ecosystem_commits": 56,
+      "raw_commits": 56,
+      "seed_repos_contributed": 2,
+      "followers": 80,
+      "account_age_days": 4407
+    },
+    {
+      "login": "yuluo-yx",
+      "ecosystem_commits": 56,
+      "raw_commits": 56,
+      "seed_repos_contributed": 1,
+      "followers": 216,
+      "account_age_days": 2001
+    },
+    {
+      "login": "acekyd",
+      "ecosystem_commits": 56,
+      "raw_commits": 56,
+      "seed_repos_contributed": 1,
+      "followers": 918,
+      "account_age_days": 4860
+    },
+    {
+      "login": "mo-radwan1",
+      "ecosystem_commits": 55,
+      "raw_commits": 55,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 1538
+    },
+    {
+      "login": "ArchiusVuong-sudo",
+      "ecosystem_commits": 55,
+      "raw_commits": 55,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 750
+    },
+    {
+      "login": "sk-portkey",
+      "ecosystem_commits": 55,
+      "raw_commits": 55,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 852
+    },
+    {
+      "login": "hugovalente-pm",
+      "ecosystem_commits": 55,
+      "raw_commits": 55,
+      "seed_repos_contributed": 1,
+      "followers": 4,
+      "account_age_days": 1926
+    },
+    {
+      "login": "0ski",
+      "ecosystem_commits": 55,
+      "raw_commits": 55,
+      "seed_repos_contributed": 1,
+      "followers": 8,
+      "account_age_days": 5278
+    },
+    {
+      "login": "cryo-zd",
+      "ecosystem_commits": 55,
+      "raw_commits": 55,
+      "seed_repos_contributed": 3,
+      "followers": 15,
+      "account_age_days": 1204
+    },
+    {
+      "login": "luigidemasi",
+      "ecosystem_commits": 55,
+      "raw_commits": 55,
+      "seed_repos_contributed": 1,
+      "followers": 19,
+      "account_age_days": 4674
+    },
+    {
+      "login": "aharvard",
+      "ecosystem_commits": 55,
+      "raw_commits": 55,
+      "seed_repos_contributed": 4,
+      "followers": 31,
+      "account_age_days": 4208
+    },
+    {
+      "login": "kevinearls",
+      "ecosystem_commits": 55,
+      "raw_commits": 55,
+      "seed_repos_contributed": 1,
+      "followers": 38,
+      "account_age_days": 5439
+    },
+    {
+      "login": "cjraft",
+      "ecosystem_commits": 55,
+      "raw_commits": 55,
+      "seed_repos_contributed": 2,
+      "followers": 101,
+      "account_age_days": 3999
+    },
+    {
+      "login": "atesgoral",
+      "ecosystem_commits": 55,
+      "raw_commits": 55,
+      "seed_repos_contributed": 2,
+      "followers": 369,
+      "account_age_days": 6377
+    },
+    {
+      "login": "isshaddad",
+      "ecosystem_commits": 54,
+      "raw_commits": 54,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 2074
+    },
+    {
+      "login": "sparkybug",
+      "ecosystem_commits": 54,
+      "raw_commits": 54,
+      "seed_repos_contributed": 1,
+      "followers": 4,
+      "account_age_days": 2577
+    },
+    {
+      "login": "dishaprakash",
+      "ecosystem_commits": 54,
+      "raw_commits": 54,
+      "seed_repos_contributed": 1,
+      "followers": 11,
+      "account_age_days": 2433
+    },
+    {
+      "login": "shanemccarron-maker",
+      "ecosystem_commits": 54,
+      "raw_commits": 54,
+      "seed_repos_contributed": 2,
+      "followers": 23,
+      "account_age_days": 229
+    },
+    {
+      "login": "tedjames",
+      "ecosystem_commits": 54,
+      "raw_commits": 54,
+      "seed_repos_contributed": 1,
+      "followers": 60,
+      "account_age_days": 4038
+    },
+    {
+      "login": "JoannaaKL",
+      "ecosystem_commits": 54,
+      "raw_commits": 54,
+      "seed_repos_contributed": 1,
+      "followers": 117,
+      "account_age_days": 2204
+    },
+    {
+      "login": "k6l3",
+      "ecosystem_commits": 54,
+      "raw_commits": 54,
+      "seed_repos_contributed": 2,
+      "followers": 145,
+      "account_age_days": 1426
+    },
+    {
+      "login": "Abhijay007",
+      "ecosystem_commits": 53,
+      "raw_commits": 53,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 2274
+    },
+    {
+      "login": "liangchenwsl",
+      "ecosystem_commits": 53,
+      "raw_commits": 53,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 748
+    },
+    {
+      "login": "tangbotony",
+      "ecosystem_commits": 53,
+      "raw_commits": 53,
+      "seed_repos_contributed": 1,
+      "followers": 21,
+      "account_age_days": 3846
+    },
+    {
+      "login": "her-cat",
+      "ecosystem_commits": 53,
+      "raw_commits": 53,
+      "seed_repos_contributed": 1,
+      "followers": 59,
+      "account_age_days": 3754
+    },
+    {
+      "login": "zongtanghu",
+      "ecosystem_commits": 53,
+      "raw_commits": 53,
+      "seed_repos_contributed": 1,
+      "followers": 154,
+      "account_age_days": 4752
+    },
+    {
+      "login": "zhaoyuguang",
+      "ecosystem_commits": 53,
+      "raw_commits": 53,
+      "seed_repos_contributed": 1,
+      "followers": 159,
+      "account_age_days": 4238
+    },
+    {
+      "login": "iandouglas",
+      "ecosystem_commits": 53,
+      "raw_commits": 53,
+      "seed_repos_contributed": 1,
+      "followers": 284,
+      "account_age_days": 6059
+    },
+    {
+      "login": "Kehrlann",
+      "ecosystem_commits": 53,
+      "raw_commits": 53,
+      "seed_repos_contributed": 2,
+      "followers": 806,
+      "account_age_days": 4661
+    },
+    {
+      "login": "eltociear",
+      "ecosystem_commits": 53,
+      "raw_commits": 53,
+      "seed_repos_contributed": 30,
+      "followers": 1728,
+      "account_age_days": 3574
+    },
+    {
+      "login": "djoleB",
+      "ecosystem_commits": 52,
+      "raw_commits": 52,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 3568
+    },
+    {
+      "login": "dylanketterer",
+      "ecosystem_commits": 52,
+      "raw_commits": 52,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 1275
+    },
+    {
+      "login": "Siddhanttimeline",
+      "ecosystem_commits": 52,
+      "raw_commits": 52,
+      "seed_repos_contributed": 1,
+      "followers": 6,
+      "account_age_days": 1841
+    },
+    {
+      "login": "sunkai-cai",
+      "ecosystem_commits": 52,
+      "raw_commits": 52,
+      "seed_repos_contributed": 1,
+      "followers": 8,
+      "account_age_days": 1838
+    },
+    {
+      "login": "maciej-kisiel",
+      "ecosystem_commits": 51,
+      "raw_commits": 51,
+      "seed_repos_contributed": 3,
+      "followers": 2,
+      "account_age_days": 4972
+    },
+    {
+      "login": "Algorithm5838",
+      "ecosystem_commits": 51,
+      "raw_commits": 51,
+      "seed_repos_contributed": 1,
+      "followers": 4,
+      "account_age_days": 1476
+    },
+    {
+      "login": "martin-lysk",
+      "ecosystem_commits": 51,
+      "raw_commits": 51,
+      "seed_repos_contributed": 1,
+      "followers": 6,
+      "account_age_days": 1398
+    },
+    {
+      "login": "Vishnuujain",
+      "ecosystem_commits": 51,
+      "raw_commits": 51,
+      "seed_repos_contributed": 1,
+      "followers": 11,
+      "account_age_days": 1296
+    },
+    {
+      "login": "outsinre",
+      "ecosystem_commits": 51,
+      "raw_commits": 51,
+      "seed_repos_contributed": 1,
+      "followers": 11,
+      "account_age_days": 4566
+    },
+    {
+      "login": "jphein",
+      "ecosystem_commits": 51,
+      "raw_commits": 51,
+      "seed_repos_contributed": 1,
+      "followers": 21,
+      "account_age_days": 3721
+    },
+    {
+      "login": "jeanpaul",
+      "ecosystem_commits": 51,
+      "raw_commits": 51,
+      "seed_repos_contributed": 1,
+      "followers": 37,
+      "account_age_days": 6327
+    },
+    {
+      "login": "bitgamma",
+      "ecosystem_commits": 51,
+      "raw_commits": 51,
+      "seed_repos_contributed": 1,
+      "followers": 62,
+      "account_age_days": 4051
+    },
+    {
+      "login": "majiayu000",
+      "ecosystem_commits": 51,
+      "raw_commits": 51,
+      "seed_repos_contributed": 10,
+      "followers": 368,
+      "account_age_days": 3701
+    },
+    {
+      "login": "RenzoMXD",
+      "ecosystem_commits": 51,
+      "raw_commits": 51,
+      "seed_repos_contributed": 1,
+      "followers": 743,
+      "account_age_days": 782
+    },
+    {
+      "login": "DatPham-6996",
+      "ecosystem_commits": 50,
+      "raw_commits": 50,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 554
+    },
+    {
+      "login": "gaosen1",
+      "ecosystem_commits": 50,
+      "raw_commits": 50,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 2044
+    },
+    {
+      "login": "ghingis",
+      "ecosystem_commits": 50,
+      "raw_commits": 50,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 4897
+    },
+    {
+      "login": "ShayPunter",
+      "ecosystem_commits": 50,
+      "raw_commits": 50,
+      "seed_repos_contributed": 1,
+      "followers": 9,
+      "account_age_days": 3755
+    },
+    {
+      "login": "g-raman",
+      "ecosystem_commits": 50,
+      "raw_commits": 50,
+      "seed_repos_contributed": 1,
+      "followers": 9,
+      "account_age_days": 1703
+    },
+    {
+      "login": "lucas-koontz",
+      "ecosystem_commits": 50,
+      "raw_commits": 50,
+      "seed_repos_contributed": 1,
+      "followers": 13,
+      "account_age_days": 4455
+    },
+    {
+      "login": "guglielmo-san",
+      "ecosystem_commits": 50,
+      "raw_commits": 50,
+      "seed_repos_contributed": 1,
+      "followers": 16,
+      "account_age_days": 279
+    },
+    {
+      "login": "wendytang",
+      "ecosystem_commits": 50,
+      "raw_commits": 50,
+      "seed_repos_contributed": 1,
+      "followers": 17,
+      "account_age_days": 4410
+    },
+    {
+      "login": "demoManito",
+      "ecosystem_commits": 50,
+      "raw_commits": 50,
+      "seed_repos_contributed": 1,
+      "followers": 26,
+      "account_age_days": 3372
+    },
+    {
+      "login": "IanCao",
+      "ecosystem_commits": 50,
+      "raw_commits": 50,
+      "seed_repos_contributed": 1,
+      "followers": 33,
+      "account_age_days": 3197
+    },
+    {
+      "login": "asedmammad",
+      "ecosystem_commits": 50,
+      "raw_commits": 50,
+      "seed_repos_contributed": 1,
+      "followers": 46,
+      "account_age_days": 3428
+    },
+    {
+      "login": "msabramo",
+      "ecosystem_commits": 50,
+      "raw_commits": 50,
+      "seed_repos_contributed": 2,
+      "followers": 291,
+      "account_age_days": 5878
+    },
+    {
+      "login": "eiriktsarpalis",
+      "ecosystem_commits": 50,
+      "raw_commits": 50,
+      "seed_repos_contributed": 1,
+      "followers": 447,
+      "account_age_days": 4993
+    },
+    {
+      "login": "anandray",
+      "ecosystem_commits": 49,
+      "raw_commits": 49,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 5329
+    },
+    {
+      "login": "saynoword",
+      "ecosystem_commits": 49,
+      "raw_commits": 49,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 2557
+    },
+    {
+      "login": "Sanket6652",
+      "ecosystem_commits": 49,
+      "raw_commits": 49,
+      "seed_repos_contributed": 1,
+      "followers": 6,
+      "account_age_days": 1332
+    },
+    {
+      "login": "quicksandznzn",
+      "ecosystem_commits": 49,
+      "raw_commits": 49,
+      "seed_repos_contributed": 2,
+      "followers": 7,
+      "account_age_days": 3531
+    },
+    {
+      "login": "TiancongLx",
+      "ecosystem_commits": 49,
+      "raw_commits": 49,
+      "seed_repos_contributed": 1,
+      "followers": 8,
+      "account_age_days": 3848
+    },
+    {
+      "login": "LovelyGuYiMeng",
+      "ecosystem_commits": 49,
+      "raw_commits": 49,
+      "seed_repos_contributed": 1,
+      "followers": 11,
+      "account_age_days": 2038
+    },
+    {
+      "login": "bypanghu",
+      "ecosystem_commits": 49,
+      "raw_commits": 49,
+      "seed_repos_contributed": 2,
+      "followers": 17,
+      "account_age_days": 2473
+    },
+    {
+      "login": "gdw439",
+      "ecosystem_commits": 49,
+      "raw_commits": 49,
+      "seed_repos_contributed": 1,
+      "followers": 27,
+      "account_age_days": 3530
+    },
+    {
+      "login": "GarfieldDai",
+      "ecosystem_commits": 49,
+      "raw_commits": 49,
+      "seed_repos_contributed": 1,
+      "followers": 30,
+      "account_age_days": 3362
+    },
+    {
+      "login": "wylswz",
+      "ecosystem_commits": 49,
+      "raw_commits": 49,
+      "seed_repos_contributed": 1,
+      "followers": 32,
+      "account_age_days": 4048
+    },
+    {
+      "login": "vrknetha",
+      "ecosystem_commits": 49,
+      "raw_commits": 49,
+      "seed_repos_contributed": 1,
+      "followers": 108,
+      "account_age_days": 3649
+    },
+    {
+      "login": "LostArtist",
+      "ecosystem_commits": 48,
+      "raw_commits": 48,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 1722
+    },
+    {
+      "login": "alimosaed",
+      "ecosystem_commits": 48,
+      "raw_commits": 48,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 1756
+    },
+    {
+      "login": "stepmikhaylov",
+      "ecosystem_commits": 48,
+      "raw_commits": 48,
+      "seed_repos_contributed": 1,
+      "followers": 4,
+      "account_age_days": 3803
+    },
+    {
+      "login": "amoss",
+      "ecosystem_commits": 48,
+      "raw_commits": 48,
+      "seed_repos_contributed": 1,
+      "followers": 8,
+      "account_age_days": 5424
+    },
+    {
+      "login": "maulanaakbardj",
+      "ecosystem_commits": 48,
+      "raw_commits": 48,
+      "seed_repos_contributed": 1,
+      "followers": 19,
+      "account_age_days": 2218
+    },
+    {
+      "login": "ZhouhaoJiang",
+      "ecosystem_commits": 48,
+      "raw_commits": 48,
+      "seed_repos_contributed": 1,
+      "followers": 38,
+      "account_age_days": 1970
+    },
+    {
+      "login": "BHesseldieck",
+      "ecosystem_commits": 48,
+      "raw_commits": 48,
+      "seed_repos_contributed": 1,
+      "followers": 40,
+      "account_age_days": 5148
+    },
+    {
+      "login": "tommaso-moro",
+      "ecosystem_commits": 48,
+      "raw_commits": 48,
+      "seed_repos_contributed": 1,
+      "followers": 47,
+      "account_age_days": 3051
+    },
+    {
+      "login": "zrosenbauer",
+      "ecosystem_commits": 48,
+      "raw_commits": 48,
+      "seed_repos_contributed": 1,
+      "followers": 95,
+      "account_age_days": 4911
+    },
+    {
+      "login": "cqjjjzr",
+      "ecosystem_commits": 48,
+      "raw_commits": 48,
+      "seed_repos_contributed": 1,
+      "followers": 175,
+      "account_age_days": 4544
+    },
+    {
+      "login": "Y1hsiaochunnn",
+      "ecosystem_commits": 47,
+      "raw_commits": 47,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 2244
+    },
+    {
+      "login": "linsensen222",
+      "ecosystem_commits": 47,
+      "raw_commits": 47,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 1927
+    },
+    {
+      "login": "porkpink",
+      "ecosystem_commits": 47,
+      "raw_commits": 47,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 2465
+    },
+    {
+      "login": "shrabantipaul-collate",
+      "ecosystem_commits": 47,
+      "raw_commits": 47,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 195
+    },
+    {
+      "login": "tomhuds",
+      "ecosystem_commits": 47,
+      "raw_commits": 47,
+      "seed_repos_contributed": 1,
+      "followers": 5,
+      "account_age_days": 3154
+    },
+    {
+      "login": "romeobalta",
+      "ecosystem_commits": 47,
+      "raw_commits": 47,
+      "seed_repos_contributed": 1,
+      "followers": 7,
+      "account_age_days": 4495
+    },
+    {
+      "login": "yossiovadia",
+      "ecosystem_commits": 47,
+      "raw_commits": 47,
+      "seed_repos_contributed": 1,
+      "followers": 10,
+      "account_age_days": 5147
+    },
+    {
+      "login": "dsapandora",
+      "ecosystem_commits": 47,
+      "raw_commits": 47,
+      "seed_repos_contributed": 1,
+      "followers": 54,
+      "account_age_days": 5792
+    },
+    {
+      "login": "MichaelWalker-git",
+      "ecosystem_commits": 47,
+      "raw_commits": 47,
+      "seed_repos_contributed": 1,
+      "followers": 59,
+      "account_age_days": 4170
+    },
+    {
+      "login": "xz-dev",
+      "ecosystem_commits": 47,
+      "raw_commits": 47,
+      "seed_repos_contributed": 2,
+      "followers": 101,
+      "account_age_days": 3201
+    },
+    {
+      "login": "baryhuang",
+      "ecosystem_commits": 47,
+      "raw_commits": 47,
+      "seed_repos_contributed": 1,
+      "followers": 128,
+      "account_age_days": 4969
+    },
+    {
+      "login": "carderne",
+      "ecosystem_commits": 47,
+      "raw_commits": 47,
+      "seed_repos_contributed": 1,
+      "followers": 161,
+      "account_age_days": 3693
+    },
+    {
+      "login": "mhegazy",
+      "ecosystem_commits": 47,
+      "raw_commits": 47,
+      "seed_repos_contributed": 1,
+      "followers": 557,
+      "account_age_days": 4405
+    },
+    {
+      "login": "NiteshKoushik",
+      "ecosystem_commits": 46,
+      "raw_commits": 46,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 2974
+    },
+    {
+      "login": "tiptophelmet",
+      "ecosystem_commits": 46,
+      "raw_commits": 46,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 1366
+    },
+    {
+      "login": "emma-squared",
+      "ecosystem_commits": 46,
+      "raw_commits": 46,
+      "seed_repos_contributed": 1,
+      "followers": 3,
+      "account_age_days": 1775
+    },
+    {
+      "login": "Sherlocksuper",
+      "ecosystem_commits": 46,
+      "raw_commits": 46,
+      "seed_repos_contributed": 1,
+      "followers": 7,
+      "account_age_days": 1367
+    },
+    {
+      "login": "quansenB",
+      "ecosystem_commits": 46,
+      "raw_commits": 46,
+      "seed_repos_contributed": 1,
+      "followers": 10,
+      "account_age_days": 2721
+    },
+    {
+      "login": "afarntrog",
+      "ecosystem_commits": 46,
+      "raw_commits": 46,
+      "seed_repos_contributed": 1,
+      "followers": 14,
+      "account_age_days": 2721
+    },
+    {
+      "login": "luoxiner",
+      "ecosystem_commits": 46,
+      "raw_commits": 46,
+      "seed_repos_contributed": 2,
+      "followers": 18,
+      "account_age_days": 2253
+    },
+    {
+      "login": "Steve0x2a",
+      "ecosystem_commits": 46,
+      "raw_commits": 46,
+      "seed_repos_contributed": 1,
+      "followers": 33,
+      "account_age_days": 3818
+    },
+    {
+      "login": "topherbullock",
+      "ecosystem_commits": 46,
+      "raw_commits": 46,
+      "seed_repos_contributed": 1,
+      "followers": 60,
+      "account_age_days": 5135
+    },
+    {
+      "login": "PederHP",
+      "ecosystem_commits": 46,
+      "raw_commits": 46,
+      "seed_repos_contributed": 3,
+      "followers": 116,
+      "account_age_days": 1225
+    },
+    {
+      "login": "AnkitSharmaOnGithub",
+      "ecosystem_commits": 45,
+      "raw_commits": 45,
+      "seed_repos_contributed": 1,
+      "followers": 4,
+      "account_age_days": 2551
+    },
+    {
+      "login": "shyamvalsan",
+      "ecosystem_commits": 45,
+      "raw_commits": 45,
+      "seed_repos_contributed": 1,
+      "followers": 7,
+      "account_age_days": 3486
+    },
+    {
+      "login": "aditya-azad",
+      "ecosystem_commits": 45,
+      "raw_commits": 45,
+      "seed_repos_contributed": 1,
+      "followers": 8,
+      "account_age_days": 3412
+    },
+    {
+      "login": "jiangbo721",
+      "ecosystem_commits": 45,
+      "raw_commits": 45,
+      "seed_repos_contributed": 1,
+      "followers": 8,
+      "account_age_days": 3444
+    },
+    {
+      "login": "Pranith124",
+      "ecosystem_commits": 45,
+      "raw_commits": 45,
+      "seed_repos_contributed": 1,
+      "followers": 13,
+      "account_age_days": 797
+    },
+    {
+      "login": "daguimu",
+      "ecosystem_commits": 45,
+      "raw_commits": 45,
+      "seed_repos_contributed": 1,
+      "followers": 17,
+      "account_age_days": 3272
+    },
+    {
+      "login": "YYH211",
+      "ecosystem_commits": 45,
+      "raw_commits": 45,
+      "seed_repos_contributed": 1,
+      "followers": 18,
+      "account_age_days": 2458
+    },
+    {
+      "login": "riqwan",
+      "ecosystem_commits": 45,
+      "raw_commits": 45,
+      "seed_repos_contributed": 2,
+      "followers": 43,
+      "account_age_days": 4739
+    },
+    {
+      "login": "lingalarahul7",
+      "ecosystem_commits": 44,
+      "raw_commits": 44,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 1863
+    },
+    {
+      "login": "LeTeddy",
+      "ecosystem_commits": 44,
+      "raw_commits": 44,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 1706
+    },
+    {
+      "login": "Summer-Si",
+      "ecosystem_commits": 44,
+      "raw_commits": 44,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 1085
+    },
+    {
+      "login": "0x7fffff92",
+      "ecosystem_commits": 44,
+      "raw_commits": 44,
+      "seed_repos_contributed": 1,
+      "followers": 3,
+      "account_age_days": 2939
+    },
+    {
+      "login": "gzlicanyi",
+      "ecosystem_commits": 44,
+      "raw_commits": 44,
+      "seed_repos_contributed": 1,
+      "followers": 19,
+      "account_age_days": 3874
+    },
+    {
+      "login": "bbbugg",
+      "ecosystem_commits": 44,
+      "raw_commits": 44,
+      "seed_repos_contributed": 1,
+      "followers": 21,
+      "account_age_days": 1962
+    },
+    {
+      "login": "yf-yang",
+      "ecosystem_commits": 44,
+      "raw_commits": 44,
+      "seed_repos_contributed": 1,
+      "followers": 24,
+      "account_age_days": 3063
+    },
+    {
+      "login": "krismuhi",
+      "ecosystem_commits": 44,
+      "raw_commits": 44,
+      "seed_repos_contributed": 1,
+      "followers": 31,
+      "account_age_days": 3022
+    },
+    {
+      "login": "wangle201210",
+      "ecosystem_commits": 44,
+      "raw_commits": 44,
+      "seed_repos_contributed": 1,
+      "followers": 36,
+      "account_age_days": 3686
+    },
+    {
+      "login": "JanHolger",
+      "ecosystem_commits": 44,
+      "raw_commits": 44,
+      "seed_repos_contributed": 1,
+      "followers": 42,
+      "account_age_days": 3469
+    },
+    {
+      "login": "alissatroiano",
+      "ecosystem_commits": 44,
+      "raw_commits": 44,
+      "seed_repos_contributed": 1,
+      "followers": 48,
+      "account_age_days": 2474
+    },
+    {
+      "login": "NewCoder3294",
+      "ecosystem_commits": 44,
+      "raw_commits": 44,
+      "seed_repos_contributed": 1,
+      "followers": 56,
+      "account_age_days": 806
+    },
+    {
+      "login": "Yasser-Belatreche",
+      "ecosystem_commits": 44,
+      "raw_commits": 44,
+      "seed_repos_contributed": 1,
+      "followers": 61,
+      "account_age_days": 1971
+    },
+    {
+      "login": "sridharavinash",
+      "ecosystem_commits": 44,
+      "raw_commits": 44,
+      "seed_repos_contributed": 1,
+      "followers": 86,
+      "account_age_days": 5505
+    },
+    {
+      "login": "noahzweben",
+      "ecosystem_commits": 44,
+      "raw_commits": 44,
+      "seed_repos_contributed": 1,
+      "followers": 115,
+      "account_age_days": 4065
+    },
+    {
+      "login": "kenwoodjw",
+      "ecosystem_commits": 44,
+      "raw_commits": 44,
+      "seed_repos_contributed": 2,
+      "followers": 252,
+      "account_age_days": 4214
+    },
+    {
+      "login": "williammartin",
+      "ecosystem_commits": 44,
+      "raw_commits": 44,
+      "seed_repos_contributed": 1,
+      "followers": 444,
+      "account_age_days": 5219
+    },
+    {
+      "login": "Skn0tt",
+      "ecosystem_commits": 44,
+      "raw_commits": 44,
+      "seed_repos_contributed": 3,
+      "followers": 595,
+      "account_age_days": 3944
+    },
+    {
+      "login": "chobits",
+      "ecosystem_commits": 44,
+      "raw_commits": 44,
+      "seed_repos_contributed": 1,
+      "followers": 691,
+      "account_age_days": 5631
+    },
+    {
+      "login": "WUKUNTAI-0211",
+      "ecosystem_commits": 43,
+      "raw_commits": 43,
+      "seed_repos_contributed": 1,
+      "followers": 5,
+      "account_age_days": 1903
+    },
+    {
+      "login": "AndyZhang0707",
+      "ecosystem_commits": 43,
+      "raw_commits": 43,
+      "seed_repos_contributed": 1,
+      "followers": 14,
+      "account_age_days": 5376
+    },
+    {
+      "login": "JS00000",
+      "ecosystem_commits": 43,
+      "raw_commits": 43,
+      "seed_repos_contributed": 1,
+      "followers": 14,
+      "account_age_days": 4263
+    },
+    {
+      "login": "JKaram",
+      "ecosystem_commits": 43,
+      "raw_commits": 43,
+      "seed_repos_contributed": 1,
+      "followers": 16,
+      "account_age_days": 2534
+    },
+    {
+      "login": "chenhao26-nineteen",
+      "ecosystem_commits": 43,
+      "raw_commits": 43,
+      "seed_repos_contributed": 1,
+      "followers": 17,
+      "account_age_days": 3117
+    },
+    {
+      "login": "gansheer",
+      "ecosystem_commits": 43,
+      "raw_commits": 43,
+      "seed_repos_contributed": 1,
+      "followers": 28,
+      "account_age_days": 4614
+    },
+    {
+      "login": "xpunch",
+      "ecosystem_commits": 43,
+      "raw_commits": 43,
+      "seed_repos_contributed": 1,
+      "followers": 32,
+      "account_age_days": 4721
+    },
+    {
+      "login": "ZZQ001010",
+      "ecosystem_commits": 43,
+      "raw_commits": 43,
+      "seed_repos_contributed": 1,
+      "followers": 41,
+      "account_age_days": 3160
+    },
+    {
+      "login": "sekikn",
+      "ecosystem_commits": 43,
+      "raw_commits": 43,
+      "seed_repos_contributed": 1,
+      "followers": 55,
+      "account_age_days": 5491
+    },
+    {
+      "login": "Astrodevil",
+      "ecosystem_commits": 43,
+      "raw_commits": 43,
+      "seed_repos_contributed": 1,
+      "followers": 185,
+      "account_age_days": 2093
+    },
+    {
+      "login": "Daedalus-Icarus",
+      "ecosystem_commits": 42,
+      "raw_commits": 42,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 4564
+    },
+    {
+      "login": "solace-pjones",
+      "ecosystem_commits": 42,
+      "raw_commits": 42,
+      "seed_repos_contributed": 1,
+      "followers": 1,
+      "account_age_days": 222
+    },
+    {
+      "login": "lantianhemao",
+      "ecosystem_commits": 42,
+      "raw_commits": 42,
+      "seed_repos_contributed": 1,
+      "followers": 2,
+      "account_age_days": 1509
+    },
+    {
+      "login": "theohsiung",
+      "ecosystem_commits": 42,
+      "raw_commits": 42,
+      "seed_repos_contributed": 1,
+      "followers": 3,
+      "account_age_days": 1777
+    },
+    {
+      "login": "WaterrrForever",
+      "ecosystem_commits": 42,
+      "raw_commits": 42,
+      "seed_repos_contributed": 1,
+      "followers": 5,
+      "account_age_days": 1641
+    },
+    {
+      "login": "marcelloraffaele",
+      "ecosystem_commits": 42,
+      "raw_commits": 42,
+      "seed_repos_contributed": 1,
+      "followers": 6,
+      "account_age_days": 4266
+    },
+    {
+      "login": "mariosajdini",
+      "ecosystem_commits": 42,
+      "raw_commits": 42,
+      "seed_repos_contributed": 1,
+      "followers": 15,
+      "account_age_days": 1738
+    },
+    {
+      "login": "kv-chiu",
+      "ecosystem_commits": 42,
+      "raw_commits": 42,
+      "seed_repos_contributed": 2,
+      "followers": 19,
+      "account_age_days": 1170
+    },
+    {
+      "login": "gilvansfilho",
+      "ecosystem_commits": 42,
+      "raw_commits": 42,
+      "seed_repos_contributed": 1,
+      "followers": 24,
+      "account_age_days": 4505
+    },
+    {
+      "login": "smyja",
+      "ecosystem_commits": 42,
+      "raw_commits": 42,
+      "seed_repos_contributed": 1,
+      "followers": 25,
+      "account_age_days": 3679
+    },
+    {
+      "login": "marcelo-ochoa",
+      "ecosystem_commits": 42,
+      "raw_commits": 42,
+      "seed_repos_contributed": 1,
+      "followers": 41,
+      "account_age_days": 3821
+    },
+    {
+      "login": "4t145",
+      "ecosystem_commits": 42,
+      "raw_commits": 42,
+      "seed_repos_contributed": 1,
+      "followers": 58,
+      "account_age_days": 3139
+    },
+    {
+      "login": "dusskapark",
+      "ecosystem_commits": 42,
+      "raw_commits": 42,
+      "seed_repos_contributed": 1,
+      "followers": 59,
+      "account_age_days": 4841
+    },
+    {
+      "login": "JezaChen",
+      "ecosystem_commits": 42,
+      "raw_commits": 42,
+      "seed_repos_contributed": 1,
+      "followers": 65,
+      "account_age_days": 3242
+    },
+    {
+      "login": "jokemanfire",
+      "ecosystem_commits": 42,
+      "raw_commits": 42,
+      "seed_repos_contributed": 1,
+      "followers": 68,
+      "account_age_days": 3398
+    },
+    {
+      "login": "neo773",
+      "ecosystem_commits": 42,
+      "raw_commits": 42,
+      "seed_repos_contributed": 2,
+      "followers": 79,
+      "account_age_days": 2304
+    },
+    {
+      "login": "mattzcarey",
+      "ecosystem_commits": 42,
+      "raw_commits": 42,
+      "seed_repos_contributed": 2,
+      "followers": 373,
+      "account_age_days": 2001
+    },
+    {
+      "login": "sudongyuer",
+      "ecosystem_commits": 42,
+      "raw_commits": 42,
+      "seed_repos_contributed": 1,
+      "followers": 872,
+      "account_age_days": 2031
+    },
+    {
+      "login": "Risk-hao",
+      "ecosystem_commits": 41,
+      "raw_commits": 41,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 1263
+    },
+    {
+      "login": "syzsunshine219",
+      "ecosystem_commits": 41,
+      "raw_commits": 41,
+      "seed_repos_contributed": 1,
+      "followers": 0,
+      "account_age_days": 286
+    },
+    {
+      "login": "danzaio",
+      "ecosystem_commits": 41,
+      "raw_commits": 41,
+      "seed_repos_contributed": 1,
+      "followers": 4,
+      "account_age_days": 416
+    }
+  ]
+}

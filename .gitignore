@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+.env
+.env.*
+*.log
+
+# Pre-project experiments, not part of the scout pipeline
+/one_shot.py
+/k3_predictions.html
+/fable5_predictions.html

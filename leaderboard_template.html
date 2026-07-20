@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rising MCP Contributors — K3 Scout Index</title>
+<style>
+:root {
+  --paper: #F6F7F9; --card: #FFFFFF; --ink: #1B1E26; --ink-2: #575D6E;
+  --ink-3: #8B90A0; --line: #E3E5EC; --track: #ECEDF2; --focus: #2A3690;
+  --b5: #2A3690; --b4: #4B5CC0; --b3: #7D8BD9; --b2: #A9B3E6; --b1: #CFD5F1;
+  --serif: 'Iowan Old Style', Palatino, Georgia, serif;
+  --mono: ui-monospace, 'SF Mono', 'Cascadia Code', Menlo, Consolas, monospace;
+  --sans: -apple-system, system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #14171F; --card: #1B1F2B; --ink: #E9EBF3; --ink-2: #A3A9BC;
+    --ink-3: #6C7286; --line: #2B3042; --track: #262B3B; --focus: #AAB6FF;
+    --b5: #AAB6FF; --b4: #8391E8; --b3: #5F6EC4; --b2: #454F97; --b1: #343B6B;
+  }
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { background: var(--paper); }
+body {
+  font-family: var(--sans); color: var(--ink); line-height: 1.5;
+  max-width: 1040px; margin: 0 auto; padding: 0 20px 96px;
+}
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 2px; }
+
+/* ---------- masthead ---------- */
+header { padding: 56px 0 0; }
+.eyebrow {
+  font-family: var(--mono); font-size: 11px; letter-spacing: 0.18em;
+  color: var(--ink-3); text-transform: uppercase;
+}
+h1 {
+  font-family: var(--serif); font-weight: 500; font-size: clamp(34px, 6vw, 54px);
+  letter-spacing: -0.01em; margin: 10px 0 14px;
+}
+h1 em { font-style: italic; }
+.dek { max-width: 62ch; color: var(--ink-2); font-size: 15.5px; }
+.dek strong { color: var(--ink); font-weight: 600; }
+
+/* ---------- stat ledger ---------- */
+.ledger {
+  margin: 36px 0 0; display: grid; gap: 1px; background: var(--line);
+  border: 1px solid var(--line); border-radius: 10px; overflow: hidden;
+  grid-template-columns: repeat(4, 1fr);
+}
+.ledger > div { background: var(--card); padding: 14px 16px 12px; }
+.ledger .k {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--ink-3);
+}
+.ledger .v {
+  font-family: var(--mono); font-variant-numeric: tabular-nums;
+  font-size: 26px; margin-top: 2px;
+}
+.ledger .v small { font-size: 14px; color: var(--ink-3); }
+
+/* ---------- distribution ---------- */
+.dist { margin: 28px 0 0; }
+.dist h2, .board-head h2 {
+  font-family: var(--mono); font-size: 11px; letter-spacing: 0.18em;
+  text-transform: uppercase; color: var(--ink-3); font-weight: 500;
+}
+.dist table { border-collapse: collapse; margin-top: 10px; width: 100%; max-width: 560px; }
+.dist td { padding: 3px 0; font-family: var(--mono); font-size: 12.5px; }
+.dist .bl { width: 64px; color: var(--ink-2); }
+.dist .bc { width: 48px; text-align: right; padding-right: 12px; font-variant-numeric: tabular-nums; }
+.dist .bar { height: 10px; border-radius: 0 4px 4px 0; min-width: 2px; }
+
+/* ---------- controls ---------- */
+.controls {
+  position: sticky; top: 0; z-index: 3; background: var(--paper);
+  display: flex; flex-wrap: wrap; gap: 8px; align-items: center;
+  padding: 18px 0 12px; margin-top: 34px; border-bottom: 1px solid var(--line);
+}
+.controls input[type="search"] {
+  font-family: var(--mono); font-size: 13px; color: var(--ink);
+  background: var(--card); border: 1px solid var(--line); border-radius: 7px;
+  padding: 8px 12px; width: 260px;
+}
+.controls input::placeholder { color: var(--ink-3); }
+.chip {
+  font-family: var(--mono); font-size: 12px; cursor: pointer;
+  background: var(--card); color: var(--ink-2); border: 1px solid var(--line);
+  border-radius: 999px; padding: 5px 12px;
+}
+.chip[aria-pressed="true"] { color: var(--ink); border-color: var(--ink-2); }
+.chip .dot { display: inline-block; width: 8px; height: 8px; border-radius: 2px; margin-right: 6px; }
+.count { margin-left: auto; font-family: var(--mono); font-size: 12px; color: var(--ink-3); }
+
+/* ---------- board ---------- */
+.board { list-style: none; margin-top: 6px; }
+details.row { border-bottom: 1px solid var(--line); }
+details.row summary {
+  display: grid; cursor: pointer; align-items: baseline;
+  grid-template-columns: 52px 148px 200px 1fr; gap: 14px; padding: 10px 6px;
+  list-style: none;
+}
+details.row summary::-webkit-details-marker { display: none; }
+details.row summary:hover { background: var(--card); }
+.rank { font-family: var(--mono); font-size: 12.5px; color: var(--ink-3); text-align: right; font-variant-numeric: tabular-nums; }
+.scorecell { display: flex; align-items: center; gap: 10px; }
+.strip { flex: 1; height: 4px; background: var(--track); border-radius: 4px; position: relative; }
+.strip i { position: absolute; inset: 0 auto 0 0; border-radius: 4px; }
+.num { font-family: var(--mono); font-size: 14px; font-variant-numeric: tabular-nums; width: 2ch; text-align: right; }
+.user { font-family: var(--mono); font-size: 13.5px; text-decoration: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.user:hover { text-decoration: underline; }
+.fn { color: var(--ink-3); font-family: var(--mono); font-size: 11px; margin-left: 2px; }
+.oneliner { color: var(--ink-2); font-size: 13.5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.detail {
+  display: grid; grid-template-columns: 200px 1fr; gap: 14px;
+  padding: 4px 6px 16px 66px; font-size: 13px;
+}
+.detail .stats { font-family: var(--mono); font-size: 12px; color: var(--ink-2); line-height: 1.9; }
+.detail .flag { color: var(--ink-2); max-width: 68ch; }
+.detail .flag .tag {
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--ink-3); display: block; margin-bottom: 3px;
+}
+.detail .full { color: var(--ink); margin-bottom: 8px; max-width: 68ch; }
+
+/* ---------- see more ---------- */
+.more {
+  display: block; width: 100%; padding: 13px; cursor: pointer;
+  font-family: var(--mono); font-size: 12.5px; letter-spacing: 0.08em;
+  color: var(--ink-2); background: var(--card);
+  border: 1px solid var(--line); border-radius: 0 0 10px 10px;
+}
+.more:hover { color: var(--ink); }
+
+/* ---------- aggregated tail ---------- */
+.agg {
+  display: grid; grid-template-columns: 52px 1fr; gap: 14px;
+  padding: 16px 6px; border-bottom: 1px solid var(--line);
+}
+.agg .rank { padding-top: 2px; }
+.agg p { font-size: 13px; color: var(--ink-2); max-width: 74ch; }
+.agg .k {
+  font-family: var(--mono); font-size: 12.5px; color: var(--ink);
+  display: block; margin-bottom: 2px;
+}
+
+/* ---------- method ---------- */
+.method { margin-top: 64px; border-top: 1px solid var(--line); padding-top: 28px; }
+.method h2 {
+  font-family: var(--serif); font-size: 24px; font-weight: 500; margin-bottom: 14px;
+}
+.method .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+.method h3 {
+  font-family: var(--mono); font-size: 11px; letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--ink-3); margin: 18px 0 6px; font-weight: 500;
+}
+.method p, .method li { font-size: 13.5px; color: var(--ink-2); max-width: 60ch; }
+.method ul { padding-left: 18px; }
+.method .fine { font-family: var(--mono); font-size: 11.5px; color: var(--ink-3); margin-top: 26px; }
+
+@media (max-width: 760px) {
+  .ledger { grid-template-columns: repeat(2, 1fr); }
+  details.row summary { grid-template-columns: 40px 110px 1fr; }
+  .oneliner { grid-column: 1 / -1; padding-left: 54px; white-space: normal; }
+  .detail { grid-template-columns: 1fr; padding-left: 54px; }
+  .method .cols { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  details.row summary { transition: background 120ms ease; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="eyebrow">K3 Scout Swarm &middot; Public-Signals Index &middot; July 2026</div>
+  <h1>Rising <em>MCP</em> Contributors</h1>
+  <p class="dek">
+    One thousand developers surfaced from the Model Context Protocol ecosystem's
+    contributor graphs, scored 1&ndash;100 by a <strong>kimi-k3</strong> scout swarm using
+    <strong>public GitHub signals only</strong> &mdash; one pass per developer, no re-rolls,
+    no outside knowledge, no editorial reordering.
+  </p>
+  <div class="ledger" id="ledger"></div>
+  <div class="dist">
+    <h2>Score distribution</h2>
+    <table id="dist" aria-label="Developers per score band"></table>
+  </div>
+</header>
+
+<div class="controls">
+  <input type="search" id="q" placeholder="search username or summary&hellip;" aria-label="Search developers">
+  <span id="chips"></span>
+  <span class="count" id="count"></span>
+</div>
+
+<ol class="board" id="board"></ol>
+<button class="more" id="more" hidden type="button"></button>
+
+<section class="method">
+  <h2>How this index was built</h2>
+  <div class="cols">
+    <div>
+      <h3>Sourcing</h3>
+      <p>200 candidate seed repositories (the modelcontextprotocol organization
+      plus the top starred repos carrying the <code>mcp</code> topic), two
+      excluded on review &rarr; 8,875 human contributors harvested from the
+      remaining 198 &rarr; filtered to accounts with meaningful ecosystem
+      activity, at least 6 months of history, and no more than 2,000 followers
+      &mdash; the index is for people you haven't already heard of. Per-repo
+      commit credit is capped so breadth across the ecosystem outranks volume
+      inside one project.</p>
+      <h3>Exclusions, documented</h3>
+      <p>Twelve automation accounts (five of them registered as normal user
+      accounts, which pass API-level bot filters) and two seed repositories
+      &mdash; one with an unverifiable star count, one off-topic &mdash; are
+      excluded, each with its reason recorded in the repository.</p>
+    </div>
+    <div>
+      <h3>Scoring</h3>
+      <p>Each developer's signals &mdash; profile, owned repos, languages,
+      six months of contribution data including org repositories &mdash; are
+      evaluated once by kimi-k3 under evidence-only rules: no outside knowledge,
+      no employer inference, and all profile text treated as untrusted data
+      (a synthetic injection test scored 9 and was flagged). Evaluator notes
+      appear verbatim; expand any row to read them.</p>
+      <h3>Honesty notes</h3>
+      <ul>
+        <li>&deg; marks a 3-month contribution window; &dagger; marks a
+        reduced-fidelity contribution block (GitHub GraphQL limits on very
+        heavy contribution graphs).</li>
+        <li>Short-window activity lines undercount squash-merge workflows;
+        many "recent activity" evaluator notes reflect that artifact.</li>
+        <li>One of the 1,000 could not be scored (provider content filter)
+        and is omitted rather than approximated.</li>
+        <li>The 1&ndash;29 band is aggregated rather than individually named:
+        sparse public signals in the window make individual ranking
+        uninformative, and unkind to contributors whose work predates it.</li>
+      </ul>
+    </div>
+  </div>
+  <p class="fine">All evaluations by kimi-k3 (Moonshot AI); pipeline built and operated
+  with Claude Code (Anthropic), human-directed throughout &middot; total inference cost
+  $__COST__ &middot; scores are one model pass and carry a few points of run-to-run
+  variance &middot; full methodology, run record, and learnings: README, RUN_SUMMARY,
+  and LEARNINGS in the repository &middot; generated __GENERATED__</p>
+</section>
+
+<script>
+const DATA = __DATA__;
+const STATS = __STATS__;
+
+const BANDS = ["90-100", "70-89", "50-69", "30-49", "1-29"];
+const BAND_VAR = { "90-100": "--b5", "70-89": "--b4", "50-69": "--b3", "30-49": "--b2", "1-29": "--b1" };
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+
+/* stat ledger */
+const ledger = document.getElementById("ledger");
+[["Developers scored", `${STATS.scored}<small>/${STATS.cohort}</small>`],
+ ["Median score", STATS.median],
+ ["Top score", STATS.top],
+ ["Evaluator notes", STATS.flagged]]
+  .forEach(([k, v]) => {
+    const d = document.createElement("div");
+    d.innerHTML = `<div class="k">${k}</div><div class="v">${v}</div>`;
+    ledger.appendChild(d);
+  });
+
+/* distribution */
+const dist = document.getElementById("dist");
+const maxBand = Math.max(...Object.values(STATS.bands));
+BANDS.forEach(b => {
+  const n = STATS.bands[b];
+  const tr = document.createElement("tr");
+  tr.innerHTML = `<td class="bl">${b}</td><td class="bc">${n}</td>
+    <td><div class="bar" style="width:${(n / maxBand) * 100}%;background:var(${BAND_VAR[b]})" title="${n} developers scored ${b}"></div></td>`;
+  dist.appendChild(tr);
+});
+
+/* band filter chips — only bands with named rows */
+const CHIP_BANDS = BANDS.filter(b => b !== STATS.agg.band);
+const chips = document.getElementById("chips");
+const active = new Set(CHIP_BANDS);
+CHIP_BANDS.forEach(b => {
+  const c = document.createElement("button");
+  c.className = "chip"; c.setAttribute("aria-pressed", "true");
+  c.innerHTML = `<span class="dot" style="background:var(${BAND_VAR[b]})"></span>${b}`;
+  c.onclick = () => {
+    if (active.has(b) && active.size === 1) return;
+    active.has(b) ? active.delete(b) : active.add(b);
+    c.setAttribute("aria-pressed", String(active.has(b)));
+    applyFilter();
+  };
+  chips.appendChild(c);
+});
+
+/* board */
+const board = document.getElementById("board");
+const frag = document.createDocumentFragment();
+for (const d of DATA) {
+  const row = document.createElement("details");
+  row.className = "row"; row.dataset.band = d.b;
+  row.dataset.q = (d.u + " " + d.o).toLowerCase();
+  const fn = (d.w3 ? "&deg;" : "") + (d.dg ? "&dagger;" : "");
+  const summary = document.createElement("summary");
+  summary.innerHTML =
+    `<span class="rank">${d.r}</span>
+     <span class="scorecell"><span class="strip"><i style="width:${d.s}%;background:var(${BAND_VAR[d.b]})"></i></span><span class="num">${d.s}</span></span>
+     <span class="user-wrap"><a class="user" href="https://github.com/${d.u}" target="_blank" rel="noopener">${d.u}</a><sup class="fn">${fn}</sup></span>
+     <span class="oneliner"></span>`;
+  summary.querySelector(".oneliner").textContent = d.o;
+  const detail = document.createElement("div");
+  detail.className = "detail";
+  const stats = document.createElement("div");
+  stats.className = "stats";
+  stats.innerHTML = `${d.ec.toLocaleString()} ecosystem commits<br>` +
+    `${d.sr} seed repo${d.sr === 1 ? "" : "s"} &middot; ${d.fw.toLocaleString()} followers<br>` +
+    `${(d.ad / 365).toFixed(1)} yr account`;
+  const right = document.createElement("div");
+  const full = document.createElement("div");
+  full.className = "full"; full.textContent = d.o;
+  right.appendChild(full);
+  if (d.f) {
+    const flag = document.createElement("div");
+    flag.className = "flag";
+    const tag = document.createElement("span");
+    tag.className = "tag"; tag.textContent = "Evaluator note (verbatim)";
+    flag.appendChild(tag);
+    flag.appendChild(document.createTextNode(d.f));
+    right.appendChild(flag);
+  }
+  detail.appendChild(stats); detail.appendChild(right);
+  row.appendChild(summary); row.appendChild(detail);
+  frag.appendChild(row);
+}
+board.appendChild(frag);
+
+/* see-more: show the top of the board first, reveal the rest on demand */
+const INITIAL = 100;
+const more = document.getElementById("more");
+let revealed = DATA.length <= INITIAL;
+more.hidden = revealed;
+more.textContent = `Show all ${STATS.listed} developers ↓`;
+more.addEventListener("click", () => { revealed = true; more.hidden = true; applyFilter(); });
+
+/* aggregated tail: the sparse band is counted, not named */
+const agg = document.createElement("div");
+agg.className = "agg";
+agg.innerHTML =
+  `<span class="rank">${STATS.listed + 1}&ndash;${STATS.scored}</span>
+   <p><span class="k">Scores ${STATS.agg.band} &middot; ${STATS.agg.count} accounts, not individually listed</span>
+   Public signals in the six-month evaluation window were too sparse to rank these
+   accounts meaningfully, and several contributed to the ecosystem before the window
+   opened &mdash; naming them here would misrepresent that work. They are counted in
+   the distribution above; the full data lives in the private run record.</p>`;
+more.after(agg);
+
+/* filtering */
+const q = document.getElementById("q");
+const count = document.getElementById("count");
+const rows = board.children;
+function applyFilter() {
+  const needle = q.value.trim().toLowerCase();
+  // Any search or band filter reveals the full board — a filtered view
+  // truncated at 100 would silently hide matches.
+  if (!revealed && (needle || active.size !== CHIP_BANDS.length)) {
+    revealed = true;
+    more.hidden = true;
+  }
+  let shown = 0;
+  let i = 0;
+  for (const row of rows) {
+    const ok = active.has(row.dataset.band)
+      && (!needle || row.dataset.q.includes(needle))
+      && (revealed || i < INITIAL);
+    row.hidden = !ok;
+    if (ok) shown++;
+    i++;
+  }
+  count.textContent = shown === DATA.length ? `${shown} developers` : `${shown} of ${DATA.length}`;
+}
+q.addEventListener("input", applyFilter);
+applyFilter();
+</script>
+</body>
+</html>
