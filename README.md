@@ -4,6 +4,8 @@
 ![scored: 999/1000](https://img.shields.io/badge/scored-999%2F1000-7d8bd9)
 ![inference cost: $17.09](https://img.shields.io/badge/inference_cost-%2417.09-575d6e)
 
+### → [View the live leaderboard](https://carolinacherry.github.io/mcp-rising-index/)
+
 A swarm of `kimi-k3` evaluators that scores 1,000 rising contributors in the
 MCP (Model Context Protocol) ecosystem, using only public GitHub signals.
 Every selection criterion, exclusion, and score is reproducible from the
