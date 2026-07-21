@@ -193,3 +193,11 @@ Two different AI systems did two different jobs, and the distinction matters:
   found. The exclusion list is the audit trail.
 - K3 scores vary a few points between identical runs; treat small score
   differences as noise.
+
+## License
+
+Code, prompts, and documentation are released under the [MIT License](LICENSE)
+(© 2026 Daniel An). The sourced developer data (`cohort.json`,
+`contributors_raw.json`, `users_raw.json`, `seed_repos.json`) consists of
+factual signals collected from the public GitHub API and is provided for
+reproducibility; it names real people, so use it responsibly.
